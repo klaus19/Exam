@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedView1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion1PowerElectronics"
+                android:text="1)The typical value of SCR for modern alternator is"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup1PowerElectronics">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)1.5."
+                    android:id="@+id/radioButton1PowerElectronics"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton2PowerElectronics"
+                    android:text="B)0.5
+
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton3PowerElectronics"
+                    android:text="C)1.0"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton4PowerElectronics"
+                    android:text="D)1.2"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:clickable="true"
+                android:onClick="toggle_contents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer1PowerElectronics"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedView1PowerElectronics"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text=" Answer : Option B
+                   \n Always the typical value of SCR for modern alternator is 0.5.
+"
+                        android:id="@+id/textAnswer1PowerElectronics"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion2PowerElectronics"
+                android:text="2)An SCR has half cycle surge current rating of 3000 A for 50 Hz supply. One cycle surge current will be"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup2PowerElectronics">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)1500 A.
+"
+                    android:id="@+id/radioButton5PowerElectronics"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton6PowerElectronics"
+                    android:text="B) 6000 A."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton7PowerElectronics"
+                    android:text="C) 2121.32 A."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton8PowerElectronics"
+                    android:text="D)4242.64 A."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer2PowerElectronics"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer2PowerElectronics"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:visibility="invisible"
+                        android:drawableBottom="@drawable/scr"
+                        android:text="Answer : Option C
+
+"
+
+                        android:id="@+id/textAnswer2PowerElectronics"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion3PowerElectronics"
+                android:text="3)․An SCR is considered to be a semi controlled device because"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup3PowerElectronics">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)it can be turned OFF but not ON with a gate pulse."
+                    android:id="@+id/radioButton9PowerElectronics"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton10PowerElectronics"
+                    android:text="B)it conducts only during one half cycle of an alternating current wave."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton11PowerElectronics"
+                    android:text="C) it can be turned ON but not OFF with a gate pulse."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton12PowerElectronics"
+                    android:text="D)it can be turned ON only during one half cycle of an AC."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer3PowerElectronics"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer3PowerElectronics"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option C
+           \n During positive half cycle SCR is in forward blocking mode. By applying gate pulse the
+           \n SCR can be turned ON during forward blocking mode. But SCR can not be turned OFF by
+           \n applying gate pulse. It automatically turns off when anode current is below the Holding
+           \n current. That is why it is called semi controlled rectifier.
+"
+                        android:id="@+id/textAnswer3PowerElectronics"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion4PowerElectronics"
+                android:text="4) A single phase one pulse controlled circuit has a resistance R and counter emf E load 400 \n sin(314 t) as the source voltage. For a load counter emf of 200 V, the range of firing angle control is"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup4PowerElectronics">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)30° to 150°."
+                    android:id="@+id/radioButton13PowerElectronics"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton14PowerElectronics"
+                    android:text="B)30° to 180°."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton15PowerElectronics"
+                    android:text="C)60° to 120°."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton16PowerElectronics"
+                    android:text="D)60° to 180°"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer4PowerElectronics"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer4PowerElectronics"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:drawableBottom="@drawable/sin"
+                        android:text="Answer : Option A
+               \n So, control range is θ to ( π- θ ) i.e. 30° to 150°.
+"
+                        android:id="@+id/textAnswer4PowerElectronics"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion5PowerElectronics"
+                android:text="5)A single phase full bridge inverter can operated in load commutation mode in case load consist of"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup5PowerElectronics">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A) RL.
+"
+                    android:id="@+id/radioButton17PowerElectronics"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton18PowerElectronics"
+                    android:text="B)RLC underdamped.
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton19PowerElectronics"
+                    android:text="C)RLC overdamped.
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton20PowerElectronics"
+                    android:text="D)RLC critically damped."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer5PowerElectronics"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer5PowerElectronics"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option B
+             \n In this case reading current will flow in circuit and it will became zero so thyristor will be load commutated.
+"
+                        android:id="@+id/textAnswer5PowerElectronics"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion6PowerElectronics"
+                android:text="6)A step up chopper has input voltage 110 V and output voltage 150 V. The value of duty cycle is
+                               "></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup6PowerElectronics">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)0.32
+"
+                    android:id="@+id/radioButton21PowerElectronics"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton22PowerElectronics"
+                    android:text="B)0.67."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton23PowerElectronics"
+                    android:text="C)0.45."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton24PowerElectronics"
+                    android:text="D)0.27."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer6PowerElectronics"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer6PowerElectronics"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option B
+             \n For step-up chopper, E0=Edc/(1-α), E0 = output voltage and Edc = output voltage,α = 1-
+             \n (110/150) ⇒ 0.26 where α = duty cycle. recheck
+"
+                        android:id="@+id/textAnswer6PowerElectronics"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion7PowerElectronics"
+                android:text="7)Which statement is true for latching current ?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup7PowerElectronics">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)It is related to turn off process of the device."
+                    android:id="@+id/radioButton25PowerElectronics"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton26PowerElectronics"
+                    android:text="B)It is related to conduction process of device."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton27PowerElectronics"
+                    android:text="C)It is related to turn on process of the device.
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton28PowerElectronics"
+                    android:text="D)Both C and D.
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer7PowerElectronics"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer7PowerElectronics"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option C
+             \n Latching current is the minimum required anode current to turn on SCR."
+                        android:id="@+id/textAnswer7PowerElectronics"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion8PowerElectronics"
+                android:text="8)If holding current of a thyristor is 2 mA then latching current should be
+"></TextView>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup8PowerElectronics">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)0.01 A.
+
+"
+                    android:id="@+id/radioButton29PowerElectronics"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton30PowerElectronics"
+                    android:text="B)0.002 A."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton31PowerElectronics"
+                    android:text="C)0.009 A.
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton32PowerElectronics"
+                    android:text="D)0.004 A.
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer8PowerElectronics"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer8PowerElectronics"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option D
+                        \n Generally latching current is 2 or 3 times of holding current.
+"
+                        android:id="@+id/textAnswer8PowerElectronics"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion9PowerElectronics"
+                android:text="9)In reverse blocking mode of a thyristor"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup9PowerElectronics">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)junction J2 is in reverse bias and J1, J3 is in forward bias.
+"
+                    android:id="@+id/radioButton33PowerElectronics"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton34PowerElectronics"
+                    android:text="B)junction J3 is in forward bias and J1, J2 in reverse bias."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton35PowerElectronics"
+                    android:text="C)junction J1, J3 is in reverse bias and J2 is in forward bias"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton36PowerElectronics"
+                    android:text="D)junction J1 and J2 is in forward bias and J3 is in reverse bias.
+
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer9PowerElectronics"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer9PowerElectronics"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option C
+                \n In reverse blocking mode J1 and J2 is in reverse bias and J2 is in forward bias.
+"
+                        android:id="@+id/textAnswer9PowerElectronics"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion10PowerElectronics"
+                android:text="10)In forward blocking mode of a thyristor"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup10PowerElectronics">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)junction J2 is in reverse bias and J1, J3 is in forward bias."
+                    android:id="@+id/radioButton37PowerElectronics"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton38PowerElectronics"
+                    android:text="B)junction J3 is in forward bias and J1, J2 is in reverse bias."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton39PowerElectronics"
+                    android:text="C)Junction J1, J3 is in reverse bias and J2 is in forward bias."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton40PowerElectronics"
+                    android:text="D)Junction J1 and J2 is in forward bias and J3 is in reverse bias."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer10PowerElectronics"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer10PowerElectronics"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option A
+                        \n In forward blocking mode junction J2 acts in reverse bias whereas J1 and J3 act in forward bias.
+"
+                        android:id="@+id/textAnswer10PowerElectronics"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

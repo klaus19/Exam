@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".quantitative.fragments.ClockProblems">
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedView1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion1clock"
+                android:text="1)An accurate clock shows 8 o'clock in the morning. Through how may degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup1clock">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)144°"
+                    android:id="@+id/radioButton1clock"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton2clock"
+                    android:text="B)150°
+
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton3clock"
+                    android:text="C)168°"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton4clock"
+                    android:text="D)180°"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:clickable="true"
+                android:onClick="toggle_contents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer1clock"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedView2clock"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text=" Answer : Option D
+                         Explanation: Angle traced by the hour hand in 6 hours = 	(360/12	x 6)° = 180°.
+
+"
+                        android:id="@+id/textAnswer1clock"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion2clock"
+                android:text="2)
+The reflex angle between the hands of a clock at 10.25 is:"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup2clock">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)180°"
+                    android:id="@+id/radioButton5clock"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton6clock"
+                    android:text="B)192°"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton7clock"
+                    android:text="C)195°"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton8clock"
+                    android:text="D)197	1/2°
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer2clock"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer2clock"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option D
+                    Explanation: Angle traced by hour hand in	125/12hrs = (360/12	x 125/12)° = 312 1/2 °
+                                Angle traced by minute hand in 25 min = (360/60 x 25)° = 150°.
+                              So,Reflex angle = 360°-(312 1/2 - 150)° = (360° - 162	1/2°)
+                             =197 1/2°"
+
+                        android:id="@+id/textAnswer2clock"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion3clock"
+                android:text="3)
+A clock is started at noon. By 10 minutes past 5, the hour hand has turned through:"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup3clock">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)145°"
+                    android:id="@+id/radioButton9clock"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton10clock"
+                    android:text="B)150°"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton11clock"
+                    android:text="C)155°"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton12clock"
+                    android:text="D)160°"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer3clock"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer3clock"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option C
+                    Explanation:Angle traced by hour hand in 12 hrs = 360°.
+                    Angle traced by hour hand in 5 hrs 10 min. i.e., 31/6 hrs = (360/12 x 31/6)°
+                    =155°
+
+"
+                        android:id="@+id/textAnswer3clock"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion4clock"
+                android:text="4)
+A watch which gains 5 seconds in 3 minutes was set right at 7 a.m. In the afternoon of the same day, when the watch indicated quarter past 4 o'clock, the true time is:"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup4clock">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)59	7/12 min.past 3"
+                    android:id="@+id/radioButton13clock"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton14clock"
+                    android:text="B)4 p.m."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton15clock"
+                    android:text="C)58	7 /11min. past 3
+
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton16clock"
+                    android:text="D)2 3/11 min. past 4
+
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer4clock"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer4clock"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option B
+                    Explanation:Time from 7 a.m. to 4.15 p.m = 9 hrs 15 min = 37/4hrs.
+                                3 min. 5 sec. of this clock = 3 min. of the correct clock
+                                37/720	hrs of this clock = 1/20 hrs of the correct clock
+                                So,37/4	hrs of this clock = (1/20 x	720/37 x 37/4) hrs of the correct clock.
+                                = 9 hrs of the correct clock.
+                                So,the correct time is 9 hrs after 7 a.m. i.e., 4 p.m.
+                         "
+                        android:id="@+id/textAnswer4clock"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion5clock"
+                android:text="5)How much does a watch lose per day, if its hands coincide every 64 minutes?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup5clock">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)32	8/11 min."
+                    android:id="@+id/radioButton17clock"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton18clock"
+                    android:text="B)36	5/11min
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton19clock"
+                    android:text="C)90 min
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton20clock"
+                    android:text="D)96 min."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer5clock"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer5clock"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option A
+                    Explanation:55 min. spaces are covered in 60 min.
+                    60 min. spaces are covered in (60/55 x 60)min = 65	5/11 min.
+                    Loss in 64 min = (65 5/11 - 64) = 16/11 min
+                    Loss in 24 hrs = (16/11	x 1/64	x 24 x 60)min =  32 8/11 min.
+
+"
+                        android:id="@+id/textAnswer5clock"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion6clock"
+                android:text="6)The angle between the minute hand and the hour hand of a clock when the time is 4.20, is:"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup6clock">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)0°
+"
+                    android:id="@+id/radioButton21clock"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton22clock"
+                    android:text="B)10°
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton23clock"
+                    android:text="C)5°"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton24clock"
+                    android:text="D)20°"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer6clock"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer6clock"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option B
+                    Explanation:
+                  Angle traced by hour hand in	13/3 hrs = (360/12	x 13/3)° = 130°.
+                  Angle traced by min. hand in 20 min = (360/60	x 20)°=120°.
+                  So,required angle = (130 - 120)° = 10°
+"
+                        android:id="@+id/textAnswer6clock"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion7clock"
+                android:text="7)At 3:40, the hour hand and the minute hand of a clock form an angle of"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup7clock">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)120°"
+                    android:id="@+id/radioButton25clock"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton26clock"
+                    android:text="B)125°"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton27clock"
+                    android:text="C)130°
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton28clock"
+                    android:text="D)135°
+
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer7clock"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer7clock"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option C
+                    Explanation:Angle traced by hour hand in 12 hrs. = 360°
+                    Angle traced by it in	11/3 hrs = (360/12	x 11/3)° = 110°.
+                    Angle traced by minute hand in 60 min. = 360°.
+                    Angle traced by it in 40 min=(360/60 x 40)° = 240°.
+                    So,required angle (240 - 110)° = 130°.
+"
+                        android:id="@+id/textAnswer7clock"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion8clock"
+                android:text="8)How many times are the hands of a clock at right angle in a day?
+"></TextView>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup8clock">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)22
+"
+                    android:id="@+id/radioButton29clock"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton30clock"
+                    android:text="B)24"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton31clock"
+                    android:text="C)44"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton32clock"
+                    android:text="D)48
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer8clock"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer8clock"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option C
+                    Explanation:
+                           In 12 hours, they are at right angles 22 times.
+                           So,In 24 hours, they are at right angles 44 times.
+"
+                        android:id="@+id/textAnswer8clock"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion9clock"
+                android:text="9)
+The angle between the minute hand and the hour hand of a clock when the time is 8.30, is:"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup9clock">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)80°
+"
+                    android:id="@+id/radioButton33clock"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton34clock"
+                    android:text="B)75°"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton35clock"
+                    android:text="C)60°"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton36clock"
+                    android:text="D)105°
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer9clock"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer9clock"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option B
+                    Explanation:
+                       Angle traced by hour hand in	17/2 hrs = (360/12 x 17/2)° = 255°
+                       Angle traced by min. hand in 30 min = (360/60 x 30)° = 180°.
+                       So,Required angle = (255 - 180)° = 75°.
+"
+                        android:id="@+id/textAnswer9clock"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion10clock"
+                android:text="10)How many times in a day, are the hands of a clock in straight line but opposite in direction?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup10clock">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)20"
+                    android:id="@+id/radioButton37clock"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton38clock"
+                    android:text="B)22"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton39clock"
+                    android:text="C)24"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton40clock"
+                    android:text="D)48"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer10clock"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer10clock"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option B
+                    Explanation:
+                      The hands of a clock point in opposite directions (in the same straight line) 11 times in every 12 hours.
+                      (Because between 5 and 7 they point in opposite directions at 6 o'clcok only).
+                      So, in a day, the hands point in the opposite directions 22 times.
+
+"
+                        android:id="@+id/textAnswer10clock"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

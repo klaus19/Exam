@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quantitative.fragments.CalendarFormulasFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayoutProfit">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nestProfitFormula">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/txtPercentage"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Odd Days"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/txtConceptPercentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtPercentage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="We are supposed to find the day of the week on a given date.\n For this, we use the concept of 'odd days'.\n In a given period, the number of days more than the complete weeks are called odd days.
+
+
+
+
+"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtPercentageIncreaseDecrease"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtConceptPercentage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Leap Year:"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/txtConceptPercentageIncrease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(i). Every year divisible by 4 is a leap year, if it is not a century.
+\n (ii). Every 4th century is a leap year and no other century is a leap year.
+\n Note: A leap year has 366 days.
+\n Examples:Each of the years 1948, 2004, 1676 etc. is a leap year. \n None of the years 2001, 2002, 2003, 2005, 1800, 2100 is a leap year.
+
+
+"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/txtPercentageIncreaseDecrease"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtResultsonPopulation"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtConceptPercentageIncrease"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Ordinary Year"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtPopulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtResultsonPopulation"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text=" The year which is not a leap year is called an ordinary years. An ordinary year has 365 days.
+"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtResultsonDeprection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtPopulation"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Counting of Odd Days"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/txtPopulationDeprection"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:singleLine="false"
+                    android:text="1) 1 ordinary year = 365 days =(52 weeks + 1 day.)"
+                    android:layout_below="@id/txtResultsonDeprection"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:singleLine="false"
+                    android:text="2)1 leap year = 366 days = (52 weeks + 2 days)"
+                    android:layout_below="@id/txtPopulationDeprection"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:singleLine="false"
+                    android:text="3)100 years = 76 ordinary years + 24 leap years"
+                    android:layout_below="@id/txt1"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:singleLine="false"
+                    android:text="4)Number of odd days in 200 years = (5 x 2) 3 odd days. "
+                    android:layout_below="@id/txt2"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:singleLine="false"
+                    android:text="5)Number of odd days in 300 years = (5 x 3) 1 odd day. "
+                    android:layout_below="@id/txt3"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:singleLine="false"
+                    android:text="6)Number of odd days in 400 years = (5 x 4 + 1) 0 odd day. "
+                    android:layout_below="@id/txt4"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txt6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:singleLine="false"
+                    android:text="7)Similarly, each one of 800 years, 1200 years, 1600 years, 2000 years etc. has 0 odd days."
+                    android:layout_below="@id/txt5"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    ></TextView>
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</FrameLayout>

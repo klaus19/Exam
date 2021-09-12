@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#e2f1f8"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:text="Hello,make a choice!"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageStars"
+            android:layout_marginRight="270dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:gravity="right"
+            android:src="@drawable/dominika" />
+    </LinearLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_content1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="3"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:padding="10dp"
+            android:rowCount="2">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1ExamPattern"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#efb7b7"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <ImageView
+                        android:id="@+id/imagePattern"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="15dp"
+                        android:layout_weight="2"
+                        android:src="@drawable/pattern" />
+
+                    <TextView
+                        android:id="@+id/textPattern"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="Exam Pattern"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2Questions"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#efb7b7"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+
+                    <ImageView
+                        android:id="@+id/imageSyllabus"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="15dp"
+                        android:layout_weight="2"
+                        android:src="@drawable/questions" />
+
+                    <TextView
+                        android:id="@+id/textSyllabus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="3"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="1dp"
+                        android:text="Questions"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card3Instagram"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#efb7b7"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/imageInstagram"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="15dp"
+                        android:layout_weight="2"
+                        android:src="@drawable/insta" />
+
+                    <TextView
+                        android:id="@+id/textInstagram"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="Instagram"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card4Telegram"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#efb7b7"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <ImageView
+                        android:id="@+id/imageBooks"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="15dp"
+                        android:layout_weight="2"
+                        android:src="@drawable/telegram" />
+
+                    <TextView
+                        android:id="@+id/textTelegram"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="Telegram"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".quantitative.fragments.AreaProblems">
+
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedView1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion1Area"
+                android:text="1)The ratio between the length and the breadth of a rectangular park is 3 : 2. If a man cycling along the boundary of the park at the speed of 12 km/hr completes one round in 8 minutes, then the area of the park (in sq. m) is:"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup1Area">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)15360"
+                    android:id="@+id/radioButton1Area"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton2Area"
+                    android:text="B)153600
+
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton3Area"
+                    android:text="C)30720"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton4Area"
+                    android:text="D)307200"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:clickable="true"
+                android:onClick="toggle_contents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer1Area"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedView2Area"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text=" Answer : Option B
+\n Explanation:Perimeter = Distance covered in 8 min. = (12000/60	x 8	m) = 1600 m.
+\n Let length = 3x metres and breadth = 2x metres.
+\n Then, 2(3x + 2x) = 1600 or x = 160.
+\n So,Length = 480 m and Breadth = 320 m.
+\n Area = (480 x 320) m2 = 153600 m2."
+                        android:id="@+id/txtAnswer1Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion2Area"
+                android:text="2)An error 2% in excess is made while measuring the side of a square. The percentage of error in the calculated area of the square is:"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup2Area">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)2%"
+                    android:id="@+id/radioButton5Area"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton6Area"
+                    android:text="B)2.02%"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton7Area"
+                    android:text="C)4%"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton8Area"
+                    android:text="D)4.04%
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer2Area"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer2Area"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option D
+                    \n Explanation: 100 cm is read as 102 cm.
+                    \n So,A1 = (100 x 100) cm2 and A2 (102 x 102) cm2.
+                    \n (A2 - A1) = [(102)2 - (100)2]
+                    \n = (102 + 100) x (102 - 100)
+                    \n = 404 cm2.
+                    \n So,Percentage error = (404x 100/100 x 100)%	= 4.04%
+"
+                        android:id="@+id/txtAnswer2Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion3Area"
+                android:text="3)The ratio between the perimeter and the breadth of a rectangle is 5 : 1. If the area of the rectangle is 216 sq. cm, what is the length of the rectangle?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup3Area">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)16 cm"
+                    android:id="@+id/radioButton9Area"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton10Area"
+                    android:text="B)18 cm"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton11Area"
+                    android:text="C)24 cm"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton12Area"
+                    android:text="D)Data inadequate"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer3Area"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer3Area"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option B
+                    \n Explanation: 2(l + b)/b=5/1
+                    \n 2l + 2b = 5b
+                    \n 3b = 2l
+                    \n  b =	2l/3
+                    \n Then, Area = 216 cm2
+                    \n l x b = 216
+                    \n l x	2l/3 = 216
+                    \n l2 = 324
+                    \n l = 18 cm.
+"
+                        android:id="@+id/txtAnswer3Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion4Area"
+                android:text="4)The percentage increase in the area of a rectangle, if each of its sides is increased by 20% is:"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup4Area">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)40%"
+                    android:id="@+id/radioButton13Area"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton14Area"
+                    android:text="B)42%"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton15Area"
+                    android:text="C)44%"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton16Area"
+                    android:text="D)46%"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer4Area"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer4Area"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option C
+                    \n Explanation:Let original length = x metres and original breadth = y metres.
+                    \n Original area = (xy) m2.
+                    \n New length = (120x/100)m = (6x/5)m
+                    \n New breadth = (120y/100)m = (6y/5)m
+                    \n New Area =	(6x/5 x 6y/5)m2 = (36xy/25)m2
+                    \n The difference between the original area = xy and new-area 36/25 xy is
+                    \n = (36/25)xy - xy
+                    \n = xy(36/25 - 1)
+                    \n = xy(11/25) or (11/25)xy
+                    \n Increase % = (11xy/25 x 1/xy x 100)% = 44%
+                         "
+                        android:id="@+id/txtAnswer4Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion5Area"
+                android:text="5)A rectangular park 60 m long and 40 m wide has two concrete crossroads running in the middle of the park and rest of the park has been used as a lawn. If the area of the lawn is 2109 sq. m, then what is the width of the road?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup5Area">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)2.91 m"
+                    android:id="@+id/radioButton17Area"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton18Area"
+                    android:text="B)3 m
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton19Area"
+                    android:text="C)5.82 m
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton20Area"
+                    android:text="D)None of these"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer5Area"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer5Area"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option B
+                      \n Explanation:
+                      \n Area of the park = (60 x 40) m2 = 2400 m2.
+                      \n Area of the lawn = 2109 m2.
+                      \n So, Area of the crossroads = (2400 - 2109) m2 = 291 m2.
+                      \n Let the width of the road be x metres. Then,
+                      \n 60x + 40x - x2 = 291
+                      \n x2 - 100x + 291 = 0
+                      \n (x - 97)(x - 3) = 0
+                      \n x = 3.
+"
+                        android:id="@+id/txtAnswer5Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion6Area"
+                android:text="6)What is the area of the hall?
+                         \n I.Material cost of flooring per square metre is Rs. 2.50
+                         \n II.Labour cost of flooring the hall is Rs. 3500
+                         \n III.Total cost of flooring the hall is Rs. 14,500."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup6Area">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)I and II only
+"
+                    android:id="@+id/radioButton21Area"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton22Area"
+                    android:text="B)II and III only
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton23Area"
+                    android:text="C)All I, II and III"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton24Area"
+                    android:text="D)Any two of the three"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer6Area"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer6Area"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option C
+                           \n Explanation:
+                           \n I.Material cost = Rs. 2.50 per m2
+                           \n II. Labour cost = Rs. 3500.
+                           \n III. Total cost = Rs. 14,500.
+                           \n Let the area be A sq. metres.
+                           \n So,Material cost = Rs. (14500 - 3500) = Rs. 11,000.
+                           \n 5A/2 = 11000
+                           \n A =	(11000 x 2/5)=4400 m2.
+                           \n Thus, all I, II and III are needed to get the answer.
+                           \n Correct answer is (C).
+"
+                        android:id="@+id/txtAnswer6Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion7Area"
+                android:text="7)What is the area of a right-angled triangle?
+                             \n I.The perimeter of the triangle is 30 cm.
+                             \n II.The ratio between the base and the height of the triangle is 5 : 12.
+                             \n III.The area of the triangle is equal to the area of a rectangle of length 10 cm."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup7Area">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)I and II only"
+                    android:id="@+id/radioButton25Area"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton26Area"
+                    android:text="B)II and III only"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton27Area"
+                    android:text="I and III only
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton28Area"
+                    android:text="III, and either I or II only
+
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer7Area"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer7Area"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option A
+                         \n Explanation:
+                         \n From II, base : height = 5 : 12.
+                         \n Let base = 5x and height = 12x.
+                         \n Then, hypotenuse = (5x)2 + (12x)2 = 13x.
+                         \n From I, perimeter of the triangle = 30 cm.
+                         \n So, 5x + 12x + 13x = 30
+                         \n x = 1.
+                         \n So, base = 5x = 5 cm, height = 12x = 12 cm.
+                         \n So,Area = (1/2	x 5 x 12)cm2 = 30 cm2.
+                         \n Thus, I and II together give the answer.
+                         \n Clearly III is redundant, since the breadth of the rectangle is not given.
+                         \n Correct answer is (A).
+
+
+"
+                        android:id="@+id/txtAnswer7Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion8Area"
+                android:text="8)What is the area of rectangular field?
+                         \n I.The perimeter of the field is 110 metres.
+                         \n II.The length is 5 metres more than the width.
+                         \n III.The ratio between length and width is 6 : 5 respectively.
+
+
+"></TextView>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup8Area">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)I and II only
+"
+                    android:id="@+id/radioButton29Area"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton30Area"
+                    android:text="B)Any two of the three"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton31Area"
+                    android:text="C)All I, II and III"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton32Area"
+                    android:text="D)I, and either II or III only
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer8Area"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer8Area"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option B
+                    \n Explanation:
+                    \n I. 2(l + b) = 110  = l + b = 55.
+                    \n II. l = (b + 5)  = l - b = 5.
+                    \n III.	l/b	= 6/5 = 5l - 6b = 0.
+                    \n These are three equations in l and b. We may solve them pairwise.
+                    \n So,Any two of the three will give the answer.
+                    \n So,Correct answer is (B).
+
+"
+                        android:id="@+id/txtAnswer8Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion9Area"
+                android:text="9)What is the area of the given rectangle?
+                         \n I.Perimeter of the rectangle is 60 cm.
+                         \n II.Breadth of the rectangle is 12 cm.
+                         \n III.Sum of two adjacent sides is 30 cm.
+
+"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup9Area">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)I only
+"
+                    android:id="@+id/radioButton33Area"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton34Area"
+                    android:text="B)II only"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton35Area"
+                    android:text="C)I and II only"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton36Area"
+                    android:text="D)II and either I or III
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer9Area"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer9Area"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option D
+                    \n Explanation:
+                    \n From I and II, we can find the length and breadth of the rectangle and therefore the area can be obtained.
+                    \n So, III is redundant.
+                    \n Also, from II and III, we can find the length and breadth and therefore the area can be obtained.
+                    \n So, I is redundant.
+                    \n So, Correct answer is II and either I or III
+
+"
+                        android:id="@+id/txtAnswer9Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion10Area"
+                android:text="10)What is the cost painting the two adjacent walls of a hall at Rs. 5 per m2 which has no windows or doors?
+                           \n I.The area of the hall is 24 sq. m.
+                           \n II.The breadth, length and height of the hall are in the ratio of 4 : 6 : 5 respectively.
+                           \n III.Area of one wall is 30 sq. m."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup10Area">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)I only"
+                    android:id="@+id/radioButton37Area"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton38Area"
+                    android:text="B)II only"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton39Area"
+                    android:text="C)III only"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton40Area"
+                    android:text="D)Either I or III"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/textViewAnswer10Area"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer10Area"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option C
+                            \n Explanation:
+                            \n From II, let l = 4x, b = 6x and h = 5x.
+                            \n Then, area of the hall = (24x2) m2.
+                            \n From I. Area of the hall = 24 m2.
+                            \n From II and I, we get 24x2 = 24
+                            \n x = 1.
+                            \n So,l = 4 m, b = 6 and h = 5 m.
+                            \n Thus, area of two adjacent walls = [(l x h) + (b x h)] m2 can be found out and so the cost of painting two adjacent
+                            \n walls may be found out.
+                            \n Thus, III is redundant.
+                            \n So,Correct answer is (C).
+"
+                        android:id="@+id/txtAnswer10Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</FrameLayout>

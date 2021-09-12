@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textQuestion11Percent"
+        android:text="11)  "></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup11Percent">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A) "
+            android:id="@+id/radioButton41Percent"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton42Percent"
+            android:text="B)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton43Percent"
+            android:text="C)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton44Percent"
+            android:text="D)"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Answer"
+        android:textColor="#b4004e"
+        android:id="@+id/txtViewAnswer11Percent"
+        android:layout_gravity="center_horizontal"></TextView>
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="150dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedViewAnswer11Percent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:lines="4"
+                android:maxLines="6"
+                android:singleLine="false"
+                android:text="Answer : Option C \n
+
+"
+                android:id="@+id/textAnswer11Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textQuestion12Percent"
+        android:text="12)"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup12Percent">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A) "
+            android:id="@+id/radioButton45Percent"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton46Percent"
+            android:text="B)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton47Percent"
+            android:text="C) "></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton48Percent"
+            android:text="D)"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Answer"
+        android:textColor="#b4004e"
+        android:id="@+id/txtViewAnswer12Percent"
+        android:layout_gravity="center_horizontal"></TextView>
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="150dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedViewAnswer12Percent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:lines="4"
+                android:maxLines="6"
+                android:singleLine="false"
+                android:text="Answer : Option A \n
+
+"
+                android:id="@+id/textAnswer12Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textQuestion13Percent"
+        android:text="13)"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup13Percent">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A)"
+            android:id="@+id/radioButton49Percent"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton50Percent"
+            android:text="B)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton51Percent"
+            android:text="C)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton52Percent"
+            android:text="D)"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Answer"
+        android:textColor="#b4004e"
+        android:id="@+id/txtViewAnswer13Percent"
+        android:layout_gravity="center_horizontal"></TextView>
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="150dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedViewAnswer13Percent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:lines="4"
+                android:singleLine="false"
+                android:text="Answer : Option C \n
+
+"
+                android:id="@+id/textAnswer13Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textQuestion14Percent"
+        android:text="14) "></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup14Percent">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A) "
+            android:id="@+id/radioButton53Percent"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton54Percent"
+            android:text="B)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton55Percent"
+            android:text="C)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton56Percent"
+            android:text="D)"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Answer"
+        android:textColor="#b4004e"
+        android:id="@+id/txtViewAnswer14Percent"
+        android:layout_gravity="center_horizontal"></TextView>
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="150dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedViewAnswer14Percent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:lines="4"
+                android:singleLine="false"
+                android:text="Answer : Option D \n
+
+"
+                android:id="@+id/textAnswer14Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textQuestion15Percent"
+        android:text="15)"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup15Percent">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A)"
+            android:id="@+id/radioButton57Percent"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton58Percent"
+            android:text="B)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton59Percent"
+            android:text="C)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton60Percent"
+            android:text="D)"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Answer"
+        android:textColor="#b4004e"
+        android:id="@+id/txtViewAnswer15Percent"
+        android:layout_gravity="center_horizontal"></TextView>
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="150dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedViewAnswer15Percent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:lines="4"
+                android:singleLine="false"
+                android:text="Answer : Option B \n
+
+"
+                android:id="@+id/textAnswer15Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textQuestion16Percent"
+        android:text="16)"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup16Percent">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A)"
+            android:id="@+id/radioButton61Percent"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton62Percent"
+            android:text="B)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton63Percent"
+            android:text="C)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton64Percent"
+            android:text="D)"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Answer"
+        android:textColor="#b4004e"
+        android:id="@+id/txtViewAnswer16Percent"
+        android:layout_gravity="center_horizontal"></TextView>
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="150dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedViewAnswer16Percent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:lines="4"
+                android:maxLines="6"
+                android:singleLine="false"
+                android:text="Answer : Option A \n
+
+"
+                android:id="@+id/textAnswer16Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textQuestion17Percent"
+        android:text="17)"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup17Percent">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A)"
+            android:id="@+id/radioButton65Percent"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton66Percent"
+            android:text="B)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton67Percent"
+            android:text="C)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton68Percent"
+            android:text="D)"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Answer"
+        android:textColor="#b4004e"
+        android:id="@+id/txtViewAnswer17Percent"
+        android:layout_gravity="center_horizontal"></TextView>
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="150dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedViewAnswer17Percent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:lines="4"
+                android:maxLines="6"
+                android:singleLine="false"
+                android:text="Answer : Option B \n
+
+"
+                android:id="@+id/textAnswer17Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textQuestion18Percent"
+        android:text="18)"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup18Percent">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A) "
+            android:id="@+id/radioButton69Percent"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton70Percent"
+            android:text="B)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton71Percent"
+            android:text="C) "></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton72Percent"
+            android:text="D)"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Answer"
+        android:textColor="#b4004e"
+        android:id="@+id/txtViewAnswer18Percent"
+        android:layout_gravity="center_horizontal"></TextView>
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="150dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedViewAnswer18Percent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:lines="4"
+                android:singleLine="false"
+                android:text="Answer : Option D \n
+
+"
+                android:id="@+id/textAnswer18Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textQuestion19Percent"
+        android:text="19)"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup19Percent">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A)"
+            android:id="@+id/radioButton73Percent"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton74Percent"
+            android:text="B)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton75Percent"
+            android:text="C)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton76Percent"
+            android:text="D)"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Answer"
+        android:textColor="#b4004e"
+        android:id="@+id/txtViewAnswer19Percent"
+        android:layout_gravity="center_horizontal"></TextView>
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="150dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedViewAnswer19Percent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:lines="4"
+                android:singleLine="false"
+                android:text="Answer : Option A \n
+
+"
+                android:id="@+id/textAnswer19Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textQuestion20Percent"
+        android:text="20)"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup20Percent">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A)"
+            android:id="@+id/radioButton77Percent"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton78Percent"
+            android:text="B)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton79Percent"
+            android:text="C)"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton80Percent"
+            android:text="D)"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Answer"
+        android:textColor="#b4004e"
+        android:id="@+id/txtViewAnswer20Percent"
+        android:layout_gravity="center_horizontal"></TextView>
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="150dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedViewAnswer20Percent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:lines="4"
+                android:singleLine="false"
+                android:text="Answer : Option A \n
+
+"
+                android:id="@+id/textAnswer20Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

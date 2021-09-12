@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quantitative.fragments.PartnershipFormulas">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayoutProfit">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nestProfitFormula">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/txtPartnership"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Partnership:"
+                    android:gravity="center_horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/txtConceptPartnership"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="When two or more than two persons run a business jointly, they are called partners and the deal is known as partnership."
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/txtPartnership"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtRatioandDivisionofGain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtConceptPartnership"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Ratio of Divisions of Gains:"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtConceptPercentageIncrease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1) When investments of all the partners are for the same time, the gain or loss is distributed among the partners in the ratio of their investments.\n Suppose A and B invest Rs. x and Rs. y respectively for a year in a business, then at the end of the year: \n
+\n (A's share of profit) : (B's share of profit) \n = x : y.
+
+"
+
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/txtRatioandDivisionofGain"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txtConceptPercentageDecrease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2) When investments are for different time periods, then equivalent capitals are calculated for a unit of time by taking (capital x number of units of time). Now gain or loss is divided in the ratio of these capitals.
+
+\n Suppose A invests Rs. x for p months and B invests Rs. y for q months then,
+
+(A's share of profit) : (B's share of profit)= xp : yq.
+"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/txtConceptPercentageIncrease"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtWorking_Sleeping"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtConceptPercentageDecrease"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Working and Sleeping Partners:"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:id="@+id/txtWorking_Sleeping_Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A partner who manages the the business is known as a working partner and the one who simply invests the money is a sleeping partner.
+"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/txtWorking_Sleeping"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</FrameLayout>

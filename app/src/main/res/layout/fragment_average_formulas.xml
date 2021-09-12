@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quantitative.fragments.AverageFormulasFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayoutProfit">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nestProfitFormula">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/txtPercentage"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Average"
+                    android:gravity="center_horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/txtConceptPercentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+Average = (Sum of observations)/(Number of observations)
+"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/txtPercentage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtAverage"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtConceptPercentage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Average Speed:"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtAverageSpeed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+    Suppose a man covers a certain distance at x kmph and an equal distance at y kmph.
+Then, the average speed druing the whole journey is (2xy/x+y) kmph
+"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/txtAverage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+
+</FrameLayout>

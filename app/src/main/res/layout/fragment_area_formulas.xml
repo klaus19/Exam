@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quantitative.fragments.AreaFormulas">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutProfit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestProfitFormula"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtPercentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Important Formulaes"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtConceptPercentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtPercentage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text=" Area of a rectangle = (Length x Breadth).
+"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtPercentageIncreaseDecrease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtConceptPercentage"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="  Perimeter of a rectangle = 2(Length + Breadth)."
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtConceptPercentageIncrease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtPercentageIncreaseDecrease"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Area of a square = (side)2
+"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtResultsonPopulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtConceptPercentageIncrease"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Area of 4 walls of a room = 2 (Length + Breadth) x Height."
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtPopulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtResultsonPopulation"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text=" Area of a triangle =  x Base x Height.
+"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtResultsonDeprection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtPopulation"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text=" Area of parallelogram = (Base x Height)."
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtPopulationDeprection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtResultsonDeprection"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Area of a rhombus =  x (Product of diagonals).
+"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textTrapezium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtPopulationDeprection"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Area of a trapezium =  (sum of parallel sides) x distance between them.
+"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textCircle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textTrapezium"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Area of a circle = pi*R*R, where R is the radius.
+"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textCircleCircumference"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textCircle"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text=" Circumference of a circle = 2piR.
+"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textAreaofSemiCircle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textCircleCircumference"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Area of semi-circle =	pi*R*R/2	.
+
+"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textCircumferenceofSemiCircle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textAreaofSemiCircle"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Circumference of a semi-circle = piR
+"
+                    android:textSize="20sp"></TextView>
+
+
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+
+</FrameLayout>

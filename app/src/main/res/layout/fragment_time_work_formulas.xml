@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quantitative.fragments.TimeWorkFormulas">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayoutProfit">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nestProfitFormula">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txtWorkFromDays"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center_horizontal"
+                    android:text="Factors and Multiples"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtWorkFromDaysDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+If A can do a piece of work in n days, then A's 1 day's work = 1/n	.
+"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/txtWorkFromDays"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtDaysFromWork"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtWorkFromDaysDescription"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Days from Work"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtDaysFromWorkDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If A's 1 day's work = 1/n , then A can finish the work in n days.
+"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/txtDaysFromWork"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtTimeAndWorkRatio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtDaysFromWorkDescription"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text=" Ratio:
+"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtTimeAndWorkRatioDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtTimeAndWorkRatio"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="1)If A is thrice as good a workman as B, then:
+                       \n Ratio of work done by A and B = 3 : 1.
+                       Ratio of times taken by A and B to finish a work = 1 : 3.
+"
+                    android:textSize="20sp"></TextView>
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quantitative.fragments.SimpleInterestFormulasFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50sp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtPrincipal"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Principal"></TextView>
+    <TextView
+        android:id="@+id/txtPrincipalDescription"
+        android:layout_margin="5dp"
+        android:layout_below="@id/txtPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The money borrowed or lent out for a certain period is called the principal or the sum."
+       ></TextView>
+
+        <TextView
+            android:id="@+id/txtInterest"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPrincipalDescription"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="Interest"
+            android:textStyle="bold"
+            android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/txtInterestDescription"
+        android:layout_margin="5dp"
+        android:layout_below="@id/txtInterest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extra money paid for using other's money is called interest."
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtInterestDescription"
+        android:id="@+id/txtInterestFormula"
+        android:layout_marginTop="10dp"
+        android:text="Let Principal = P, Rate = R% per annum (p.a.) and Time = T years. Then"
+        android:textSize="20sp"
+       ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFormulaSimpleInterest"
+        android:layout_below="@id/txtInterestFormula"
+        android:layout_marginTop="10dp"
+        android:text="i) Simple Intereest =	(P x R x T/100)"></TextView>
+    </RelativeLayout>
+</FrameLayout>

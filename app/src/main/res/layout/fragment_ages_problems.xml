@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".quantitative.fragments.AgesProblems">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textQuestion1AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1)Father is aged three times more than his son Ronit. After 8 years, he would be two and a half times of Ronit's age. After further 8 years, how many times would he be of Ronit's age?"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioGroup1AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton1AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)2 times"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton2AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B)2 1/2 times
+
+"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton3AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C)2 3/4 times"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton4AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D)3 times "></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewAnswer1AgeProblems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                android:onClick="toggle_contents"
+                android:text="View Answer"
+                android:textColor="#b4004e"></TextView>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedView2AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textAnswer1AgeProblems"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:text=" Answer: Option A
+                         \n Explanation:
+                         \n Let Ronit's present age be x years. Then, father's present age =(x + 3x) years = 4x years.
+                         \n So, (4x + 8) = 5(x + 8)/2
+                         \n 8x + 16 = 5x + 40
+                         \n 3x = 24
+                         \n x = 8.
+
+                         \n Hence, required ratio = (4x + 16)/(x + 16)
+                         \n = 48/24 = 2
+"
+                        android:visibility="invisible"></TextView>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:id="@+id/textQuestion2AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2)The sum of ages of 5 children born at the intervals of 3 years each is 50 years. What is the age of the youngest child?"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioGroup2AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton5AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)4 years"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton6AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B)8 years"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton7AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C)10 years"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton8AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D)None of these
+"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewAnswer2AgeProblems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="View Answer"
+                android:textColor="#b4004e"></TextView>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedViewAnswer2AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textAnswer2AgeProblems"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:text="Answer : Option A
+                    \n Explanation: Let the ages of children be x, (x + 3), (x + 6), (x + 9) and (x + 12) years.
+                    \n Then, x + (x + 3) + (x + 6) + (x + 9) + (x + 12) = 50
+                    \n 5x = 20
+                    \n x = 4.
+                    \n Age of the youngest child = x = 4 years."
+
+                        android:visibility="invisible"></TextView>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:id="@+id/textQuestion3AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3)A father said to his son,'I was as old as you are at the present at the time of your birth'. If the father's age is 38 years now, the son's age five years back was:"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioGroup3AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton9AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)14 years"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton10AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B)19 years"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton11AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C)33 years"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton12AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D)38 years"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewAnswer3AgeProblems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="View Answer"
+                android:textColor="#b4004e"></TextView>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedViewAnswer3AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textAnswer3AgeProblems"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:text="Answer : Option A
+                    \n Explanation:
+                    \n Let the son's present age be x years. Then, (38 - x) = x
+                    \n 2x = 38.
+                    \n x = 19.
+                    \n So,Son's age 5 years back (19 - 5) = 14 years.
+"
+                        android:visibility="invisible"></TextView>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:id="@+id/textQuestion4AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="4)A is two years older than B who is twice as old as C. If the total of the ages of A, B and C be 27, then how old is B?"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioGroup4AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton13AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)7"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton14AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B)8"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton15AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C)9"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton16AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D)10"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewAnswer4AgeProblems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="View Answer"
+                android:textColor="#b4004e"></TextView>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedViewAnswer4AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textAnswer4AgeProblems"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:text="Answer : Option D
+                    \n Explanation:
+                    \n Let C's age be x years. Then, B's age = 2x years. A's age = (2x + 2) years.
+                    \n So, (2x + 2) + 2x + x = 27
+                    \n 5x = 25
+                    \n x = 5.
+                    \n Hence, B's age = 2x = 10 years.
+                         "
+                        android:visibility="invisible"></TextView>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:id="@+id/textQuestion5AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="5)Present ages of Sameer and Anand are in the ratio of 5 : 4 respectively.Three years hence, the ratio of their ages will become 11 : 9 respectively.
+What is Anand's present age in years?"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioGroup5AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton17AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)24"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton18AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B)27
+"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton19AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C)40
+"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton20AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D)Cannot be determined"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewAnswer5AgeProblems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="View Answer"
+                android:textColor="#b4004e"></TextView>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedViewAnswer5AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textAnswer5AgeProblems"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:text="Answer : Option A
+                    \n Explanation:
+                    \n Let the present ages of Sameer and Anand be 5x years and 4x years respectively.
+                    \n Then,5x + 3/4x + 3 =	11/9
+                    \n 9(5x + 3) = 11(4x + 3)
+                    \n 45x + 27 = 44x + 33
+                    \n 45x - 44x = 33 - 27
+                    \n x = 6.
+                    \n So, Anand's present age = 4x = 24 years.
+
+"
+                        android:visibility="invisible"></TextView>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:id="@+id/textQuestion6AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="6)What is Arun's present age?
+I.Five years ago, Arun's age was double that of his son's age at that time.
+II.Present ages of Arun and his son are in the ratio of 11 : 6 respectively.
+III.Five years hence, the respective ratio of Arun's age and his son's age will become 12 : 7."></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioGroup6AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton21AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Only I and II
+"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton22AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B)Only II and III
+"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton23AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C)Only I and III"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton24AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D)Any two of the three"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewAnswer6AgeProblems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="View Answer"
+                android:textColor="#b4004e"></TextView>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedViewAnswer6AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textAnswer6AgeProblems"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:text="Answer : Option D
+                    \n Explanation:
+                    \n II. Let the present ages of Arun and his son be 11x and 6x years respectively.
+                    \n I. 5 years ago, Arun's age = 2 x His son's age.
+                    \n III. 5 years hence,	Arun's Age/Son's age = 12/17
+                    \n Clearly, any two of the above will give Arun's present age.
+                    \n So,Correct answer is (D).
+
+"
+                        android:visibility="invisible"></TextView>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:id="@+id/textQuestion7AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="7)What is Ravi's present age?
+I.The present age of Ravi is half of that of his father.
+II.After 5 years, the ratio of Ravi's age to that of his father's age will be 6 : 11.
+III.Ravi is 5 years younger than his brother.
+"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioGroup7AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton25AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)I and II only"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton26AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B)II and III only"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton27AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C)I and III only
+"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton28AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D)All I, II and III
+
+"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewAnswer7AgeProblems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="View Answer"
+                android:textColor="#b4004e"></TextView>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedViewAnswer7AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textAnswer7AgeProblems"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:text="Answer : Option A
+                          \n Explanation:
+                          \n I. Let Ravi's present age be x years. Then, his father's present age = 2x years.
+                          \n II. After 5 years,	Ravi's age/Father's age	=	6/11
+                          \n III. Ravi is younger than his brother.
+                          \n From I and II, we get	x + 5/2x + 5	=	6/11. This gives x, the answer
+                          \n Thus, I and II together give the answer. Clearly, III is redundant.
+                          \n So,Correct answer is (A).
+"
+                        android:visibility="invisible"></TextView>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:id="@+id/textQuestion8AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="8)What is the present age of Tanya?
+                I.The ratio between the present ages of Tanya and her brother Rahul is 3 : 4 respectively.
+                II.After 5 years the ratio between the ages of Tanya and Rahul will be 4 : 5.
+                III.Rahul is 5 years older than Tanya.
+"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioGroup8AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton29AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)I and II only
+"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton30AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B)II and III only"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton31AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C)I and III only"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton32AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D)Any two of the three
+"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewAnswer8AgeProblems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="View Answer"
+                android:textColor="#b4004e"></TextView>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedViewAnswer8AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textAnswer8AgeProblems"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:text="Answer : Option D
+                    \n Explanation:
+                    \n I. Let the present ages of Tanya and Rahul be 3x years and 4x years.
+                    \n II. After 5 years, (Tanya's age) : (Rahul's age) = 4 : 5.
+                    \n III. (Rahul's age) = (Tanya's age) + 5.
+                    \n From I and II, we get	3x + 5/4x + 5	= 4/5	. This gives x.
+                    \n Tanya's age = 3x can be found. Thus, I and II give the answer.
+
+                    \n From I and III, we get 4x = 3x + 5. This gives x.
+                    \n So, Tanya's age = 3x can be found. Thus, I and III give the answer.
+                    \n From III : Let Tanya's present age be t years.
+                    \n Then Rahul's present age = (t + 5) years.
+
+                    \n Thus, from II and III, we get :	t/t + 5	= 4/5	. This gives t.
+                    \n Thus, II and III give the answer.
+                    \n So, Correct answer is (D).
+
+
+"
+                        android:visibility="invisible"></TextView>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:id="@+id/textQuestion9AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="9)What is Sonia's present age?
+I.Sonia's present age is five times Deepak's present age.
+II.Five years ago her age was twenty-five times Deepak's age at that time.
+
+"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioGroup9AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton33AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)I alone sufficient while II alone not sufficient to answer
+"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton34AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B)II alone sufficient while I alone not sufficient to answer"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton35AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C)Either I or II alone sufficient to answer"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton36AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D)Both I and II are necessary to answer
+"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewAnswer9AgeProblems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="View Answer"
+                android:textColor="#b4004e"></TextView>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedViewAnswer9AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textAnswer9AgeProblems"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:text="Answer : Option D
+                    \n Explanation:
+                    \n I. S = 5D   So, D =	S/5	....(i)
+                    \n II. S - 5 = 25 (D - 5)   So ,S = 25D - 120 ....(ii)
+                    \n Using (i) in (ii), we get S = (25 x	S/5) - 120
+                    \n So,4S = 120.
+                    \n S = 30.
+                    \n Thus, I and II both together give the answer
+                    \n So, correct answer is (E).
+"
+                        android:visibility="invisible"></TextView>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:id="@+id/textQuestion10AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="10)Divya is twice as old as Shruti. What is the difference in their ages?
+                I.Five years hence, the ratio of their ages would be 9 : 5.
+                II.Ten years back, the ratio of their ages was 3 : 1.
+
+
+"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radioGroup10AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton37AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)I alone sufficient while II alone not sufficient to answer"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton38AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B)II alone sufficient while I alone not sufficient to answer"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton39AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C)Either I or II alone sufficient to answer"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioButton40AgeProblems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D)Both I and II are not sufficient to answer"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewAnswer10AgeProblems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="View Answer"
+                android:textColor="#b4004e"></TextView>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedViewAnswer10AgeProblems"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textAnswer10AgeProblems"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:text="Answer : Option C
+                    \n Explanation:
+                    \n Let Divya's present age be D years and Shruti's present age b S years
+                    \n Then, D = 2 x S   So D - 2S = 0 ....(i)
+                    \n I.D + 5S + 5	=	9/5	....(ii)
+                    \n II.D - 10/S - 10	=	3/1	....(iii)
+                    \n From (ii), we get : 5D + 25 = 9S + 45  So 5D - 9S = 20 ....(iv)
+                    \n From (iii), we get : D - 10 = 3S - 30 So,D - 3S = -20 ....(v)
+                    \n Thus, from (i) and (ii), we get the answer.
+                    \n Also, from (i) and (iii), we get the answer.
+                    \n So, I alone as well as II alone give the answer. Hence, the correct answer is (C).
+"
+                        android:visibility="invisible"></TextView>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

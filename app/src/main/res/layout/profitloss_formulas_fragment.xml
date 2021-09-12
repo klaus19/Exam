@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quantitative.fragments.ProfitLossFormulasFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayoutProfit">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nestProfitFormula">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txtCP"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cost Price"
+                    android:gravity="center_horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txtCPDescription"
+                    android:layout_margin="5dp"
+                    android:layout_below="@id/txtCP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The price, at which an article is purchased, is called its cost price, abbreviated as C.P."
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtSP"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtCPDescription"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Selling Price"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtSPDescription"
+                    android:text="The price, at which an article is sold, is called its selling prices, abbreviated as S.P."
+                    android:layout_below="@id/txtSP"
+                    android:layout_margin="5dp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtProfit"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtSPDescription"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Profit or Gain"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtProfitDescription"
+                    android:text="If S.P. is greater than C.P., the seller is said to have a profit or gain.
+                      "
+                    android:layout_below="@id/txtProfit"
+                    android:layout_margin="5dp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtLoss"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtProfitDescription"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Loss"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtLossDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtLoss"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="If S.P. is less than C.P., the seller is said to have incurred a loss."
+                   ></TextView>
+
+                <TextView
+                    android:id="@+id/txtImportantFormulas"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtLossDescription"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Important Formula"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1) Gain = (S.P.) - (C.P.)"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtGain"
+                    android:layout_below="@+id/txtImportantFormulas"
+                    android:layout_marginTop="10dp"
+                    ></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text=" 2) Loss = (C.P.) - (S.P.)"
+                    android:id="@+id/txtLossFormula"
+                    android:layout_below="@+id/txtGain"
+                    android:layout_marginTop="10dp"
+                   ></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3) Gain% = (Gain x 100)/C.P"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtGainPercentage"
+                    android:layout_below="@+id/txtLossFormula"
+                    android:layout_marginTop="10dp"
+                    ></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 4) Loss% = (Loss x 100)/C.P"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtLossPercentage"
+                    android:layout_below="@+id/txtGainPercentage"
+                    android:layout_marginTop="10dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5)SP = [(100 + Gain %)/100 x C.P]"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtSP1"
+                    android:layout_below="@+id/txtLossPercentage"
+                    android:layout_marginTop="10dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6) S.P =[(100 - Loss %)/100	x C.P]
+"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtSP2"
+                    android:layout_below="@id/txtSP1"
+                    android:layout_marginTop="10dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7) C.P =[(100/(100+Gain %) x S.P]
+"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtCP1"
+                    android:layout_below="@id/txtSP2"
+                    android:layout_marginTop="10dp"
+                    ></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8) C.P =[(100/(100 - Loss %) x S.P]
+"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtCP2"
+                    android:layout_below="@id/txtCP1"
+                    android:layout_marginTop="10dp"
+                    ></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9) If an article is sold at a gain of say 35%, then S.P. = 135% of C.P."
+                    android:id="@+id/txtP"
+                    android:layout_below="@+id/txtCP2"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10)If an article is sold at a loss of say, 35% then S.P. = 65% of C.P."
+                    android:id="@+id/txtD"
+                    android:layout_below="@+id/txtP"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                   ></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If a trader professes to sell his goods at cost price, but uses false weights, then
+                         \n Gain % = [Error/(True Value) - (Error)x 100]%
+"
+                    android:id="@+id/txtDominika"
+                    android:layout_below="@+id/txtD"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp" />
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quantitative.fragments.PermutationFormulas">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nestProfitFormula">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/txtPercentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Factorial Notation:"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtConceptPercentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Let n be a positive integer. Then, factorial n, denoted n! is defined as:
+                n! = n(n - 1)(n - 2) ... 3.2.1.
+
+"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/txtPercentage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtPercentageIncreaseDecrease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtConceptPercentage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Permutations:
+
+"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtConceptPercentageIncrease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" The different arrangements of a given number of things by taking some or all at a time, are called permutations.
+
+
+"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/txtPercentageIncreaseDecrease"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtConceptPercentageDecrease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtConceptPercentageIncrease"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Number of Permutations:
+"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtResultsonPopulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Number of all permutations of n things, taken r at a time, is given by:
+                             \n nPr = n(n - 1)(n - 2) ... (n - r + 1)
+                             \n =n!/(n - r)!
+
+"
+                    android:gravity="center_horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@id/txtConceptPercentageDecrease"
+                    android:textSize="20sp"
+                    ></TextView>
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

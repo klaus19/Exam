@@ -1,0 +1,214 @@
+package com.tejas.exam.reasoning
+
+import android.graphics.Color
+import android.os.Bundle
+import android.view.View
+import android.widget.RadioGroup
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
+import com.tejas.exam.adapters.Tik.Companion.withColor
+import com.tejas.exam.databinding.ActivityLogicalDeductionBinding
+
+class LogicalDeduction:AppCompatActivity() {
+    
+    private lateinit var binding:ActivityLogicalDeductionBinding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        binding = ActivityLogicalDeductionBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
+
+        binding.txtViewAnswer1LogicalDeduction?.setOnClickListener {
+            binding.textAnswer1LogicalDeduction.visibility = if (binding.textAnswer1LogicalDeduction.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+        }
+
+
+        binding.txtViewAnswer2LogicalDeduction?.setOnClickListener {
+            binding.textAnswer2LogicalDeduction.visibility = if (binding.textAnswer2LogicalDeduction.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+        }
+
+        binding.txtViewAnswer3LogicalDeduction?.setOnClickListener {
+            binding.textAnswer3LogicalDeduction.visibility = if (binding.textAnswer3LogicalDeduction.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+        }
+
+        binding.txtViewAnswer4LogicalDeduction?.setOnClickListener {
+            binding.textAnswer4LogicalDeduction.visibility = if (binding.textAnswer4LogicalDeduction.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+        }
+        binding.txtViewAnswer5LogicalDeduction?.setOnClickListener {
+            binding.textAnswer5LogicalDeduction.visibility = if ( binding.textAnswer5LogicalDeduction.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+        }
+        binding.txtViewAnswer6LogicalDeduction?.setOnClickListener {
+            binding.textAnswer6LogicalDeduction.visibility = if ( binding.textAnswer6LogicalDeduction.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+        }
+        binding.txtViewAnswer7LogicalDeduction?.setOnClickListener {
+            binding.textAnswer7LogicalDeduction.visibility = if ( binding.textAnswer7LogicalDeduction.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+        }
+        binding.txtViewAnswer8LogicalDeduction?.setOnClickListener {
+            binding.textAnswer8LogicalDeduction.visibility = if ( binding.textAnswer8LogicalDeduction.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+        }
+        binding.txtViewAnswer9LogicalDeduction?.setOnClickListener {
+            binding.textAnswer9LogicalDeduction.visibility = if ( binding.textAnswer9LogicalDeduction.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+        }
+        binding.txtViewAnswer10LogicalDeduction?.setOnClickListener {
+            binding.textAnswer10LogicalDeduction.visibility = if ( binding.textAnswer10LogicalDeduction.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+        }
+
+
+        binding.radioGroup1LogicalDeduction?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+            val isChecked = binding.radioButton4LogicalDeduction.isChecked
+            if (isChecked) {
+                Snackbar.make(binding.root, "Correct", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(0, 128, 0))
+                    .show()
+
+            } else {
+                Snackbar.make(binding.root, "InCorrect", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(255, 0, 0))
+                    .show()
+            }
+
+        })
+
+        binding.radioGroup2LogicalDeduction?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+            val isChecked = binding.radioButton7LogicalDeduction.isChecked
+            if (isChecked) {
+                Snackbar.make(binding.root, "Correct", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(0, 128, 0))
+                    .show()
+
+            } else {
+                Snackbar.make(binding.root, "InCorrect", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(255, 0, 0))
+                    .show()
+            }
+
+
+        })
+        binding.radioGroup3LogicalDeduction?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+            val isChecked = binding.radioButton10LogicalDeduction.isChecked
+            if (isChecked) {
+                Snackbar.make(binding.root, "Correct", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(0, 128, 0))
+                    .show()
+
+            } else {
+                Snackbar.make(binding.root, "InCorrect", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(255, 0, 0))
+                    .show()
+            }
+
+        })
+        binding.radioGroup4LogicalDeduction?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+            val isChecked = binding.radioButton16LogicalDeduction.isChecked
+            if (isChecked) {
+                Snackbar.make(binding.root, "Correct", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(0, 128, 0))
+                    .show()
+
+            } else {
+                Snackbar.make(binding.root, "InCorrect", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(255, 0, 0))
+                    .show()
+            }
+
+        })
+        binding.radioGroup5LogicalDeduction?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+            val isChecked = binding.radioButton20LogicalDeduction.isChecked
+            if (isChecked) {
+                Snackbar.make(binding.root, "Correct", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(0, 128, 0))
+                    .show()
+
+            } else {
+                Snackbar.make(binding.root, "InCorrect", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(255, 0, 0))
+                    .show()
+            }
+
+        })
+        binding.radioGroup6LogicalDeduction?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+            val isChecked = binding.radioButton24LogicalDeduction.isChecked
+            if (isChecked) {
+                Snackbar.make(binding.root, "Correct", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(0, 128, 0))
+                    .show()
+
+            } else {
+                Snackbar.make(binding.root, "InCorrect", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(255, 0, 0))
+                    .show()
+            }
+
+        })
+        binding.radioGroup7LogicalDeduction?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+            val isChecked = binding.radioButton28LogicalDeduction.isChecked
+            if (isChecked) {
+                Snackbar.make(binding.root, "Correct", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(0, 128, 0))
+                    .show()
+
+            } else {
+                Snackbar.make(binding.root, "InCorrect", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(255, 0, 0))
+                    .show()
+            }
+
+        })
+        binding.radioGroup8LogicalDeduction?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+            val isChecked = binding.radioButton31LogicalDeduction.isChecked
+            if (isChecked) {
+                Snackbar.make(binding.root, "Correct", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(0, 128, 0))
+                    .show()
+
+            } else {
+                Snackbar.make(binding.root, "InCorrect", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(255, 0, 0))
+                    .show()
+            }
+
+        })
+        binding.radioGroup9LogicalDeduction?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+            val isChecked = binding.radioButton33LogicalDeduction.isChecked
+            if (isChecked) {
+                Snackbar.make(binding.root, "Correct", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(0, 128, 0))
+                    .show()
+
+            } else {
+                Snackbar.make(binding.root, "InCorrect", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(255, 0, 0))
+                    .show()
+            }
+
+        })
+        binding.radioGroup10LogicalDeduction?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+            val isChecked = binding.radioButton38LogicalDeduction.isChecked
+            if (isChecked) {
+                Snackbar.make(binding.root, "Correct", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(0, 128, 0))
+                    .show()
+
+            } else {
+                Snackbar.make(binding.root, "InCorrect", Snackbar.LENGTH_LONG)
+                    .withColor(Color.rgb(255, 0, 0))
+                    .show()
+            }
+
+        })
+
+    }
+
+}

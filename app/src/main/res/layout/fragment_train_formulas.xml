@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".quantitative.fragments.TrainFormulasFragment">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedView1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Important Formulas"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/importantformulas"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/txtFormula1"
+                android:text="1) km/hr to m/s conversion =
+  a km/hr = (a x18/5)m/s
+"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFormula2"
+                android:layout_marginTop="10dp"
+                android:text="2) m/s to km/hr conversion =
+
+  a m/s = (a x 18/5)km/hr
+"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFormula3"
+                android:layout_marginTop="10dp"
+                android:text="3) Time taken by a train of length l metres to pass a pole or standing man or a signal post is equal to the time taken by the train to cover l metres.
+"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFormula4"
+                android:layout_marginTop="10dp"
+                android:text="4)Time taken by a train of length l metres to pass a stationery object of length b metres is the time taken by the train to cover (l + b) metres.
+"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFormula5"
+                android:layout_marginTop="10dp"
+                android:text="5)Suppose two trains or two objects bodies are moving in the same direction at u m/s and v m/s, where u > v, then their relative speed is = (u - v) m/s.
+"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFormula6"
+                android:layout_marginTop="10dp"
+                android:text="6)Suppose two trains or two objects bodies are moving in opposite directions at u m/s and v m/s, then their relative speed is = (u + v) m/s.
+"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFormula7"
+                android:layout_marginTop="10dp"
+                android:text="7) If two trains of length a metres and b metres are moving in opposite directions at u m/s and v m/s, then:
+
+                                  The time taken by the trains to cross each other = (a + b)/(u+v)sec.
+"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFormula8"
+                android:layout_marginTop="10dp"
+                android:text="8) If two trains of length a metres and b metres are moving in the same direction at u m/s and v m/s, then:
+
+                                       The time taken by the faster train to cross the slower train =	(a + b)/(u-v) sec.\
+"></TextView>
+        </LinearLayout></androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quantitative.fragments.TimeDistanceFormulas">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/txtSpeed"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="Speed, Time and Distance:"
+            android:textStyle="bold"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/txtSpeedFormula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSpeed"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal"
+            android:text="Distance = (Speed x Time)"
+            android:textColor="#ad1457"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:id="@+id/txtConversion1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSpeedFormula"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="km/hr to m/sec conversion:"
+            android:textStyle="bold"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/txtConversion1Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtConversion1"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal"
+            android:text="x km/hr = (x x	5/18) m/sec"
+            android:textColor="#ad1457"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:id="@+id/txtConversion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtConversion1Description"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="m/sec to km/hr conversion:"
+            android:textStyle="bold"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/txtConversion2Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtConversion2"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="x m/sec = (x x18/5)km/hr.
+"
+            android:textSize="16sp"
+            android:textColor="#ad1457"></TextView>
+
+        <TextView
+            android:id="@+id/txtTDdistanceRatio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtConversion2Description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="If the ratio of the speeds of A and B is a : b, then the ratio of the
+                         \n the times taken by then to cover the same distance is	1	:	1	or b : a.
+a	b
+"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/txtAverageSpeedTD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTDdistanceRatio"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="
+Suppose a man covers a certain distance at x km/hr and an equal distance at y km/hr
+Then, the average speed during the whole journey is	 (2xy/x + y)km/hr.
+"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+</FrameLayout>

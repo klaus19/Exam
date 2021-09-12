@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedView1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion1StatementAssumptions"
+                android:text="1. Statement: You are hereby appointed as a programmer with a probation period of one year and your performance \n will be reviewed at the end of the period for confirmation.- A line in an appointment letter. \n Assumptions:
+\n I.The performance of an individual generally is not known at the time of appointment offer. \n II.Generally an individual tries to prove his worth in the probation period."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup1StatementAssumptions">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A.Only assumption I is implicit"
+                    android:id="@+id/radioButton1StatementAssumptions"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton2StatementAssumptions"
+                    android:text="B.Only assumption II is implicit
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton3StatementAssumptions"
+                    android:text="C. Either I nor II is implici"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton4StatementAssumptions"
+                    android:text="D.Both I and II are implicit"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:clickable="true"
+                android:onClick="toggle_contents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer1StatementAssumptions"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedView1StatementAssumptions"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text=" Answer : Option D
+                        \n Explanation:-
+                       \n The performance of the individual has to be tested over a span of time as the statement mentions. So, I is implicit. \n The statement mentions that the individual's worth shall be reviewed (during probation period) before confirmation. \n So, II is also implicit.
+
+"
+                        android:id="@+id/textAnswer1StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion2StatementAssumptions"
+                android:text="2.Statement: It is desirable to put the child in school at the age of 5 or so. \n Assumptions: \n I.At that age the child reaches appropriate level of development and is ready to learn. \n II.The schools do not admit children after six years of age."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup2StatementAssumptions">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A.Only assumption I is implicit
+"
+                    android:id="@+id/radioButton5StatementAssumptions"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton6StatementAssumptions"
+                    android:text="B.Only assumption II is implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton7StatementAssumptions"
+                    android:text="C.Either I or II is implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton8StatementAssumptions"
+                    android:text="D.Neither I nor II is implicit"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer2StatementAssumptions"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer2StatementAssumptions"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:visibility="invisible"
+                        android:text="Answer : Option A \n Explanation
+                        \n Since the statement talks of putting the child in school at the age of 5, it means that the child is mentally prepared
+                        \n for the same at this age. So, I is implicit. But nothing about admission after 6 years of age is mentioned in the
+                        \n statement. So, II is not implicit.
+
+"
+
+                        android:id="@+id/textAnswer2StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion3StatementAssumptions"
+                android:text="3)Statement: In order to bring punctuality in our office, we must provide conveyance allowance to our employees. \n In charge of a company tells Personnel Manager. \n Assumptions: \n I.Conveyance allowance will not help in bringing punctuality. \n II.Discipline and reward should always go hand in hand."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup3StatementAssumptions">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A.Only assumption I is implicit"
+                    android:id="@+id/radioButton9StatementAssumptions"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton10StatementAssumptions"
+                    android:text="B.Only assumption II is implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton11StatementAssumptions"
+                    android:text="C.Either I or II is implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton12StatementAssumptions"
+                    android:text="D.Neither I nor II is implici"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer3StatementAssumptions"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer3StatementAssumptions"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option B
+                  \n Assumption I goes against the statement. So, it is not implicit. The allowance will serve as a reward to the \n employees and shall provoke them to come on time. So, II is implicit.
+"
+                        android:id="@+id/textAnswer3StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion4StatementAssumptions"
+                android:text="4)Statement: Unemployment allowance should be given to all unemployed Indian youth above 18 years of age. \n Assumptions: I.There are unemployed youth in India who needs monetary support. \n II.The government has sufficient funds to provide allowance to all unemployed youth.
+"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup4StatementAssumptions">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Only assumption I is implicit"
+                    android:id="@+id/radioButton13StatementAssumptions"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton14StatementAssumptions"
+                    android:text="B)Only assumption II is implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton15StatementAssumptions"
+                    android:text="C)Either I or II is implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton16StatementAssumptions"
+                    android:text="D)Neither I nor II is implicit"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer4StatementAssumptions"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer4StatementAssumptions"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option A
+                  \n I directly follows from the statement and so is implicit. Also, the statement is a suggestion and does not tell about a \n  government policy or its position of funds. So, II is not implicit.
+                         "
+                        android:id="@+id/textAnswer4StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion5StatementAssumptions"
+                android:text="5)Statement:If you trouble me, I will slap you. - A mother warns her child. \n Assumptions: \n I.With the warning, the child may stop troubling her. II.All children are basically naughty."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup5StatementAssumptions">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Only assumption I is implicit
+"
+                    android:id="@+id/radioButton17StatementAssumptions"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton18StatementAssumptions"
+                    android:text="B)Only assumption II is implicit
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton19StatementAssumptions"
+                    android:text="C)Either I or II is implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton20StatementAssumptions"
+                    android:text="D)Neither I nor II is implicit"></RadioButton>
+
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer5StatementAssumptions"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer5StatementAssumptions"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option A
+                        \n The mother warns her child with the expectation that he would stop troubling her. So, I is implicit. The general \n nature of children cannot be derived from the statement. So, II is not implicit.
+"
+                        android:id="@+id/textAnswer5StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion6StatementAssumptions"
+                android:text="6)Statement:The State government has decided to appoint four thousand primary school teachers during the next financial year. \n Assumptions: \n I.
+There are enough schools in the state to accommodate four thousand additional primary school teachers. \n II.The eligible candidates may not be interested to apply as the government may not finally appoint such a large number of primary school teachers.
+                               "></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup6StatementAssumptions">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Only assumption I is implicit
+"
+                    android:id="@+id/radioButton21StatementAssumptions"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton22StatementAssumptions"
+                    android:text="B)Only assumption II is implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton23StatementAssumptions"
+                    android:text="C)Either I or II is implicit
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton24StatementAssumptions"
+                    android:text="D)Neither I nor II is implicit"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer6StatementAssumptions"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer6StatementAssumptions"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option A
+                      \n
+Such decisions as given in the statement are taken only after taking the existing vacancies into consideration. So, I implicit while II isn't.
+"
+                        android:id="@+id/textAnswer6StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion7StatementAssumptions"
+                android:text="7.Statement: In order to reduce the gap between income and expenditure, the company has decided to increase the \n price of its product from next month.\n Assumptions: \n I.The rate will remain more or less same after the increase. \n II.The expenditure will more or less remain the same in near future. \n III.The rival companies will also increase the price of the similar product.
+                     "></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup7StatementAssumptions">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Only I and II are implicit"
+                    android:id="@+id/radioButton25StatementAssumptions"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton26StatementAssumptions"
+                    android:text="B)Only II and III are implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton27StatementAssumptions"
+                    android:text="C)Only III is implicit
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton28StatementAssumptions"
+                    android:text="D)None of these
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer7StatementAssumptions"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer7StatementAssumptions"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="8"
+                        android:maxLines="8"
+                        android:singleLine="false"
+                        android:text="Answer : Option D
+                        \n
+Clearly, the company intends to reduce the gap between income and expenditure by increasing the price of its \n product i.e. by keeping the expenditure unaltered and increasing the income only. So, II is implicit while I is not.\n However, the rival companies may or may not follow the same pursuit. So, III is not implicit.
+
+
+"
+                        android:id="@+id/textAnswer7StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion8StatementAssumptions"
+                android:text="8.Statement: 'Several labour and industrial courts in this State have no proper premises. Vacancies of judges and \n stenos are kept pending.' - A statement of a retired judge of State X. \n Assumptions: \n I.
+Adequate number of staff and judges helps in the smooth functioning of the industrial and labour courts.\n II.The State is not bothered about the condition of the labour and industrial courts. \n III.Physical facilities of an office help in increasing efficiency of its employees.
+
+"></TextView>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup8StatementAssumptions">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A.Only I and III are implicit
+
+"
+                    android:id="@+id/radioButton29StatementAssumptions"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton30StatementAssumptions"
+                    android:text="B.Only II is implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton31StatementAssumptions"
+                    android:text="C.Only II and III are implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton32StatementAssumptions"
+                    android:text="D.All I, II and III are implicit
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer8StatementAssumptions"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer8StatementAssumptions"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option D
+                  \n  Explanation: The statement expresses grave concern over the lack of proper premises and inadequate staff in labour and \n industrial courts. This implies that adequate staff is a must to serve the purpose of these courts and a proper office \n only can ensure their smooth functioning. So, both I and III are implicit. The lack of facilities to the courts also \n indicates the state's negligent attitude to the condition of the courts. So, II is also implicit.
+"
+                        android:id="@+id/textAnswer8StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion9StatementAssumptions"
+                android:text="9)\n Statements: A rare opportunity to be a professional while you are at home.- An advertisement for computer literate All idols are curtains housewives by a computer company. \n Assumptions: \n I.Some housewives simultaneously desire to become professional. \n IT.Computer industry is growing at a fast pace. \n III.It is possible to be a professional as well as a housewife.
+                  "></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup9StatementAssumptions">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Only I and II are implicit
+"
+                    android:id="@+id/radioButton33StatementAssumptions"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton34StatementAssumptions"
+                    android:text="B)Only II and III are implicit "></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton35StatementAssumptions"
+                    android:text="C)Only I and III are implicit"></RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton36StatementAssumptions"
+                    android:text="D)Only II is implicit"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer9StatementAssumptions"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer9StatementAssumptions"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="8"
+                        android:maxLines="8"
+                        android:singleLine="false"
+                        android:text="Answer : Option C
+                   \n Explanation: \n Clearly, a company would highlight only that feature in its advertisement which people crave for and which it can  \n make possible. So, both I and III are implicit. Nothing can be deduced about the growth of computer industry. So, II \n is not implicit.
+"
+                        android:id="@+id/textAnswer9StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion10StatementAssumptions"
+                android:text="10)Statements:Pramod decided to get the railway reservation in May, for the journey he wants to make in July, to Madras. \n Assumptions: \n I.The railways issues reservations two months in advance. \n II.There are more than one trains to Madras. \n III.There will be vacancy in the desired class. "></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup10StatementAssumptions">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A.Only I is implicit"
+                    android:id="@+id/radioButton37StatementAssumptions"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton38StatementAssumptions"
+                    android:text="B.Only II and III are implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton39StatementAssumptions"
+                    android:text="C.Only I and III are implicit"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton40StatementAssumptions"
+                    android:text="D.All are implicit"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer10StatementAssumptions"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer10StatementAssumptions"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="8"
+                        android:maxLines="8"
+                        android:singleLine="false"
+                        android:text="Answer : Option A
+                    \n Explanation: \n Clearly, since Pramod decides to get the reservation in May for the journey in July, so I is implicit. The number of \n trains to Madras or the position of vacancies in different classes cannot be deduced from the given statement. So,
+                    \n neither II nor III is implicit.
+
+
+"
+                        android:id="@+id/textAnswer10StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

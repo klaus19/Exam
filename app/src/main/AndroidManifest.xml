@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tejas.exam">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Exam">
+        <activity
+            android:name=".dominika.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tejas.exam.dominika.HomeActivity" />
+        <activity android:name="com.tejas.exam.dominika.Instagram" />
+        <activity android:name="com.tejas.exam.dominika.Syllabus" />
+        <activity android:name="com.tejas.exam.dominika.Aptitude" />
+        <activity android:name="com.tejas.exam.dominika.Arithmetic" />
+        <activity android:name="com.tejas.exam.dominika.Reasoning" />
+        <activity android:name="com.tejas.exam.dominika.Technical" />
+        <activity android:name=".quantitative.TrainsProblems"/>
+        <activity android:name=".quantitative.SimpleInterestProblems"/>
+        <activity android:name=".quantitative.ProfitLossProblems"/>
+        <activity android:name=".quantitative.Percentage"/>
+        <activity android:name=".quantitative.Calendar"/>
+        <activity android:name=".quantitative.Average"/>
+        <activity android:name=".quantitative.HCF"/>
+        <activity android:name=".quantitative.Simplification"/>
+        <activity android:name=".quantitative.Boats"/>
+        <activity android:name=".quantitative.Odd"/>
+        <activity android:name=".quantitative.TimeDistance"/>
+        <activity android:name=".quantitative.TimeWork"/>
+        <activity android:name=".quantitative.CompundInterest"/>
+        <activity android:name=".quantitative.Partnership"/>
+        <activity android:name=".quantitative.Ages"/>
+        <activity android:name=".quantitative.Clock"/>
+        <activity android:name=".quantitative.Area"/>
+        <activity android:name=".quantitative.Permutation"/>
+        <activity android:name=".dominika.ReasoningLogic"/>
+        <activity android:name=".reasoning.Analogies"/>
+        <activity android:name=".reasoning.NumberSeries"/>
+        <activity android:name=".reasoning.VerbalClassification"/>
+        <activity android:name=".dominika.Logical"/>
+        <activity android:name=".reasoning.MatchingDefinition"/>
+        <activity android:name=".reasoning.VerbalReasoning"/>
+        <activity android:name=".reasoning.CauseEffect"/>
+        <activity android:name=".reasoning.LogicalProblems"/>
+        <activity android:name=".reasoning.CourseOfAction"/>
+        <activity android:name=".reasoning.LogicalDeduction"/>
+        <activity android:name=".reasoning.StatementAssumptions"/>
+        <activity android:name=".technical.ControlSystems"/>
+        <activity android:name=".technical.DigitalElectronics"/>
+        <activity android:name=".technical.AnalogandDigitalCommunication"/>
+        <activity android:name=".technical.AnalogElectronics"/>
+        <activity android:name=".dominika.Technical"/>
+        <activity android:name=".technical.ElectricCircuits"/>
+        <activity android:name=".technical.ElectricalInstruments"/>
+        <activity android:name=".technical.ElectricalDrives"/>
+        <activity android:name=".technical.ElectricalMachines"/>
+        <activity android:name=".technical.ElectromagneticField"/>
+        <activity android:name=".technical.EngineeringMaterials"/>
+        <activity android:name=".technical.EngineeringMathematics"/>
+        <activity android:name=".technical.HeatingAndWelding"/>
+        <activity android:name=".technical.Illumination"/>
+        <activity android:name=".technical.Microprocessors"/>
+        <activity android:name=".technical.PowerElectronics"/>
+        <activity android:name=".dominika.Verbal"/>
+        <activity android:name=".verbal.LogicalSequence"/>
+        <activity android:name=".verbal.Syllogism"/>
+        <activity android:name=".verbal.BloodRelation"/>
+        <activity android:name=".verbal.VerbalAnalogy"/>
+        <activity android:name=".verbal.Classification"/>
+        <activity android:name=".verbal.ArithmeticReasoning"/>
+        <activity android:name=".verbal.SeriesCompletion"/>
+        <activity android:name=".verbal.SittingArrangement"/>
+        <activity android:name=".reasoning.ArtificialLanguage"/>
+        <activity android:name=".reasoning.CourseAction"/>
+        <activity android:name=".verbal.DirectionTest"/>
+        <activity android:name=".dominika.Marathi"/>
+    </application>
+
+</manifest>

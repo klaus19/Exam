@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/nestedView1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion1MatchingDefintion"
+                android:text="1)Applying for Seasonal Employment occurs when a person requests to be considered for a job that is dependent on a particular season or time of year.\n Which situation below is the best example of Applying for Seasonal Employment?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup1MatchingDefintion">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)The ski instructors at Top of the Peak Ski School work from December through March."
+                    android:id="@+id/radioButton1MatchingDefintion"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton2MatchingDefintion"
+                    android:text="B)Matthew prefers jobs that allow him to work outdoors.
+
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton3MatchingDefintion"
+                    android:text="C)Lucinda makes an appointment with the beach resort restaurant manager to interview for the summer waitressing position that was advertised in the newspaper."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton4MatchingDefintion"
+                    android:text="D)Doug's ice cream shop stays open until 11 p.m. during the summer months."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:clickable="true"
+                android:onClick="toggle_contents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer1MatchingDefintion"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedView1MatchingDefintion"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text=" Answer : Option C
+                        \n Although the ski instructors at Top of the Peak Ski School do work seasonally, choice a does not describe anyone applying for seasonal employment. In choice b, the statement that Matthew likes to work outdoors tells us nothing about seasonal employment or someone applying for it. And although choice d describes a business with seasonal hours, it does not describe a person applying for seasonal work. Choice c, on the other hand, very specifically depicts a person, Lucinda,\n who is applying for a job as a summer waitress at a beach resort, which is dependent upon a particular season of the year.
+
+"
+                        android:id="@+id/textAnswer1MatchingDefintion"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion2MatchingDefintion"
+                android:text="2)Violating an Apartment Lease occurs when a tenant does something prohibited by the legally binding document that he or she has signed with a landlord. Which situation below is the best example of Violating an Apartment Lease?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup2MatchingDefintion">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Tim has decided to move to another city, so he calls his landlord to tell him that he is not interested in renewing his lease when it expires next month
+"
+                    android:id="@+id/radioButton5MatchingDefintion"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton6MatchingDefintion"
+                    android:text="B)Valerie recently lost her job and, for the last three months, has neglected to pay her landlord the monthly rent they agreed upon in writing when she moved into her apartment eight months ago."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton7MatchingDefintion"
+                    android:text="C)Mark writes a letter to his landlord that lists numerous complaints about the apartment he has agreed to rent for two years."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton8MatchingDefintion"
+                    android:text="D)Leslie thinks that her landlord is neglecting the building in which she rents an apartment. She calls her attorney to ask for advice."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer2MatchingDefintion"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer2MatchingDefintion"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option B
+                           Valerie signed a legally binding document that requires her to pay a monthly rent for her apartment and she has failed to do this for the last three months.\n Therefore, she has violated her apartment lease..
+"
+
+                        android:id="@+id/textAnswer2MatchingDefintion"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion3MatchingDefintion"
+                android:text="3)
+Posthumous Publication occurs when a book is published after the author's death. Which situation below is the best example of Posthumous Publication ?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup3MatchingDefintion">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Richard's illness took his life before he was able to enjoy the amazing early reviews of his novel."
+                    android:id="@+id/radioButton9MatchingDefintion"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton10MatchingDefintion"
+                    android:text="B)Melissa's publisher cancels her book contract after she fails to deliver the manuscript on time."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton11MatchingDefintion"
+                    android:text="C)Clarence never thought he'd live to see the third book in his trilogy published."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton12MatchingDefintion"
+                    android:text="D)Elizabeth is honored with a prestigious literary award for her writing career and her daughter accepts the award on behalf of her deceased mother."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer3MatchingDefintion"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer3MatchingDefintion"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option A
+                 \n Although choice d also mentions a writer who has died, it does not state that one of the writer's books was published after her death, only that she received an award. Choice a states that Richard wasn't around to see the early reviews of his novel, therefore implying that Richard died before the book was published.\n The other two options depict living writers.
+
+"
+                        android:id="@+id/textAnswer3MatchingDefintion"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion4MatchingDefintion"
+                android:text="4)A Guarantee is a promise or assurance that attests to the quality of a product that is either (1) given in writing by the manufacturer or (2) given verbally by the person selling the product.\n Which situation below is the best example of a Guarantee?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup4MatchingDefintion">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Melissa purchases a DVD player with the highest consumer ratings in its category."
+                    android:id="@+id/radioButton13MatchingDefintion"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton14MatchingDefintion"
+                    android:text="B)The salesperson advises Curt to be sure that he buys an air conditioner with a guarantee."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton15MatchingDefintion"
+                    android:text="C)The local auto body shop specializes in refurbishing and selling used cars."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton16MatchingDefintion"
+                    android:text="D)Lori buys a used digital camera from her coworker who says that she will refund Lori's money if the camera's performance is not of the highest quality."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer4MatchingDefintion"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer4MatchingDefintion"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option D
+                        Choices a, b, and c do not describe situations in which a product is guaranteed. \n Only choice d reflects a situation in which a seller attests to the quality of a product by giving the buyer a promise or assurance about its quality.
+                         "
+                        android:id="@+id/textAnswer4MatchingDefintion"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion5MatchingDefintion"
+                android:text="5)The rules of baseball state that a batter Legally Completes His Time at Bat when he is put out or becomes a base runner. Which situation below is the best example of a batter Legally Completing His Time at Bat?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup5MatchingDefintion">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Jared's blooper over the head of the short-stop puts him in scoring position
+"
+                    android:id="@+id/radioButton17MatchingDefintion"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton18MatchingDefintion"
+                    android:text="B)The umpire calls a strike, even though the last pitch was way outside.
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton19MatchingDefintion"
+                    android:text="C)The pitcher throws his famous knuckleball, Joe swings and misses, and the umpire calls a strike.
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton20MatchingDefintion"
+                    android:text="D)The count is two balls and two strikes as Mario waits for the next pitch."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer5MatchingDefintion"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer5MatchingDefintion"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option A
+                   \n The fact that Jared is in scoring position due to his blooper indicates that he has hit the ball and is now a base runner; therefore, he has legally completed his time at bat. Choices b and c both describe situations in which a strike is called, but they do not state that the batter has been put out or that he is now a base runner. Choice d describes a situation in which the batter, Mario, is still at the plate waiting for the next pitch.
+"
+                        android:id="@+id/textAnswer5MatchingDefintion"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion6MatchingDefintion"
+                android:text="6)Erratic Behavior occurs when an individual acts in a manner that lacks consistency, regularity, and uniformity. Which situation below is the best example of Erratic Behavior?
+                               "></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup6MatchingDefintion">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Julia cannot contain her anger whenever the subject of local politics is discussed.
+"
+                    android:id="@+id/radioButton21MatchingDefintion"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton22MatchingDefintion"
+                    android:text="B)Martin has just been told that he is being laid off. Before leaving his supervisor's office, he punches a hole in the door."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton23MatchingDefintion"
+                    android:text="C)Rhonda has visited the dealership several times, but she still cannot decide which car to buy.
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton24MatchingDefintion"
+                    android:text="D)In the past month, Jeffrey, who has been a model employee for three years, has repeatedly called in sick, forgotten important meetings, and been verbally abusive to colleagues."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer6MatchingDefintion"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer6MatchingDefintion"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option D
+                    Jeffrey's recent behavior is clearly inconsistent and irregular.
+
+"
+                        android:id="@+id/textAnswer6MatchingDefintion"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion7MatchingDefintion"
+                android:text="7)A Tiebreaker is an additional contest or period of play designed to establish a winner among tied contestants.\n Which situation below is the best example of a Tiebreaker?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup7MatchingDefintion">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)At halftime, the score is tied at 28."
+                    android:id="@+id/radioButton25MatchingDefintion"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton26MatchingDefintion"
+                    android:text="B)Mary and Megan have each scored three goals in the game."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton27MatchingDefintion"
+                    android:text="C)The referee tosses a coin to decide which team will have possession of the ball first.
+"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton28MatchingDefintion"
+                    android:text="D)The Sharks and the Bears each finished with 14 points, and they are now battling it out in a five-minute overtime.
+
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer7MatchingDefintion"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer7MatchingDefintion"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option D
+                       \n This is the only choice that indicates that an additional period of play is taking place to determine the winner of a game that ended in a tie.
+
+
+"
+                        android:id="@+id/textAnswer7MatchingDefintion"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion8MatchingDefintion"
+                android:text="8)It is appropriate to compensate someone if you have damaged his or her property in some way. This is called Restitution.\n Which situation below is the best example of Restitution?
+"></TextView>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup8MatchingDefintion">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Jake borrows Leslie's camera and the lens shatters when it falls on the ground because he fails to zipper the case.When Jake returns the camera, he tells Leslie that he will pay for the repair.
+"
+                    android:id="@+id/radioButton29MatchingDefintion"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton30MatchingDefintion"
+                    android:text="B)Rebecca borrows her neighbor's car, and when she returns it, the gas tank is practically empty. She apologizes profusely and tells her neighbor she will be more considerate the next time."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton31MatchingDefintion"
+                    android:text="C)Aaron asks Tom to check in on his apartment while he is out of town. When Tom arrives, he discovers that a pipe has burst and there is a considerable amount of water damage. He calls a plumber to repair the pipe."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton32MatchingDefintion"
+                    android:text="D)Lisa suspects that the pothole in her company's parking lot caused her flat tire. She tells her boss that she thinks the company should pay for the repair.
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer8MatchingDefintion"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer8MatchingDefintion"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option A
+                   \n Jake damaged Leslie's camera while it was in his possession and he has agreed to compensate Leslie for the cost of the repair.
+
+"
+                        android:id="@+id/textAnswer8MatchingDefintion"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion9MatchingDefintion"
+                android:text="9)
+Embellishing the Truth occurs when a person adds fictitious details or exaggerates facts or true stories. Which situation below is the best example of Embellishing the Truth?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup9MatchingDefintion">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Isabel goes to the theater, and the next day, she tells her coworkers she thought the play was excellent.
+
+"
+                    android:id="@+id/radioButton33MatchingDefintion"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton34MatchingDefintion"
+                    android:text="B)The realtor describes the house, which is eleven blocks away from the ocean, as prime waterfront property."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton35MatchingDefintion"
+                    android:text="C)During the job interview, Fred, who has been teaching elementary school for ten years, describes himself as a very experienced teacher."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton36MatchingDefintion"
+                    android:text="D)The basketball coach says it is likely that only the most talented players will get a college scholarship.
+
+"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer9MatchingDefintion"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer9MatchingDefintion"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option B
+                 \n The realtor is using a clear exaggeration when she states that a house which is eleven blocks away from the ocean is prime waterfront property.
+
+"
+                        android:id="@+id/textAnswer9MatchingDefintion"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion10MatchingDefintion"
+                android:text="10)Establishing a Power of Attorney occurs when a legal document is created that gives one individual the authority to act for another. Which situation below is the best example of Establishing a Power of Attorney?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup10MatchingDefintion">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Louise is selling her house and she hires a lawyer to review the contract."
+                    android:id="@+id/radioButton37MatchingDefintion"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton38MatchingDefintion"
+                    android:text="B)Simone's mother can no longer get to the bank to cash her checks and make deposits, so she has taken legal steps to enable Simone to do these things for her."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton39MatchingDefintion"
+                    android:text="C)Jack's father is elderly and Jack thinks he is no longer able to make decisions for himself."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton40MatchingDefintion"
+                    android:text="D)At her daughter's urging, Mrs.Lenox opens up a retirement account with the local bank."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer10MatchingDefintion"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer10MatchingDefintion"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:text="Answer : Option B
+                 \n Simone's mother has taken legal steps to allow another person to act on her behalf.\n Therefore, this is the only choice that indicates that a power of attorney has been established.
+"
+                        android:id="@+id/textAnswer10MatchingDefintion"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

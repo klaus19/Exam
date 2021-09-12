@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".quantitative.fragments.PartnershipProblems">
+
+        <androidx.core.widget.NestedScrollView
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:id="@+id/nestedView1"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_Question1_Partnership"
+                    android:text="1)A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is Rs. 855, the total profit is:
+"></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup1_Partnership">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)Rs. 1425
+"
+                        android:id="@+id/radioButton1_Partnership"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton2_Partnership"
+                        android:text="B)Rs. 1500"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton3_Partnership"
+                        android:text="C)Rs. 1537.50"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton4_Partnership"
+                        android:text="D)Rs. 1576"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:clickable="true"
+                    android:onClick="toggle_contents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/textViewAnswer1_Partnership"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedView2_Partnership"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:text=" Answer : Option B
+\n Let the total profit be Rs. 100.
+\n After paying to charity, A's share = Rs.(95 x 3/5) = Rs.57
+\n If A's share is Rs. 57, total profit = Rs. 100.
+\n If A's share Rs. 855, total profit = (100 x 855/57)= 1500.
+"
+                            android:id="@+id/textAnswer1_Partnership"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion2_Partnership"
+                    android:text="2)
+A, B and C jointly thought of engaging themselves in a business venture. It was agreed that A would invest Rs. 6500 for 6 months, B, Rs. 8400 for 5 months and C, Rs. 10,000 for 3 months. A wants to be the working member for which, he was to receive 5% of the profits. The profit earned was Rs. 7400. Calculate the share of B in the profit.
+"></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup2_Partnership">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)Rs. 1900"
+                        android:id="@+id/radioButton5_Partnership"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton6_Partnership"
+                        android:text="B)Rs. 2660
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton7_Partnership"
+                        android:text="C)Rs. 2800"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton8_Partnership"
+                        android:text="D)Rs. 2840"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/textViewAnswer2_Partnership"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer2_Partnership"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:text="Answer : Option B
+                        \n Explanation :-
+                        \n For managing, A received = 5% of Rs. 7400 = Rs. 370.
+                        \n Balance = Rs. (7400 - 370) = Rs. 7030.
+                        \n Ratio of their investments = (6500 x 6) : (8400 x 5) : (10000 x 3)
+                        \n =39000 : 42000 : 30000
+                        \n =13 : 14 : 10
+                        \n B's share = Rs.(7030 x	14/37)= Rs. 2660.
+"
+
+                            android:id="@+id/textAnswer2_Partnership"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion3_Partnership"
+                    android:text="3)A, B, C subscribe Rs. 50,000 for a business. A subscribes Rs. 4000 more than B and B Rs. 5000 more than C. Out of a total profit of Rs. 35,000, A receives:"></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup3_Partnership">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)Rs. 8400"
+                        android:id="@+id/radioButton9_Partnership"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton10_Partnership"
+                        android:text="B)Rs. 11,900"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton11_Partnership"
+                        android:text="C)Rs. 13,600"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton12_Partnership"
+                        android:text="D)Rs. 14,700
+"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/textViewAnswer3_Partnership"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer3_Partnership"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:text="Answer : Option D
+                    \n Explanation:Let C = x.
+                    \n Then, B = x + 5000 and A = x + 5000 + 4000 = x + 9000.
+                    \n So, x + x + 5000 + x + 9000 = 50000
+                    \n 3x = 36000
+                    \n x = 12000
+                    \n A : B : C = 21000 : 17000 : 12000 = 21 : 17 : 12.
+                    \n A's share = Rs.(35000 x	21/50)= Rs. 14,700.
+"
+                            android:id="@+id/textAnswer3_Partnership"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion4_Partnership"
+                    android:text="4)Three partners shared the profit in a business in the ratio 5 : 7 : 8. They had partnered for 14 months, 8 months and 7 months respectively. What was the ratio of their investments?"></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup4_Partnership">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)5 : 7 : 8"
+                        android:id="@+id/radioButton13_Partnership"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton14_Partnership"
+                        android:text="B)20 : 49 : 64"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton15_Partnership"
+                        android:text="C)38 : 28 : 21"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton16_Partnership"
+                        android:text="D)None of these"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/textViewAnswer4_Partnership"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer4_Partnership"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:text="Answer : Option B
+                        \n Explanation:
+                        \n Let their investments be Rs. x for 14 months, Rs. y for 8 months and Rs. z for 7 months respectively.
+                        \n Then, 14x : 8y : 7z = 5 : 7 : 8.
+                        \n Now,	14x/8y	= 5/7
+                        \n 98x = 40y, so  y =	49x/20
+                        \n And,	14x/7z = 5/8
+                        \n 112x = 35z  So,z =	112x/35 = 16x/5
+                        \n x : y : z = x :	49x/20:16x/5 = 20 : 49 : 64.
+"
+                            android:id="@+id/textAnswer4_Partnership"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion5_Partnership"
+                    android:text="5)How much did Rohit get as profit at the year-end in the business done by Nitin, Rohit and Kunal?
+I.Kunal invested Rs. 8000 for nine months, his profit was  times that of Rohit's and his investment was four times that of Nitin.
+II.Nitin and Rohit invested for one year in the proportion 1 : 2 respectively.
+III.The three together got Rs. 1000 as profit at the year end.
+"></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup5_Partnership">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)Only I and II
+"
+                        android:id="@+id/radioButton17_Partnership"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton18_Partnership"
+                        android:text="B)Only I and III
+
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton19_Partnership"
+                        android:text="C)Question cannot be answered even with the information in all the three statements."></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton20_Partnership"
+                        android:text="D)All I, II and III"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/textViewAnswer5_Partnership"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer5_Partnership"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:text="Answer : Option D
+                     \n Explanation:Amount =  I and II give:
+                     \n K = Rs. (8000 x 9) for 1 month = Rs. 72000 for 1 month.
+                     \n N = Rs. (1/4 x 8000 x 12)for 1 month =  Rs. 24000 for 1 month.
+                     \n R = Rs. 48000 for 1 month.
+                     \n So,K : N : R = 72000 : 24000 : 48000 = 3 : 1 : 2.
+                     \n III gives, total profit = Rs. 1000.
+                     \n So, Rohit's share = Rs.(1000 x	2/6) = Rs 333 1/3
+                     \n Correct answer is (D).
+           "
+                            android:id="@+id/textAnswer5_Partnership"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion6_Partnership"
+                    android:text="6)What is R's share of profit in a joint venture?
+I.Q started business investing Rs. 80,000.
+II.R joined him after 3 months.
+III.P joined after 4 months with a capital of Rs. 1,20,000 and got Rs. 6000 as his share profit."></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup6_Partnership">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)All I, II and III
+"
+                        android:id="@+id/radioButton21_Partnership"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton22_Partnership"
+                        android:text="B)I and III only"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton23_Partnership"
+                        android:text="C)II and III only"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton24_Partnership"
+                        android:text="D)Even with all I, II and III, the answer cannot be arrived at
+"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/textViewAnswer6_Partnership"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer6_Partnership"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:text="Answer : Option D
+                    \n Explanation:
+                    \n From I, II and III, we get P : Q : R = (120000 x 8) : (80000 x 12) : (x x 9).
+                    \n Since R's investment is not given, the above ratio cannot be give.
+                    \n So,Given data is inadequate.
+"
+                            android:id="@+id/textAnswer6_Partnership"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion7_Partnership"
+                    android:text="7)Ravi, Gagan and Nitin are running a business firm in partnership. What is Gagan's share in the profit earned by them?
+
+I.Ravi, Gagan and Nitin invested the amounts in the ratio of 2 : 4 : 7.
+II.Nitin's share in the profit is Rs. 8750."></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup7_Partnership">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)I alone sufficient while II alone not sufficient to answer
+"
+                        android:id="@+id/radioButton25_Partnership"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton26_Partnership"
+                        android:text="B)II alone sufficient while I alone not sufficient to answer"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton27_Partnership"
+                        android:text="C)Either I or II alone sufficient to answer"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton28_Partnership"
+                        android:text="D)Both I and II are necessary to answer
+
+"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/textViewAnswer7_Partnership"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer7_Partnership"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:text="Answer : Option D
+                        \n Let us name Ravi, Gagan and Nitin by R, G and N respectively.
+                        \n I. R : G : N = 2 : 4 : 7.
+                        \n II. N = 8750..
+                        \n From I and II, we get:
+                        \n When N = 7, then G = 4.
+                        \n When N = 8750, then G = (4/7	x 8750) = 5000
+                        \n Thus, both I and II are needed to get the answer.
+                        \n So,Correct answer is (D).
+"
+                            android:id="@+id/textAnswer7_Partnership"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion8_Partnership"
+                    android:text="8)Rahul, Anurag and Vivek started a business together. In what proportion would the annual profit be distributed among them?
+I.Rahul got one-fourth of the profit.
+II.Rahul and Vivek contributed 75% of the total investment."></TextView>
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup8_Partnership">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)I alone sufficient while II alone not sufficient to answer
+"
+                        android:id="@+id/radioButton29_Partnership"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton30_Partnership"
+                        android:text="B)II alone sufficient while I alone not sufficient to answer"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton31_Partnership"
+                        android:text="C)Either I or II alone sufficient to answer"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton32_Partnership"
+                        android:text="D)Both I and II are necessary to answer"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/textViewAnswer8_Partnership"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer8_Partnership"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:text="Answer : Option D
+                    \n Explanation: Let the total investment be Rs. x.
+                    \n Then, R = (x/4)
+                    \n R + V =	(75/100	x x) = 	3x/4
+                    \n V = (3x/4 - x/4) = x/2
+                    \n So,A = x - (x/4	+	x/2) = x/4
+                    \n R : A : V = x/4	: x/4 : x/2 = 1 : 1 : 2.
+                    \n Thus, both I and II are needed to get the answer.
+                    \n So, Correct answer is (D)
+"
+                            android:id="@+id/textAnswer8_Partnership"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion9_Partnership"
+                    android:text="9)Three friends, P, Q and R started a partnership business investing money in the ratio of 5 : 4 : 2 respectively for a period of 3 years. What is the amount received by P as his share profit?
+I.Total amount invested in the business in Rs. 22,000.
+II.Profit earned at the end of 3 years is 3/8th of the total investment.
+III.The average amount of profit earned per year is Rs. 2750."></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup9_Partnership">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)I or II or III
+"
+                        android:id="@+id/radioButton33_Partnership"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton34_Partnership"
+                        android:text="B)Either III only, or I and II together
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton35_Partnership"
+                        android:text="C)Any two of the three"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton36_Partnership"
+                        android:text="D)All I, II and III are required."></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/textViewAnswer9_Partnership"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer9_Partnership"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:text="Answer : Option B
+                       \n Explanation:
+                       \n I and II give, profit after 3 years = Rs. (3/8 x 22000) = Rs. 8250.
+                       \n From III also, profit after 3 years = Rs. (2750 x 3) = Rs. 8250.
+                       \n So,  P's share = Rs.(8250 x	5/11)= Rs. 3750.
+                       \n Thus, (either III is redundant [or] I and II are redundant).
+                       \n So,Correct answer is (B).
+"
+                            android:id="@+id/textAnswer9_Partnership"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+</FrameLayout>

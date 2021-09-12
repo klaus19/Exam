@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quantitative.fragments.AgesFormulas">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayoutProfit">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nestProfitFormula">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="100dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/txtPercentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Important Formulas on Problems of Ages"
+                    android:textStyle="bold"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtConceptPercentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" If the current age is x, then n times the age is nx."
+                    android:gravity="center"
+                    android:layout_below="@id/txtPercentage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txtPercentageIncreaseDecrease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If the current age is x, then age n years later/hence = x + n."
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@id/txtConceptPercentage"
+                    android:textSize="20sp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtConceptPercentageIncrease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtPercentageIncreaseDecrease"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="If the current age is x, then age n years ago \n = x - n.
+"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtResultsonPopulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The ages in a ratio a : b will be ax and bx."
+                    android:gravity="center_horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@id/txtConceptPercentageIncrease"
+                    android:textSize="20sp"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txtPopulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If the current age is x, then	1/n	of the age is \n x/n
+"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/txtResultsonPopulation"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    ></TextView>
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+
+</FrameLayout>

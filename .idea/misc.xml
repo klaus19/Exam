@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/drawable/customshape.xml" value="0.2703125" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/drawable/gradient_drawable.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/drawable/ic_baseline_control_point_24.xml" value="0.25277777777777777" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.25277777777777777" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/_h_c_f_problem_fragment.xml" value="0.10478170478170479" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_analog_digital_communication.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_analog_electronics.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_analogies.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_arithmetic_reasoning.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_artificial_intelligence.xml" value="0.16626916524701874" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_bloodrelation.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_calendar.xml" value="0.22554347826086957" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_cause_effect.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_classification.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_control_systems.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_course_of_action.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_digital_electronics.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_direction_test.xml" value="0.19845465636437576" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_electric_circuits.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_electrical_instruments.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_electricomagnetic_field.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_engineering_mathematics.xml" value="0.20759962928637626" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_logical_deduction.xml" value="0.16815988973121984" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_logical_problems.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_logical_reasoning.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_logicalsequence.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_marathi.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_matching_defintion.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_number_series.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_percentage.xml" value="0.22554347826086957" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_reasoning.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_series_completion.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_sittingarrangement.xml" value="0.19983619983619982" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_statement_assumptions.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_syllabus.xml" value="0.264" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_syllogism.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_technical.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_verbal_classification.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_verbal_reasoning.xml" value="0.19845465636437576" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/activity_verbalanalogy.xml" value="0.17292700212615167" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/ages.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/aptitude.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/area.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/arithmetic.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/artificialintelligence.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/average.xml" value="0.2259963768115942" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/average_problems_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/boats.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/calender_problems_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/clock.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/compoundinterest.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/custom_list.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_ages_formulas.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_ages_problems.xml" value="0.17207334273624825" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_area_formulas.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_area_problems.xml" value="0.17868912486268765" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_average_formulas.xml" value="0.2259963768115942" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_boat_formula.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_boat_problem.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_calendar_formulas.xml" value="0.22554347826086957" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_clock_formulas.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_clock_problems.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_compund_interest_formulas.xml" value="0.24864130434782608" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_compund_interest_problem.xml" value="0.12899896800825594" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_h_c_f_formula.xml" value="0.2259963768115942" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_hcf_problem.xml" value="0.10344827586206896" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_odd_formula.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_odd_problem.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_partnership_formulas.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_partnership_problems.xml" value="0.1918238993710692" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_permutation_formulas.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_permutation_problem.xml" value="0.1752873563218391" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_simple_interest_formulas.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_simple_interest_problems.xml" value="0.17128817128817128" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_simplification_formula.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_simplification_problem.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_time_distance_formulas.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_time_distance_problems.xml" value="0.18208955223880596" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_time_work_formulas.xml" value="0.264" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_time_work_problems.xml" value="0.1757292041771696" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_train_formulas.xml" value="0.3819444444444444" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/fragment_train_problems.xml" value="0.20599409033347404" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/hcf.xml" value="0.2259963768115942" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/instagram_page.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/la.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/odd.xml" value="0.176" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/partnership.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/percent_problems_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/percentage_formulas_fragment.xml" value="0.22554347826086957" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/permutation.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/profitloss_formulas_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/profitloss_problems.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/profitloss_problems_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/prototype.xml" value="0.264" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/quantitative_arithmetic.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/simpleinterest_problems.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/simpleinterest_problems_fragment.xml" value="0.1734186211798152" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/simplification.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/timedistance.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/timework.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/train_problems_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/trains_problems.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PRATIK/AndroidStudioProjects/Exam/app/src/main/res/layout/verbal.xml" value="0.24682971014492755" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

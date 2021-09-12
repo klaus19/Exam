@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quantitative.fragments.BoatFormulaFragment">
+
+   <RelativeLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayoutProfit">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/nestProfitFormula">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/txtPercentage"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text="Downstream/Upstream:"
+                android:textStyle="bold"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/txtConceptPercentage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+               In water, the direction along the stream is called downstream. And, the direction against the stream is called upstream.
+"
+                android:gravity="center_horizontal"
+                android:layout_below="@id/txtPercentage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/txtPercentageIncreaseDecrease"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtConceptPercentage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text="If the speed of a boat in still water is u km/hr and the speed of the stream is v km/hr, then:
+
+"
+                android:textStyle="bold"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/txtConceptPercentageIncrease"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Speed downstream = (u + v) km/hr.
+                Speed upstream = (u - v) km/hr.
+"
+                android:gravity="center_horizontal"
+                android:layout_below="@id/txtPercentageIncreaseDecrease"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/txtConceptPercentageDecrease"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtConceptPercentageIncrease"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text=" If the speed downstream is a km/hr and the speed upstream is b km/hr, then:
+"
+                android:textStyle="bold"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/txtResultsonPopulation"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text=" Speed in still water =	1/2(a + b) km/hr.
+                                Rate of stream =	1/2(a - b) km/hr.
+"
+                android:gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/txtConceptPercentageDecrease"
+                android:textSize="20sp"
+                ></TextView>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
+
+</FrameLayout>
