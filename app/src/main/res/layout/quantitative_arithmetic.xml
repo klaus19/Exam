@@ -64,7 +64,7 @@
                         android:text="Arithmetic Problems"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:textColor="#000000"
+                        android:textColor="#005662"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
                 </LinearLayout></androidx.cardview.widget.CardView>
 
@@ -103,7 +103,7 @@
                         android:text="Books"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:textColor="#000000"
+                        android:textColor="#005662"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

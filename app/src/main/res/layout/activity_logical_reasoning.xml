@@ -63,7 +63,7 @@
                         android:text="Logical"
                         android:textSize="20sp"
                         android:textStyle="bold"
-                        android:textColor="#000000"
+                        android:textColor="#005662"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
                     <LinearLayout
                         android:layout_marginTop="10dp"
@@ -110,7 +110,7 @@
                         android:gravity="center_horizontal"
                         android:text="verbal"
                         android:textSize="20sp"
-                        android:textColor="#000000"
+                        android:textColor="#005662"
                         android:textStyle="bold"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
                 </LinearLayout>
@@ -155,6 +155,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:text="Books Enquiry"
+        android:textColor="#005662"
         android:textStyle="bold"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/add_alarm_fab"
@@ -184,6 +185,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:text="Take a Test"
+        android:textColor="#005662"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/add_person_fab"
