@@ -69,6 +69,177 @@ class CompundInterestProblem : Fragment() {
             if (binding.textAnswer10CompoundInterest.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
         }
 
+        //Usage of Scope function with()
+        with(binding){
+            txtViewAnswer13CompoundInterest.setOnClickListener {
+                textAnswer13CompoundInterest.visibility = if (textAnswer13CompoundInterest.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer14CompoundInterest.setOnClickListener {
+                textAnswer14CompoundInterest.visibility = if (textAnswer14CompoundInterest.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer15CompoundInterest.setOnClickListener {
+                textAnswer15CompoundInterest.visibility = if (textAnswer15CompoundInterest.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer16CompoundInterest.setOnClickListener {
+                textAnswer16CompoundInterest.visibility = if (textAnswer16CompoundInterest.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer17CompoundInterest.setOnClickListener {
+                textAnswer17CompoundInterest.visibility = if (textAnswer17CompoundInterest.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer18CompoundInterest.setOnClickListener {
+                textAnswer18CompoundInterest.visibility = if (textAnswer18CompoundInterest.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer19CompoundInterest.setOnClickListener {
+                textAnswer19CompoundInterest.visibility = if (textAnswer19CompoundInterest.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer20CompoundInterest.setOnClickListener {
+                textAnswer20CompoundInterest.visibility = if (textAnswer20CompoundInterest.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            
+            //Radio on checked Listener 
+            radioGroup11CompoundInterest.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton41CompoundInterest.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+
+            radioGroup12CompoundInterest.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton46CompoundInterest.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup13CompoundInterest.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton52CompoundInterest.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+
+            radioGroup14CompoundInterest.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton55CompoundInterest.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup15CompoundInterest.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton57CompoundInterest.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup16CompoundInterest.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton64CompoundInterest.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup17CompoundInterest.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton68CompoundInterest.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup18CompoundInterest.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton71CompoundInterest.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup19CompoundInterest.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton73CompoundInterest.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup20CompoundInterest.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton78CompoundInterest.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+        }
 
 //radio button
 
