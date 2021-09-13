@@ -560,7 +560,7 @@
                             android:visibility="invisible"
                             android:text="Answer : Option B
                     \n Explanation:
-                    \n P (1 +	20/100)n > 2P
+                    \n P (1 +20/100)n > 2P
                     \n =(6/5)n >2
                     \n Now, ( 6/5	x 6/5	x 6/5	x 6/5) > 2.
                     \n So, n= 4 years
@@ -693,6 +693,670 @@
 
 "
                             android:id="@+id/textAnswer10_CompoundInterest"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion11CompoundInterest"
+                    android:text="11)What is the rate of interest p.c.p.a.? I.An amount doubles itself in 5 years on simple interest. \n Difference between the compound interest and the simple interest earned on a certain amount in 2 years is Rs. 400. \n III.Simple interest earned per annum is Rs. 2000  "></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup11CompoundInterest">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)I only or II and III only "
+                        android:id="@+id/radioButton41CompoundInterest"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton42CompoundInterest"
+                        android:text="B)All I, II and III"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton43CompoundInterest"
+                        android:text="C)I only"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton44CompoundInterest"
+                        android:text="D)II and III only"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/txtViewAnswer11CompoundInterest"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer11CompoundInterest"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:lines="4"
+                            android:maxLines="6"
+                            android:singleLine="false"
+                            android:text="Answer : Option A \n I. P x R x 5/100 = P , So,R=20 \n II. P(1 +R/100)^2 -P-P x R x 2/100 = 400 , S0, PR^2=4000000
+                            \n III.P x R x 1/100 = 2000 So, PR = 200000. \n PR^2/PR = 4000000/200000 So,R = 20. \n Thus I only or (II and III) give answer. \n  Correct answer is (A).
+
+"
+                            android:id="@+id/textAnswer11CompoundInterest"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion12CompoundInterest"
+                    android:text="12)What will be the compound interest earned on an amount of Rs. 5000 in 2 years? \n I.The simple interest on the same amount at the same rate of interest in 5 years is Rs. 2000. \n II.The compound interest and the simple interest earned in one year is the same \n III.The amount becomed more than double on compound interest in 10 years.  "></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup12CompoundInterest">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)I and II only "
+                        android:id="@+id/radioButton45CompoundInterest"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton46CompoundInterest"
+                        android:text="B)I only"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton47CompoundInterest"
+                        android:text="C)II and III only"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton48CompoundInterest"
+                        android:text="D)I and III only"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/txtViewAnswer12CompoundInterest"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer12CompoundInterest"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:lines="4"
+                            android:maxLines="6"
+                            android:singleLine="false"
+                            android:text="Answer : Option B \n P = Rs. 5000 \n T = 2 years. \n I. S.I. on Rs. 5000 in 5 years is Rs. 2000. \n 5000 x R x 5/100 = 2000, So R=8 \n Thus I only gives the answer. \n Correct answer is (B).
+
+"
+                            android:id="@+id/textAnswer12CompoundInterest"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion13CompoundInterest"
+                    android:text="13)What is the rate of compound interest? \n I.The principal was invested for 4 years. \n  II.The earned interest was Rs. 1491."></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup13CompoundInterest">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)I alone sufficient while II alone not sufficient to answer"
+                        android:id="@+id/radioButton49CompoundInterest"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton50CompoundInterest"
+                        android:text="B)II alone sufficient while I alone not sufficient to answer"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton51CompoundInterest"
+                        android:text="C)Either I or II alone sufficient to answer"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton52CompoundInterest"
+                        android:text="D)Both I and II are not sufficient to answer"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/txtViewAnswer13CompoundInterest"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer13CompoundInterest"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:lines="4"
+                            android:singleLine="false"
+                            android:text="Answer : Option D \n Let Principal = Rs. P and Rate = R% p.a. Then, \n Amount = Rs[P(1+R/100)^4] \n So,C.I. = P[(1+R/100)^4 -1]
+                            \n P[(1+R/100)^4 -1] = 1491 \n Clearly, it does not give the answer.\n Correct answer is (D).
+
+"
+                            android:id="@+id/textAnswer13CompoundInterest"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion14CompoundInterest"
+                    android:text="14)What will be compounded amount? \n I.Rs. 200 was borrowed for 192 months at 6% compounded annually. \n II.Rs. 200 was borrowed for 16 years at 6%.    "></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup14CompoundInterest">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)I alone sufficient while II alone not sufficient to answer "
+                        android:id="@+id/radioButton53CompoundInterest"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton54CompoundInterest"
+                        android:text="B)II alone sufficient while I alone not sufficient to answer"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton55CompoundInterest"
+                        android:text="C)Either I or II alone sufficient to answer"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton56CompoundInterest"
+                        android:text="D)Both I and II are not sufficient to answer"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/txtViewAnswer14CompoundInterest"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer14CompoundInterest"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:lines="4"
+                            android:singleLine="false"
+                            android:text="Answer : Option C \n  I. Amount = Rs [200 x(1+6/100)^16] \n II. Amount = Rs[200 x(1+6/100)^16] \n Thus, I as well as II gives the answer.
+                            \n Correct answer is (C).
+
+"
+                            android:id="@+id/textAnswer14CompoundInterest"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion15CompoundInterest"
+                    android:text="15)An amount of money was lent for 3 years. What will be the difference between the simple and the compound interest earned on it at the same rate? \n I.The rate of interest was 8 p.c.p.a. \n II.The total amount of simple interest was Rs. 1200.  "></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup15CompoundInterest">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)Both I and II are necessary to answer"
+                        android:id="@+id/radioButton57CompoundInterest"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton58CompoundInterest"
+                        android:text="B)II alone sufficient while I alone not sufficient to answer"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton59CompoundInterest"
+                        android:text="C)Either I or II alone sufficient to answer"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton60CompoundInterest"
+                        android:text="D)I alone sufficient while II alone not sufficient to answe"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/txtViewAnswer15CompoundInterest"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer15CompoundInterest"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:lines="4"
+                            android:singleLine="false"
+                            android:text="Answer : Option A \n Given: T = 3 years \n I. gives: R = 8% p.a. \n II. gives: S.I. = Rs. 1200. \n Thus, P = Rs. 5000, R = 8% p.a. and T = 3 years. \n Difference between C.I. and S.I. may be obtained.\n So, the correct answer is (A).
+
+"
+                            android:id="@+id/textAnswer15CompoundInterest"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion16CompoundInterest"
+                    android:text="16)Mr. Gupta borrowed a sum of money on compound interest. What will be the amount to be repaid if he is repaying the entire amount at the end of 2 years? \n I.The rate of interest is 5 p.c.p.a. \n II.Simple interest fetched on the same amount in one year is Rs. 600. \n III.The amount borrowed is 10 times the simple interest in 2 years. "></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup16CompoundInterest">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)I only"
+                        android:id="@+id/radioButton61CompoundInterest"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton62CompoundInterest"
+                        android:text="B)III only"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton63CompoundInterest"
+                        android:text="C)I or II only"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton64CompoundInterest"
+                        android:text="D)II and Either I or III only"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/txtViewAnswer16CompoundInterest"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer16CompoundInterest"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:visibility="invisible"
+                            android:lines="4"
+                            android:maxLines="6"
+                            android:singleLine="false"
+                            android:text="Answer : Option D \n I. gives, Rate = 5% p.a. \n II. gives, S.I. for 1 year = Rs. 600 \n III. gives, sum = 10 x (S.I. for 2 years).
+                            \n Now I, and II give the sum \n For this sum, C.I. and hence amount can be obtained \n Thus, III is redundant. \n Again, II gives S.I. for 2 years = Rs. (600 x 2) = Rs. 1200.
+                            \n Now, from III, Sum = Rs. (10 x 1200) = Rs . 12000. \n Thus, Rate = 100 x 1200/2 x 12000 = 5% p.a. \n Thus, C.I. for 2 years and therefore, amount can be obtained.
+                            \n Thus, I is redundant. \n Hence, I or III redundant.
+
+"
+                            android:id="@+id/textAnswer16CompoundInterest"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion17CompoundInterest"
+                    android:text="17)What is the compound interest earned at the end of 3 years? \n I.Simple interest earned on that amount at the same rate and for the same period is Rs. 4500. \n II.The rate of interest is 10 p.c.p.a. \n III.Compound interest for 3 years is more than the simple interest for that period by Rs. 465. "></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup17CompoundInterest">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)I and II only"
+                        android:id="@+id/radioButton65CompoundInterest"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton66CompoundInterest"
+                        android:text="B)II and III only"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton67CompoundInterest"
+                        android:text="C)I and III only"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton68CompoundInterest"
+                        android:text="D)I and Either II or III only"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/txtViewAnswer17CompoundInterest"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer17CompoundInterest"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:lines="4"
+                            android:maxLines="6"
+                            android:singleLine="false"
+                            android:text="Answer : Option D \n I. gives, S.I for 3 years = Rs. 4500.\n II. gives, Rate = 10% p.a. \n III.III. gives, (C.I.) - (S.I.) = Rs. 465. \n Clearly, using I and III we get C.I. = Rs. (465 + 4500).
+                            \n Thus, II is redundant. \n Also, from I and II, we get sum = (100 x 4500/10 x 3) = 15000 \n Now C.I. on Rs. 15000 at 10% p.a. for 3 years may be obtained.
+                            \n Thus, III is redundant \n So, Either II or III is redundant.
+
+"
+                            android:id="@+id/textAnswer17CompoundInterest"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion18CompoundInterest"
+                    android:text="18)Simple interest on a certain sum of money for 3 years at 8% per annum is half the compound interest on Rs. 4000 for 2 years at 10% per annum. The sum placed on simple interest is: "></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup18CompoundInterest">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)Rs. 1550 "
+                        android:id="@+id/radioButton69CompoundInterest"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton70CompoundInterest"
+                        android:text="B)Rs. 1650"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton71CompoundInterest"
+                        android:text="C)Rs. 1750 "></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton72CompoundInterest"
+                        android:text="D)Rs. 2000"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/txtViewAnswer18CompoundInterest"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer18CompoundInterest"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:lines="4"
+                            android:singleLine="false"
+                            android:text="Answer : Option C \n C.I.= Rs [4000 x (1 + 10/100)^2 - 4000] \n = Rs(4000 x 11/10 x 11/10 - 4000) \n = Rs. 840.
+                            \n Sum = Rs.(420 x 100/3 x 8) = Rs.1750
+
+"
+                            android:id="@+id/textAnswer18CompoundInterest"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion19CompoundInterest"
+                    android:text="19)If the simple interest on a sum of money for 2 years at 5% per annum is Rs. 50, what is the compound interest on the same at the same rate and for the same time? "></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup19CompoundInterest">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)Rs. 51.25"
+                        android:id="@+id/radioButton73CompoundInterest"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton74CompoundInterest"
+                        android:text="B)Rs. 52"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton75CompoundInterest"
+                        android:text="C)Rs. 54.25"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton76CompoundInterest"
+                        android:text="D)Rs. 60"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/txtViewAnswer19CompoundInterest"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer19CompoundInterest"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:lines="4"
+                            android:singleLine="false"
+                            android:text="Answer : Option A \n Sum = Rs.(50 x 100/2 x 5) = Rs.500 \n Amount = Rs. [500 x (1 + 5/100)^2]
+                            \n = Rs(500 x 21/20 x 21/20) \n = Rs. 551.25 \n So,C.I. = Rs. (551.25 - 500) = Rs. 51.25
+
+"
+                            android:id="@+id/textAnswer19CompoundInterest"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textQuestion20CompoundInterest"
+                    android:text="20)The difference between simple interest and compound on Rs. 1200 for one year at 10% per annum reckoned half-yearly is: "></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup20CompoundInterest">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)Rs. 2.50"
+                        android:id="@+id/radioButton77CompoundInterest"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton78CompoundInterest"
+                        android:text="B)Rs.3"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton79CompoundInterest"
+                        android:text="C)Rs. 3.75"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton80CompoundInterest"
+                        android:text="D)Rs. 4"></RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Answer"
+                    android:textColor="#b4004e"
+                    android:id="@+id/txtViewAnswer20CompoundInterest"
+                    android:layout_gravity="center_horizontal"></TextView>
+                <androidx.core.widget.NestedScrollView
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="150dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/nestedViewAnswer20CompoundInterest"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:visibility="invisible"
+                            android:lines="4"
+                            android:singleLine="false"
+                            android:text="Answer : Option B \n S.I. = Rs (1200 x 10 x 1/100) = Rs. 120
+                            \n C.I. = Rs[1200 x(1+ 5/100)^2 - 1200] =Rs.123 \n Difference = Rs. (123 - 120) = Rs. 3.
+
+"
+                            android:id="@+id/textAnswer20CompoundInterest"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
 
