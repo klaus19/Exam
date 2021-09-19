@@ -103,7 +103,7 @@ class AgesProblems : Fragment() {
 
             radioGroup11AgeProblems.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
-                val isChecked = radioButton43AgeProblems.isChecked
+                val isChecked = radioButton41AgeProblems.isChecked
                 if (isChecked) {
                     Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
                         .withColor(Color.rgb(0, 128, 0))
@@ -118,7 +118,7 @@ class AgesProblems : Fragment() {
 
             radioGroup12AgeProblems.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
-                val isChecked = radioButton45AgeProblems.isChecked
+                val isChecked = radioButton46AgeProblems.isChecked
                 if (isChecked) {
                     Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
                         .withColor(Color.rgb(0, 128, 0))
@@ -161,7 +161,7 @@ class AgesProblems : Fragment() {
             })
             radioGroup15AgeProblems.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
-                val isChecked = radioButton58AgeProblems.isChecked
+                val isChecked = radioButton57AgeProblems.isChecked
                 if (isChecked) {
                     Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
                         .withColor(Color.rgb(0, 128, 0))
@@ -175,7 +175,7 @@ class AgesProblems : Fragment() {
             })
             radioGroup16AgeProblems.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
-                val isChecked = radioButton61AgeProblems.isChecked
+                val isChecked = radioButton62AgeProblems.isChecked
                 if (isChecked) {
                     Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
                         .withColor(Color.rgb(0, 128, 0))
@@ -189,7 +189,7 @@ class AgesProblems : Fragment() {
             })
             radioGroup17AgeProblems.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
-                val isChecked = radioButton66AgeProblems.isChecked
+                val isChecked = radioButton65AgeProblems.isChecked
                 if (isChecked) {
                     Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
                         .withColor(Color.rgb(0, 128, 0))
@@ -203,7 +203,7 @@ class AgesProblems : Fragment() {
             })
             radioGroup18AgeProblems.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
-                val isChecked = radioButton72AgeProblems.isChecked
+                val isChecked = radioButton69AgeProblems.isChecked
                 if (isChecked) {
                     Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
                         .withColor(Color.rgb(0, 128, 0))
@@ -217,7 +217,7 @@ class AgesProblems : Fragment() {
             })
             radioGroup19AgeProblems.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
-                val isChecked = radioButton73AgeProblems.isChecked
+                val isChecked = radioButton74AgeProblems.isChecked
                 if (isChecked) {
                     Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
                         .withColor(Color.rgb(0, 128, 0))
@@ -231,7 +231,7 @@ class AgesProblems : Fragment() {
             })
             radioGroup20AgeProblems.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
-                val isChecked = radioButton77AgeProblems.isChecked
+                val isChecked = radioButton79AgeProblems.isChecked
                 if (isChecked) {
                     Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
                         .withColor(Color.rgb(0, 128, 0))
