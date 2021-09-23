@@ -8,32 +8,32 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion11Percent"
+        android:id="@+id/textQuestion11Area"
         android:text="11)  "></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup11Percent">
+        android:id="@+id/radioGroup11Area">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A) "
-            android:id="@+id/radioButton41Percent"></RadioButton>
+            android:id="@+id/radioButton41Area"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton42Percent"
+            android:id="@+id/radioButton42Area"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton43Percent"
+            android:id="@+id/radioButton43Area"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton44Percent"
+            android:id="@+id/radioButton44Area"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer11Percent"
+        android:id="@+id/txtViewAnswer11Area"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -49,7 +49,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer11Percent"
+        android:id="@+id/nestedViewAnswer11Area"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,7 +67,7 @@
                 android:text="Answer : Option C \n
 
 "
-                android:id="@+id/textAnswer11Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer11Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
 
@@ -75,32 +75,32 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion12Percent"
+        android:id="@+id/textQuestion12Area"
         android:text="12)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup12Percent">
+        android:id="@+id/radioGroup12Area">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A) "
-            android:id="@+id/radioButton45Percent"></RadioButton>
+            android:id="@+id/radioButton45Area"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton46Percent"
+            android:id="@+id/radioButton46Area"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton47Percent"
+            android:id="@+id/radioButton47Area"
             android:text="C) "></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton48Percent"
+            android:id="@+id/radioButton48Area"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -108,7 +108,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer12Percent"
+        android:id="@+id/txtViewAnswer12Area"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -116,7 +116,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer12Percent"
+        android:id="@+id/nestedViewAnswer12Area"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -134,39 +134,39 @@
                 android:text="Answer : Option A \n
 
 "
-                android:id="@+id/textAnswer12Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer12Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion13Percent"
+        android:id="@+id/textQuestion13Area"
         android:text="13)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup13Percent">
+        android:id="@+id/radioGroup13Area">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton49Percent"></RadioButton>
+            android:id="@+id/radioButton49Area"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton50Percent"
+            android:id="@+id/radioButton50Area"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton51Percent"
+            android:id="@+id/radioButton51Area"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton52Percent"
+            android:id="@+id/radioButton52Area"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -174,7 +174,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer13Percent"
+        android:id="@+id/txtViewAnswer13Area"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -182,7 +182,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer13Percent"
+        android:id="@+id/nestedViewAnswer13Area"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -199,39 +199,39 @@
                 android:text="Answer : Option C \n
 
 "
-                android:id="@+id/textAnswer13Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer13Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion14Percent"
+        android:id="@+id/textQuestion14Area"
         android:text="14) "></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup14Percent">
+        android:id="@+id/radioGroup14Area">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A) "
-            android:id="@+id/radioButton53Percent"></RadioButton>
+            android:id="@+id/radioButton53Area"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton54Percent"
+            android:id="@+id/radioButton54Area"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton55Percent"
+            android:id="@+id/radioButton55Area"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton56Percent"
+            android:id="@+id/radioButton56Area"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -239,7 +239,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer14Percent"
+        android:id="@+id/txtViewAnswer14Area"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -247,7 +247,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer14Percent"
+        android:id="@+id/nestedViewAnswer14Area"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -264,37 +264,37 @@
                 android:text="Answer : Option D \n
 
 "
-                android:id="@+id/textAnswer14Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer14Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion15Percent"
+        android:id="@+id/textQuestion15Area"
         android:text="15)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup15Percent">
+        android:id="@+id/radioGroup15Area">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton57Percent"></RadioButton>
+            android:id="@+id/radioButton57Area"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton58Percent"
+            android:id="@+id/radioButton58Area"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton59Percent"
+            android:id="@+id/radioButton59Area"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton60Percent"
+            android:id="@+id/radioButton60Area"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -302,7 +302,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer15Percent"
+        android:id="@+id/txtViewAnswer15Area"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -310,7 +310,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer15Percent"
+        android:id="@+id/nestedViewAnswer15Area"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -327,37 +327,37 @@
                 android:text="Answer : Option B \n
 
 "
-                android:id="@+id/textAnswer15Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer15Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion16Percent"
+        android:id="@+id/textQuestion16Area"
         android:text="16)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup16Percent">
+        android:id="@+id/radioGroup16Area">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton61Percent"></RadioButton>
+            android:id="@+id/radioButton61Area"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton62Percent"
+            android:id="@+id/radioButton62Area"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton63Percent"
+            android:id="@+id/radioButton63Area"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton64Percent"
+            android:id="@+id/radioButton64Area"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -365,7 +365,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer16Percent"
+        android:id="@+id/txtViewAnswer16Area"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -373,7 +373,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer16Percent"
+        android:id="@+id/nestedViewAnswer16Area"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -391,7 +391,7 @@
                 android:text="Answer : Option A \n
 
 "
-                android:id="@+id/textAnswer16Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer16Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
 
@@ -399,32 +399,32 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion17Percent"
+        android:id="@+id/textQuestion17Area"
         android:text="17)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup17Percent">
+        android:id="@+id/radioGroup17Area">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton65Percent"></RadioButton>
+            android:id="@+id/radioButton65Area"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton66Percent"
+            android:id="@+id/radioButton66Area"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton67Percent"
+            android:id="@+id/radioButton67Area"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton68Percent"
+            android:id="@+id/radioButton68Area"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -432,7 +432,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer17Percent"
+        android:id="@+id/txtViewAnswer17Area"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -440,7 +440,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer17Percent"
+        android:id="@+id/nestedViewAnswer17Area"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -458,39 +458,39 @@
                 android:text="Answer : Option B \n
 
 "
-                android:id="@+id/textAnswer17Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer17Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion18Percent"
+        android:id="@+id/textQuestion18Area"
         android:text="18)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup18Percent">
+        android:id="@+id/radioGroup18Area">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A) "
-            android:id="@+id/radioButton69Percent"></RadioButton>
+            android:id="@+id/radioButton69Area"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton70Percent"
+            android:id="@+id/radioButton70Area"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton71Percent"
+            android:id="@+id/radioButton71Area"
             android:text="C) "></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton72Percent"
+            android:id="@+id/radioButton72Area"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -498,7 +498,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer18Percent"
+        android:id="@+id/txtViewAnswer18Area"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -506,7 +506,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer18Percent"
+        android:id="@+id/nestedViewAnswer18Area"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -523,39 +523,39 @@
                 android:text="Answer : Option D \n
 
 "
-                android:id="@+id/textAnswer18Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer18Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion19Percent"
+        android:id="@+id/textQuestion19Area"
         android:text="19)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup19Percent">
+        android:id="@+id/radioGroup19Area">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton73Percent"></RadioButton>
+            android:id="@+id/radioButton73Area"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton74Percent"
+            android:id="@+id/radioButton74Area"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton75Percent"
+            android:id="@+id/radioButton75Area"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton76Percent"
+            android:id="@+id/radioButton76Area"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -563,7 +563,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer19Percent"
+        android:id="@+id/txtViewAnswer19Area"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -571,7 +571,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer19Percent"
+        android:id="@+id/nestedViewAnswer19Area"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -588,37 +588,37 @@
                 android:text="Answer : Option A \n
 
 "
-                android:id="@+id/textAnswer19Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer19Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion20Percent"
+        android:id="@+id/textQuestion20Area"
         android:text="20)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup20Percent">
+        android:id="@+id/radioGroup20Area">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton77Percent"></RadioButton>
+            android:id="@+id/radioButton77Area"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton78Percent"
+            android:id="@+id/radioButton78Area"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton79Percent"
+            android:id="@+id/radioButton79Area"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton80Percent"
+            android:id="@+id/radioButton80Area"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -626,7 +626,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer20Percent"
+        android:id="@+id/txtViewAnswer20Area"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -634,7 +634,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer20Percent"
+        android:id="@+id/nestedViewAnswer20Area"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -651,6 +651,6 @@
                 android:text="Answer : Option A \n
 
 "
-                android:id="@+id/textAnswer20Percent"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer20Area"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 </LinearLayout>
