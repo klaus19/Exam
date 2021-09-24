@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".quantitative.fragments.PartnershipProblems">
 
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -718,6 +720,656 @@
                        \n Myn means saddle; cabel means horse; cono means trail; and wir means ride. Therefore, cabelwir is the correct answer
 "
                         android:id="@+id/textAnswer10ArtificialIntelligence"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion11ArtificialIntelligence"
+                android:text="11)Here are some words translated from an artificial language.\n gemolinea means fair warning \n gerimitu means report card \n gilageri means weather report \n Which word could mean 'fair weather'?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup11ArtificialIntelligence">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)gemogila"
+                    android:id="@+id/radioButton41ArtificialIntelligence"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton42ArtificialIntelligence"
+                    android:text="B)gerigeme"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton43ArtificialIntelligence"
+                    android:text="C)gemomitu"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton44ArtificialIntelligence"
+                    android:text="D)gerimita"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer11ArtificialIntelligence"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer11ArtificialIntelligence"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n Gemo means fair; linea means warning; geri means report;mitumeans card; and gilameans weather. Thus, gemogila is the correct choice.
+
+"
+                        android:id="@+id/textAnswer11ArtificialIntelligence"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion12ArtificialIntelligence"
+                android:text="12)Here are some words translated from an artificial language. \n slar means jump \n slary means jumping \n slarend means jumped \n Which word could mean 'playing'?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup12ArtificialIntelligence">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)clargslarend"
+                    android:id="@+id/radioButton45ArtificialIntelligence"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton46ArtificialIntelligence"
+                    android:text="B)clargy"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton47ArtificialIntelligence"
+                    android:text="C)ellaclarg"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton48ArtificialIntelligence"
+                    android:text="D)slarmont"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer12ArtificialIntelligence"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer12ArtificialIntelligence"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option B \n According to this language, slar means jump. The suffix -ing is represented by -y. Since choice b is the only one that ends in the letter y, this is the only possible option.
+
+"
+                        android:id="@+id/textAnswer12ArtificialIntelligence"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion13ArtificialIntelligence"
+                android:text="13)Here are some words translated from an artificial language \n jalkamofti means happy birthday \n moftihoze means birthday party \n mentogunn means goodness \n Which word could mean 'happiness'?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup13ArtificialIntelligence">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)jalkagunn"
+                    android:id="@+id/radioButton49ArtificialIntelligence"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton50ArtificialIntelligence"
+                    android:text="B)mentohoze"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton51ArtificialIntelligence"
+                    android:text="C)moftihoze"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton52ArtificialIntelligence"
+                    android:text="D)hozemento"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer13ArtificialIntelligence"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer13ArtificialIntelligence"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n Jalka means happy;moftimeans birthday; hoze means party; mento means good; and gunn means the suffix –ness. We know the answer must include the suffix –ness. The only choice that uses that suffix is choice a.
+
+"
+                        android:id="@+id/textAnswer13ArtificialIntelligence"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion14ArtificialIntelligence"
+                android:text="14)Here are some words translated from an artificial language. \n plekapaki means fruitcake \n pakishillen means cakewalk \n treftalan means buttercup \n Which word could mean 'cupcake'?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup14ArtificialIntelligence">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)shillenalan"
+                    android:id="@+id/radioButton53ArtificialIntelligence"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton54ArtificialIntelligence"
+                    android:text="B)treftpleka"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton55ArtificialIntelligence"
+                    android:text="C)pakitreft"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton56ArtificialIntelligence"
+                    android:text="D)alanpaki"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer14ArtificialIntelligence"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer14ArtificialIntelligence"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option D \n Pleka means fruit; paki means cake; shillen means walk; treftmeans butter; and alanmeans cup. Therefore, alanpaki means cupcake.
+
+"
+                        android:id="@+id/textAnswer14ArtificialIntelligence"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion15ArtificialIntelligence"
+                android:text="15)Here are some words translated from an artificial language. \n malgauper means peach cobbler \n malgaport means peach juice \n moggagrop means apple jelly \n Which word could mean 'apple juice'?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup15ArtificialIntelligence">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)moggaport"
+                    android:id="@+id/radioButton57ArtificialIntelligence"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton58ArtificialIntelligence"
+                    android:text="B)malgaauper"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton59ArtificialIntelligence"
+                    android:text="C)gropport"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton60ArtificialIntelligence"
+                    android:text="D)moggagrop"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer15ArtificialIntelligence"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer15ArtificialIntelligence"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n Malga means peach; uper means cobbler; port means juice; mogga means apple; and grop means jelly. Therefore, moggaport means apple juice.
+
+"
+                        android:id="@+id/textAnswer15ArtificialIntelligence"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion16ArtificialIntelligence"
+                android:text="16)Here are some words translated from an artificial language. \n peslligen means basketball court \n ligenstrisi means courtroom \n oltaganti means placement test \n Which word could mean 'guest room'?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup16ArtificialIntelligence">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)peslstrisi"
+                    android:id="@+id/radioButton61ArtificialIntelligence"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton62ArtificialIntelligence"
+                    android:text="B)vosefstrisi"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton63ArtificialIntelligence"
+                    android:text="C)gantipesl"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton64ArtificialIntelligence"
+                    android:text="D)oltastrisi"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer16ArtificialIntelligence"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer16ArtificialIntelligence"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option B \n Pesl means basketball; ligen means court; strisi means room; olta means placement; and ganti means test. Because strisimeans room, it must be present in the answer, so that rules out choice c. Choices a and d are incorrect because pesl means basketball and olta means placement. That leaves choice b as the only possible answer.
+
+"
+                        android:id="@+id/textAnswer16ArtificialIntelligence"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion17ArtificialIntelligence"
+                android:text="17)Here are some words translated from an artificial language \n mallonpiml means blue light \n mallontifl means blueberry \n arpantifl means raspberry \n Which word could mean 'lighthouse'?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup17ArtificialIntelligence">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)tiflmallon"
+                    android:id="@+id/radioButton65ArtificialIntelligence"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton66ArtificialIntelligence"
+                    android:text="B)pimlarpan"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton67ArtificialIntelligence"
+                    android:text="C)mallonarpan"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton68ArtificialIntelligence"
+                    android:text="D)pimldoken"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer17ArtificialIntelligence"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer17ArtificialIntelligence"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option D \n Mallon means blue; pimlmeans light; tifl means berry; and arpan means 'rasp' in raspberry. The word piml, which means light, is required for the word lighthouse. That rules out choices a and c. Arpan in choice b means 'rasp', so that rules out choice b. That leaves choice d the only possible answer.
+
+"
+                        android:id="@+id/textAnswer17ArtificialIntelligence"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion18ArtificialIntelligence"
+                android:text="18)Here are some words translated from an artificial language \n briftamint means militant \n uftonel means occupied \n uftonalene means occupation \n Which word could mean 'occupant'?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup18ArtificialIntelligence">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)elbrifta"
+                    android:id="@+id/radioButton69ArtificialIntelligence"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton70ArtificialIntelligence"
+                    android:text="B)uftonamint"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton71ArtificialIntelligence"
+                    android:text="C)elamint"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton72ArtificialIntelligence"
+                    android:text="D)briftalene"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer18ArtificialIntelligence"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer18ArtificialIntelligence"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option B \n Brift means the root word mili–; the suffix amint means the same as the English suffix –tant; the root word ufton– means occupy; el means the suffix –ied of occupied; and alene means the suffix –tion. (Because ufton means occupy, choices a, c, and d can be easily ruled out.)
+
+"
+                        android:id="@+id/textAnswer18ArtificialIntelligence"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion19ArtificialIntelligence"
+                android:text="19)Here are some words translated from an artificial language. \n morpirquat means birdhouse \n beelmorpir means bluebird \n beelclak means bluebell \n Which word could mean 'houseguest'?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup19ArtificialIntelligence">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)morpirhunde"
+                    android:id="@+id/radioButton73ArtificialIntelligence"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton74ArtificialIntelligence"
+                    android:text="B)beelmoki"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton75ArtificialIntelligence"
+                    android:text="C)quathunde"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton76ArtificialIntelligence"
+                    android:text="D)clakquat"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer19ArtificialIntelligence"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer19ArtificialIntelligence"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option C \n Morpir means bird; quat means house; beel means blue; clak means bell. Choice c, which begins with quat, is the only possible option.
+
+"
+                        android:id="@+id/textAnswer19ArtificialIntelligence"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion20ArtificialIntelligence"
+                android:text="20)Here are some words translated from an artificial language.\n relftaga means carefree \n otaga means careful \n fertaga means careless \n Which word could mean aftercare?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup20ArtificialIntelligence">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)zentaga"
+                    android:id="@+id/radioButton77ArtificialIntelligence"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton78ArtificialIntelligence"
+                    android:text="B)tagafer"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton79ArtificialIntelligence"
+                    android:text="C)tagazen"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton80ArtificialIntelligence"
+                    android:text="D)relffer"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer20ArtificialIntelligence"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer20ArtificialIntelligence"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option C \n In this language, the root word taga, which means care, follows the affix (relf, o–, or fer–). Therefore, in the word aftercare, the root word and the affix would be reversed in the artificial language. The only choice, then, is tagazen, because tagafer would mean less care.
+
+"
+                        android:id="@+id/textAnswer20ArtificialIntelligence"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
         </LinearLayout>
-    </androidx.core.widget.NestedScrollView>
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.core.widget.NestedScrollView></FrameLayout>
