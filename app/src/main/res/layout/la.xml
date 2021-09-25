@@ -8,32 +8,32 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion11Analogies"
+        android:id="@+id/textQuestion11StatementAssumptions"
         android:text="11)  "></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup11Analogies">
+        android:id="@+id/radioGroup11StatementAssumptions">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A) "
-            android:id="@+id/radioButton41Analogies"></RadioButton>
+            android:id="@+id/radioButton41StatementAssumptions"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton42Analogies"
+            android:id="@+id/radioButton42StatementAssumptions"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton43Analogies"
+            android:id="@+id/radioButton43StatementAssumptions"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton44Analogies"
+            android:id="@+id/radioButton44StatementAssumptions"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer11Analogies"
+        android:id="@+id/txtViewAnswer11StatementAssumptions"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -49,7 +49,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer11Analogies"
+        android:id="@+id/nestedViewAnswer11StatementAssumptions"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,7 +67,7 @@
                 android:text="Answer : Option C \n
 
 "
-                android:id="@+id/textAnswer11Analogies"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer11StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
 
@@ -75,32 +75,32 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion12Analogies"
+        android:id="@+id/textQuestion12StatementAssumptions"
         android:text="12)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup12Analogies">
+        android:id="@+id/radioGroup12StatementAssumptions">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A) "
-            android:id="@+id/radioButton45Analogies"></RadioButton>
+            android:id="@+id/radioButton45StatementAssumptions"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton46Analogies"
+            android:id="@+id/radioButton46StatementAssumptions"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton47Analogies"
+            android:id="@+id/radioButton47StatementAssumptions"
             android:text="C) "></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton48Analogies"
+            android:id="@+id/radioButton48StatementAssumptions"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -108,7 +108,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer12Analogies"
+        android:id="@+id/txtViewAnswer12StatementAssumptions"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -116,7 +116,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer12Analogies"
+        android:id="@+id/nestedViewAnswer12StatementAssumptions"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -134,39 +134,39 @@
                 android:text="Answer : Option A \n
 
 "
-                android:id="@+id/textAnswer12Analogies"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer12StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion13Analogies"
+        android:id="@+id/textQuestion13StatementAssumptions"
         android:text="13)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup13Analogies">
+        android:id="@+id/radioGroup13StatementAssumptions">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton49Analogies"></RadioButton>
+            android:id="@+id/radioButton49StatementAssumptions"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton50Analogies"
+            android:id="@+id/radioButton50StatementAssumptions"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton51Analogies"
+            android:id="@+id/radioButton51StatementAssumptions"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton52Analogies"
+            android:id="@+id/radioButton52StatementAssumptions"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -174,7 +174,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer13Analogies"
+        android:id="@+id/txtViewAnswer13StatementAssumptions"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -182,7 +182,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer13Analogies"
+        android:id="@+id/nestedViewAnswer13StatementAssumptions"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -199,39 +199,39 @@
                 android:text="Answer : Option C \n
 
 "
-                android:id="@+id/textAnswer13Analogies"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer13StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion14Analogies"
+        android:id="@+id/textQuestion14StatementAssumptions"
         android:text="14) "></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup14Analogies">
+        android:id="@+id/radioGroup14StatementAssumptions">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A) "
-            android:id="@+id/radioButton53Analogies"></RadioButton>
+            android:id="@+id/radioButton53StatementAssumptions"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton54Analogies"
+            android:id="@+id/radioButton54StatementAssumptions"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton55Analogies"
+            android:id="@+id/radioButton55StatementAssumptions"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton56Analogies"
+            android:id="@+id/radioButton56StatementAssumptions"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -239,7 +239,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer14Analogies"
+        android:id="@+id/txtViewAnswer14StatementAssumptions"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -247,7 +247,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer14Analogies"
+        android:id="@+id/nestedViewAnswer14StatementAssumptions"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -264,37 +264,37 @@
                 android:text="Answer : Option D \n
 
 "
-                android:id="@+id/textAnswer14Analogies"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer14StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion15Analogies"
+        android:id="@+id/textQuestion15StatementAssumptions"
         android:text="15)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup15Analogies">
+        android:id="@+id/radioGroup15StatementAssumptions">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton57Analogies"></RadioButton>
+            android:id="@+id/radioButton57StatementAssumptions"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton58Analogies"
+            android:id="@+id/radioButton58StatementAssumptions"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton59Analogies"
+            android:id="@+id/radioButton59StatementAssumptions"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton60Analogies"
+            android:id="@+id/radioButton60StatementAssumptions"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -302,7 +302,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer15Analogies"
+        android:id="@+id/txtViewAnswer15StatementAssumptions"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -310,7 +310,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer15Analogies"
+        android:id="@+id/nestedViewAnswer15StatementAssumptions"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -327,37 +327,37 @@
                 android:text="Answer : Option B \n
 
 "
-                android:id="@+id/textAnswer15Analogies"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer15StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion16Analogies"
+        android:id="@+id/textQuestion16StatementAssumptions"
         android:text="16)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup16Analogies">
+        android:id="@+id/radioGroup16StatementAssumptions">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton61Analogies"></RadioButton>
+            android:id="@+id/radioButton61StatementAssumptions"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton62Analogies"
+            android:id="@+id/radioButton62StatementAssumptions"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton63Analogies"
+            android:id="@+id/radioButton63StatementAssumptions"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton64Analogies"
+            android:id="@+id/radioButton64StatementAssumptions"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -365,7 +365,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer16Analogies"
+        android:id="@+id/txtViewAnswer16StatementAssumptions"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -373,7 +373,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer16Analogies"
+        android:id="@+id/nestedViewAnswer16StatementAssumptions"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -391,7 +391,7 @@
                 android:text="Answer : Option A \n
 
 "
-                android:id="@+id/textAnswer16Analogies"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer16StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
 
@@ -399,32 +399,32 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion17Analogies"
+        android:id="@+id/textQuestion17StatementAssumptions"
         android:text="17)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup17Analogies">
+        android:id="@+id/radioGroup17StatementAssumptions">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton65Analogies"></RadioButton>
+            android:id="@+id/radioButton65StatementAssumptions"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton66Analogies"
+            android:id="@+id/radioButton66StatementAssumptions"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton67Analogies"
+            android:id="@+id/radioButton67StatementAssumptions"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton68Analogies"
+            android:id="@+id/radioButton68StatementAssumptions"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -432,7 +432,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer17Analogies"
+        android:id="@+id/txtViewAnswer17StatementAssumptions"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -440,7 +440,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer17Analogies"
+        android:id="@+id/nestedViewAnswer17StatementAssumptions"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -458,39 +458,39 @@
                 android:text="Answer : Option B \n
 
 "
-                android:id="@+id/textAnswer17Analogies"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer17StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion18Analogies"
+        android:id="@+id/textQuestion18StatementAssumptions"
         android:text="18)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup18Analogies">
+        android:id="@+id/radioGroup18StatementAssumptions">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A) "
-            android:id="@+id/radioButton69Analogies"></RadioButton>
+            android:id="@+id/radioButton69StatementAssumptions"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton70Analogies"
+            android:id="@+id/radioButton70StatementAssumptions"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton71Analogies"
+            android:id="@+id/radioButton71StatementAssumptions"
             android:text="C) "></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton72Analogies"
+            android:id="@+id/radioButton72StatementAssumptions"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -498,7 +498,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer18Analogies"
+        android:id="@+id/txtViewAnswer18StatementAssumptions"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -506,7 +506,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer18Analogies"
+        android:id="@+id/nestedViewAnswer18StatementAssumptions"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -523,39 +523,39 @@
                 android:text="Answer : Option D \n
 
 "
-                android:id="@+id/textAnswer18Analogies"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer18StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion19Analogies"
+        android:id="@+id/textQuestion19StatementAssumptions"
         android:text="19)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup19Analogies">
+        android:id="@+id/radioGroup19StatementAssumptions">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton73Analogies"></RadioButton>
+            android:id="@+id/radioButton73StatementAssumptions"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton74Analogies"
+            android:id="@+id/radioButton74StatementAssumptions"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton75Analogies"
+            android:id="@+id/radioButton75StatementAssumptions"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton76Analogies"
+            android:id="@+id/radioButton76StatementAssumptions"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -563,7 +563,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer19Analogies"
+        android:id="@+id/txtViewAnswer19StatementAssumptions"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -571,7 +571,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer19Analogies"
+        android:id="@+id/nestedViewAnswer19StatementAssumptions"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -588,37 +588,37 @@
                 android:text="Answer : Option A \n
 
 "
-                android:id="@+id/textAnswer19Analogies"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer19StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion20Analogies"
+        android:id="@+id/textQuestion20StatementAssumptions"
         android:text="20)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup20Analogies">
+        android:id="@+id/radioGroup20StatementAssumptions">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton77Analogies"></RadioButton>
+            android:id="@+id/radioButton77StatementAssumptions"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton78Analogies"
+            android:id="@+id/radioButton78StatementAssumptions"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton79Analogies"
+            android:id="@+id/radioButton79StatementAssumptions"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton80Analogies"
+            android:id="@+id/radioButton80StatementAssumptions"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -626,7 +626,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer20Analogies"
+        android:id="@+id/txtViewAnswer20StatementAssumptions"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -634,7 +634,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer20Analogies"
+        android:id="@+id/nestedViewAnswer20StatementAssumptions"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -651,6 +651,6 @@
                 android:text="Answer : Option A \n
 
 "
-                android:id="@+id/textAnswer20Analogies"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer20StatementAssumptions"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 </LinearLayout>
