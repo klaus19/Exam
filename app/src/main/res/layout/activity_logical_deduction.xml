@@ -679,6 +679,656 @@
 
 "
                         android:id="@+id/textAnswer10LogicalDeduction"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion11LogicalDeduction"
+                android:text="11)Statements: \n All fruits are vegetables. All pens are vegetables. All vegetables are rains. \n Conclusions: \n I.All fruits are rains. \n II.All pens are rains. \n III.Some rains are vegetables."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup11LogicalDeduction">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)All follow"
+                    android:id="@+id/radioButton41LogicalDeduction"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton42LogicalDeduction"
+                    android:text="B)Only I and II follow"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton43LogicalDeduction"
+                    android:text="C)Only II and III follow"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton44LogicalDeduction"
+                    android:text="D)Only I and III follow"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer11LogicalDeduction"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer11LogicalDeduction"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n III is the converse of the third premise and so it holds. \n All fruits are vegetables. All vegetables are rains. \n The conclusion must be universal affirmative and should not contain the middle term. \n So, it follows that 'All fruits are rains'. Thus, I follows. \n All pens are vegetables. All vegetables are rains. \n Clearly, it follows that 'All pens are rains'. Thus, II follows.
+
+"
+                        android:id="@+id/textAnswer11LogicalDeduction"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion12LogicalDeduction"
+                android:text="12)Statements: Some towels are brushes. No brush is soap. All soaps are rats. \n Conclusions: \n I.Some rats are brushes \n II.No rat is brush. \n III.Some towels are soaps."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup12LogicalDeduction">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)None follows"
+                    android:id="@+id/radioButton45LogicalDeduction"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton46LogicalDeduction"
+                    android:text="B)Only either I or II follows"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton47LogicalDeduction"
+                    android:text="C)Only II follows"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton48LogicalDeduction"
+                    android:text="D)Only I and III follow"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer12LogicalDeduction"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer12LogicalDeduction"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="10"
+                        android:singleLine="false"
+                        android:text="Answer : Option B \n Some towels are brushes. No brush is soap \n Since one premise is particular and the other negative, the conclusion must be particular negative (O-type) and should not contain the middle term. So, it follows that 'Some towels are not soaps'. No brush is soap. All soaps are rats. \n Since the middle term is distributed twice, the conclusion must be particular. Since one premise is negative, the conclusion must be negative. So, it follows that 'Some brushes are not rats'. Since I and II involve the same terms and form a complementary pair, so either I or II follows.
+
+"
+                        android:id="@+id/textAnswer12LogicalDeduction"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion13LogicalDeduction"
+                android:text="13)Statements: Some pictures are frames. Some frames are idols. All idols are curtains. \n Conclusions: \n I.Some curtains are pictures. \n II.Some curtains are frames. \n III.Some idols are frames"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup13LogicalDeduction">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Only I and II follow"
+                    android:id="@+id/radioButton49LogicalDeduction"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton50LogicalDeduction"
+                    android:text="B)Only II and III follow"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton51LogicalDeduction"
+                    android:text="C)Only I and III follow"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton52LogicalDeduction"
+                    android:text="D)All follow"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer13LogicalDeduction"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer13LogicalDeduction"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option B \n III is the converse of the second premise and so it holds. \n Some pictures are frames. Some frames are idols. \n Since both the premises are particular, no definite conclusion follows. \n Some frames are idols. All idols are curtains. \n Since one premise is particular, the conclusion must be particular and should not contain the middle term. So, it follows that 'Some frames are curtains'. III is the converse of this conclusion and so it holds. \n Some pictures are frames. Some frames are curtains. \n Since both the premises are particular, no definite conclusion can be drawn
+
+"
+                        android:id="@+id/textAnswer13LogicalDeduction"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion14LogicalDeduction"
+                android:text="14)Statements: Some hills are rivers. Some rivers are deserts. All deserts are roads. \n Conclusions: \n I.Some roads are rivers.\n II.Some roads are hills.\n III.Some deserts are hills. "></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup14LogicalDeduction">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)None follows"
+                    android:id="@+id/radioButton53LogicalDeduction"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton54LogicalDeduction"
+                    android:text="B)Only I follows"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton55LogicalDeduction"
+                    android:text="C)Only I and II follow"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton56LogicalDeduction"
+                    android:text="D)Only II and III follow"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer14LogicalDeduction"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer14LogicalDeduction"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option B \n Some hills are rivers. Some rivers are deserts. \n Since both the premises are particular, no definite conclusion follows. \n Some rivers are deserts. All deserts are roads. \n Since one premise is particular, the conclusion must be particular and shouldn't contain the middle term. So, it follows that 'Some rivers are roads'. I is the converse of this conclusion and so it holds. \n Some hills are rivers. Some rivers are roads.\n Again, since both the premises are particular, no definite conclusion follows.
+
+"
+                        android:id="@+id/textAnswer14LogicalDeduction"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion15LogicalDeduction"
+                android:text="15)Statements: Some saints are balls. All balls are bats. Some tigers are balls. \n Conclusions: \n I.Some bats are tigers. \n II.Some saints are bats. \n III.All bats are balls."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup15LogicalDeduction">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Only I and II follow"
+                    android:id="@+id/radioButton57LogicalDeduction"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton58LogicalDeduction"
+                    android:text="B)Only II follows"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton59LogicalDeduction"
+                    android:text="C)Only I and III follow"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton60LogicalDeduction"
+                    android:text="D)Only III follows"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer15LogicalDeduction"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer15LogicalDeduction"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n Some saints are balls. All balls are bats. \n Since one premise is particular, the conclusion must be particular and should not contain the middle term. So, it follows that 'Some saints are bats'. Thus, II follows. Some tigers are balls. All balls are bats. \n Since one premise is particular, the conclusion must be particular and should not contain the middle term. So, it follows that 'Some tigers are bats'. I is the converse of this conclusion and so it holds.
+
+"
+                        android:id="@+id/textAnswer15LogicalDeduction"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion16LogicalDeduction"
+                android:text="16)Statements: Some pens are books. All schools are books. Some colleges are schools \n Conclusions: \n I.Some colleges are pens. \n II.Some pens are schools. \n III.Some colleges are books."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup16LogicalDeduction">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)None of these"
+                    android:id="@+id/radioButton61LogicalDeduction"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton62LogicalDeduction"
+                    android:text="B)Only I and III follow"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton63LogicalDeduction"
+                    android:text="C)Only II and III follow"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton64LogicalDeduction"
+                    android:text="D)All follow"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer16LogicalDeduction"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer16LogicalDeduction"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n Some pens are books. All schools are books.\n Since the middle term 'books' is not distributed even once in the premises, so no definite conclusion follows.\n Some colleges are schools. All schools are books.\n Since one premise is particular, the conclusion must be particular and should not contain the middle term.\n So, it follows that 'Some colleges are books'. Thus, III follows. \n Some pens are books. Some colleges are books \n Since both the premises are particular, no definite conclusion can be drawn.\n Hence, only III follows.
+
+"
+                        android:id="@+id/textAnswer16LogicalDeduction"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion17LogicalDeduction"
+                android:text="17)Statements: All trains are buses. No room is bus. All boats are rooms. \n Conclusions: \n I.No boat is train. \n II.No bus is boat. \n III.No train is room."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup17LogicalDeduction">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)All follow"
+                    android:id="@+id/radioButton65LogicalDeduction"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton66LogicalDeduction"
+                    android:text="B)Only II and III follow"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton67LogicalDeduction"
+                    android:text="C)Only I and II follow"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton68LogicalDeduction"
+                    android:text="D)None follows"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer17LogicalDeduction"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer17LogicalDeduction"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n All trains are buses. No room is bus. \n Since both the premises are universal and one premise is negative, the conclusion must be universal negative (E-type) and should not contain the middle term. So, it follows that 'No train is room'. Thus, III follows.\n All boats are rooms. No room is bus.\n As discussed above, it follows that 'No boat is bus'.\n II is the converse of this conclusion and so it holds. All trains are buses. No boat is bus.\n Again, it follows that 'No train is boat'. I is the converse of this conclusion and so it holds.
+
+"
+                        android:id="@+id/textAnswer17LogicalDeduction"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion18LogicalDeduction"
+                android:text="18)Statements: Some mountains are hillocks. Some mountains are rivers. Some mountains are valleys.\n Conclusions: \n I.All mountains are either hillocks or rivers or valleys. \n II.No valley is river.\n III.Some river are valleys."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup18LogicalDeduction">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)None follows "
+                    android:id="@+id/radioButton69LogicalDeduction"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton70LogicalDeduction"
+                    android:text="B)Only I follows"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton71LogicalDeduction"
+                    android:text="C)Only either II or III follows"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton72LogicalDeduction"
+                    android:text="D)Only III follows"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer18LogicalDeduction"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer18LogicalDeduction"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option C \n Since each combination of premises shall contain two particular premises, no definite conclusion can be drawn. However, II and III are statements involving the extreme terms of the last two premises and form a complementary pair. Thus, either II or III follows.
+
+"
+                        android:id="@+id/textAnswer18LogicalDeduction"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion19LogicalDeduction"
+                android:text="19)Statements: Some blades are hammers. Some hammers are knives. Some knives are axes.\n Conclusions:\n I.Some axes are hammers. \n II.Some knives are blades.\n III.Some axes are blades."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup19LogicalDeduction">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)None follows"
+                    android:id="@+id/radioButton73LogicalDeduction"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton74LogicalDeduction"
+                    android:text="B)Only I follows"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton75LogicalDeduction"
+                    android:text="C)Only II follows"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton76LogicalDeduction"
+                    android:text="D)Only III follows"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer19LogicalDeduction"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer19LogicalDeduction"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n Since each combination of premises has two particular premises, so no definite conclusion follows.
+
+"
+                        android:id="@+id/textAnswer19LogicalDeduction"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion20LogicalDeduction"
+                android:text="20)Statements: Some boxes are hammers. Some hammers are beads. All beads are rings. \n Conclusions:\n I.Some rings are hammers.\n II.Some hammers are boxes.\n III.Some rings are boxes."></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup20LogicalDeduction">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)None follows"
+                    android:id="@+id/radioButton77LogicalDeduction"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton78LogicalDeduction"
+                    android:text="B)Only I follows"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton79LogicalDeduction"
+                    android:text="C)Only I and II follow"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton80LogicalDeduction"
+                    android:text="D)Only II and III follow"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer20LogicalDeduction"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer20LogicalDeduction"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option C \n II is the converse of first premise and so it holds. \n Some boxes are hammers. Some hammers are beads.\n Since both the premises are particular, no definite conclusion can be drawn.\n Some hammers are beads. All beads are rings.\n Since one premise is particular, the conclusion must be particular and should not contain the middle term. So, it follows that 'Some hammers are rings'. I is the converse of this conclusion and so it holds.\n Some boxes are hammers. Some hammers are rings.\n Since both the premises are particular, no definite conclusion can be drawn.
+
+"
+                        android:id="@+id/textAnswer20LogicalDeduction"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
