@@ -524,10 +524,5 @@ class ArtificialLanguage: AppCompatActivity() {
                     .show()
             }
         })
-
-
-
-
-
     }
 }
