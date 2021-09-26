@@ -61,6 +61,131 @@ class VerbalClassification:AppCompatActivity() {
                 View.VISIBLE else View.INVISIBLE
         }
         
+        with(binding){
+            txtViewAnswer11VerbalClassification.setOnClickListener {
+                textAnswer11VerbalClassification.visibility = if (textAnswer11VerbalClassification.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer12VerbalClassification.setOnClickListener {
+                textAnswer12VerbalClassification.visibility = if (textAnswer12VerbalClassification.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer13VerbalClassification.setOnClickListener {
+                textAnswer13VerbalClassification.visibility = if (textAnswer13VerbalClassification.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer14VerbalClassification.setOnClickListener {
+                textAnswer14VerbalClassification.visibility = if (textAnswer14VerbalClassification.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer15VerbalClassification.setOnClickListener {
+                textAnswer15VerbalClassification.visibility = if (textAnswer15VerbalClassification.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer16VerbalClassification.setOnClickListener {
+                textAnswer16VerbalClassification.visibility = if (textAnswer16VerbalClassification.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer17VerbalClassification.setOnClickListener {
+                textAnswer17VerbalClassification.visibility = if (textAnswer17VerbalClassification.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+
+            radioGroup11VerbalClassification.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton41VerbalClassification.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+
+            radioGroup12VerbalClassification.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton47VerbalClassification.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup13VerbalClassification.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton50VerbalClassification.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+
+            radioGroup14VerbalClassification.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton56VerbalClassification.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup15VerbalClassification.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton59VerbalClassification.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup16VerbalClassification.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton61VerbalClassification.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup17VerbalClassification.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton68VerbalClassification.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+        }
+        
         //RadioGroup
 
         binding.radioGroup1VerbalClassification.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
