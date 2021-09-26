@@ -16,7 +16,7 @@ class Marathi: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
          binding = ActivityMarathiBinding.inflate(layoutInflater)
-        binding.root.apply {
+        binding.root?.apply {
              setContentView(this)
         }
          with(binding){
