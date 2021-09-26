@@ -570,31 +570,35 @@
                     android:text="A)Marlee likes Sara better than Sara likes Marlee.
 "
                     android:id="@+id/radioButton33VerbalReasoning"></RadioButton>
+
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton34VerbalReasoning"
-                    android:text="B)Sara thinks small towns are boring."></RadioButton>
+                    android:text="B)Sara thinks small towns are boring." />
+
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton35VerbalReasoning"
-                    android:text="C)Sara is older than Marlee."></RadioButton>
+                    android:text="C)Sara is older than Marlee." />
+
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton36VerbalReasoning"
                     android:text="D)Marlee wants to move to the East Coast.
 
-"></RadioButton>
+" />
             </RadioGroup>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="View Answer"
                 android:textColor="#b4004e"
                 android:id="@+id/txtViewAnswer9VerbalReasoning"
-                android:layout_gravity="center_horizontal"></TextView>
+                android:layout_gravity="center_horizontal" />
             <androidx.core.widget.NestedScrollView
                 android:orientation="vertical"
                 android:layout_width="match_parent"
