@@ -736,7 +736,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton44ControlSystems"
-                    android:text="D)nether 1 nor 2."></RadioButton>
+                    android:text="D)neither 1 nor 2."></RadioButton>
             </RadioGroup>
             <TextView
                 android:layout_width="wrap_content"
@@ -778,7 +778,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textQuestion12ControlSystems"
-                android:text="12)"></TextView>
+                android:text="12)Force balancing equation of a dash-pot element is (where, x = displacement)"></TextView>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -787,23 +787,23 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="A) "
+                    android:text="A) B d2x/dt2 "
                     android:id="@+id/radioButton45ControlSystems"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton46ControlSystems"
-                    android:text="B)"></RadioButton>
+                    android:text="B)B dx/dt"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton47ControlSystems"
-                    android:text="C) "></RadioButton>
+                    android:text="C)B *x"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton48ControlSystems"
-                    android:text="D)"></RadioButton>
+                    android:text="D)none of the above"></RadioButton>
             </RadioGroup>
             <TextView
                 android:layout_width="wrap_content"
@@ -832,8 +832,9 @@
                         android:visibility="invisible"
                         android:lines="4"
                         android:maxLines="6"
+                        android:drawableBottom="@drawable/cs1"
                         android:singleLine="false"
-                        android:text="Answer : Option A \n
+                        android:text="Answer : Option B \n Consider an ideal dash-pot element which has negligible mass and elasticity. \n Let a force be applied on it. \n The dash-pot will offer an opposing force which is proportional to velocity of the body.
 
 "
                         android:id="@+id/textAnswer12ControlSystems"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
@@ -844,7 +845,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textQuestion13ControlSystems"
-                android:text="13)"></TextView>
+                android:text="13)Force balancing equation for elastic element (K) is (where, x = displacement)"></TextView>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -853,23 +854,23 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="A)"
+                    android:text="A)K d2x/dt2"
                     android:id="@+id/radioButton49ControlSystems"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton50ControlSystems"
-                    android:text="B)"></RadioButton>
+                    android:text="B) K dx/dt"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton51ControlSystems"
-                    android:text="C)"></RadioButton>
+                    android:text="C)K *x"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton52ControlSystems"
-                    android:text="D)"></RadioButton>
+                    android:text="D)none of the above"></RadioButton>
             </RadioGroup>
             <TextView
                 android:layout_width="wrap_content"
@@ -897,8 +898,9 @@
                         android:layout_height="150dp"
                         android:visibility="invisible"
                         android:lines="4"
+                        android:drawableBottom="@drawable/cs2"
                         android:singleLine="false"
-                        android:text="Answer : Option C \n
+                        android:text="Answer : Option C \n Consider an ideal elastic element which has negligible mass and friction. Let a force be \n applied on it. The elastic element will offer an opposing force which is proportional to \n displacement of the body.
 
 "
                         android:id="@+id/textAnswer13ControlSystems"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
@@ -909,7 +911,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textQuestion14ControlSystems"
-                android:text="14) "></TextView>
+                android:text="14)Which of the following is/are the disadvantages of an open loop control system? "></TextView>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -918,23 +920,23 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="A) "
+                    android:text="A) Inaccurate"
                     android:id="@+id/radioButton53ControlSystems"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton54ControlSystems"
-                    android:text="B)"></RadioButton>
+                    android:text="B)Unreliable."></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton55ControlSystems"
-                    android:text="C)"></RadioButton>
+                    android:text="C)both 1 and 2"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton56ControlSystems"
-                    android:text="D)"></RadioButton>
+                    android:text="D)none of the above."></RadioButton>
             </RadioGroup>
             <TextView
                 android:layout_width="wrap_content"
@@ -963,7 +965,7 @@
                         android:visibility="invisible"
                         android:lines="4"
                         android:singleLine="false"
-                        android:text="Answer : Option D \n
+                        android:text="Answer : Option C \n Disadvantages of open loop system: \n  Open loop systems are inaccurate and unreliable.\n The changes in the output due to external disturbances are not correct automatically.
 
 "
                         android:id="@+id/textAnswer14ControlSystems"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
@@ -972,7 +974,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textQuestion15ControlSystems"
-                android:text="15)"></TextView>
+                android:text="15)Which of the following is the analogous quantity for mass element in force-voltage analogy?"></TextView>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -981,23 +983,23 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="A)"
+                    android:text="A)Resistance."
                     android:id="@+id/radioButton57ControlSystems"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton58ControlSystems"
-                    android:text="B)"></RadioButton>
+                    android:text="B)Inductance."></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton59ControlSystems"
-                    android:text="C)"></RadioButton>
+                    android:text="C)Capacitance."></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton60ControlSystems"
-                    android:text="D)"></RadioButton>
+                    android:text="D)All of the above."></RadioButton>
             </RadioGroup>
             <TextView
                 android:layout_width="wrap_content"
@@ -1026,7 +1028,7 @@
                         android:visibility="invisible"
                         android:lines="4"
                         android:singleLine="false"
-                        android:text="Answer : Option B \n
+                        android:text="Answer : Option D \n The electrical equivalents of the mechanical elements in force-voltage analogy are as follows: \n Mechanical element ----------- Electrical analogous element \n 1.Mass element (M) ---------- Inductance (L) \n 2.Spring element (K) --------- Inverse capacitance (1/C) \n 3.Dash-pot (B) -------------- Resistance (R) \n 4.Velocity (v) ----------------- Current (i) \n 5.Displacement (x) ----------- Charge (q) \n 6.Force (f) --------------------- Voltage (V)
 
 "
                         android:id="@+id/textAnswer15ControlSystems"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
@@ -1035,7 +1037,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textQuestion16ControlSystems"
-                android:text="16)"></TextView>
+                android:text="16)If a circuit consists of two mass elements, two spring elements and four friction elements. Find the order of transfer function?"></TextView>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -1044,23 +1046,23 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="A)"
+                    android:text="A)2"
                     android:id="@+id/radioButton61ControlSystems"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton62ControlSystems"
-                    android:text="B)"></RadioButton>
+                    android:text="B)4"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton63ControlSystems"
-                    android:text="C)"></RadioButton>
+                    android:text="C)6"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton64ControlSystems"
-                    android:text="D)"></RadioButton>
+                    android:text="D)12"></RadioButton>
             </RadioGroup>
             <TextView
                 android:layout_width="wrap_content"
@@ -1090,7 +1092,7 @@
                         android:lines="4"
                         android:maxLines="6"
                         android:singleLine="false"
-                        android:text="Answer : Option A \n
+                        android:text="Answer : Option B \n Order of transfer function depends only on mass elements. If a network has n number of mass elements, then the order of transfer function is '2×n'. \n Therefore, from given data, number of mass elements = 2. \n Order of transfer function = 2×2 = 4.
 
 "
                         android:id="@+id/textAnswer16ControlSystems"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
@@ -1102,7 +1104,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textQuestion17ControlSystems"
-                android:text="17)"></TextView>
+                android:text="17) If two blocks having gains A and B respectively are in series connection, find the resultant gain using block diagram reduction technique?"></TextView>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -1111,23 +1113,23 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="A)"
+                    android:text="A) A+B"
                     android:id="@+id/radioButton65ControlSystems"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton66ControlSystems"
-                    android:text="B)"></RadioButton>
+                    android:text="B)A*B"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton67ControlSystems"
-                    android:text="C)"></RadioButton>
+                    android:text="C)A-B"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton68ControlSystems"
-                    android:text="D)"></RadioButton>
+                    android:text="D)A/B"></RadioButton>
             </RadioGroup>
             <TextView
                 android:layout_width="wrap_content"
@@ -1157,7 +1159,7 @@
                         android:lines="4"
                         android:maxLines="6"
                         android:singleLine="false"
-                        android:text="Answer : Option B \n
+                        android:text="Answer : Option B \n Rules of block diagram technique \n If two blocks having gains A and B respectively \n 1.Combining blocks in series, overall gain is A*B \n 2.Combining blocks in parallel , overall gain is A+B
 
 "
                         android:id="@+id/textAnswer17ControlSystems"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
@@ -1168,7 +1170,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textQuestion18ControlSystems"
-                android:text="18)"></TextView>
+                android:text="18)In signal flow graph input node is node having only------------"></TextView>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -1177,23 +1179,23 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="A) "
+                    android:text="A)incoming branches."
                     android:id="@+id/radioButton69ControlSystems"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton70ControlSystems"
-                    android:text="B)"></RadioButton>
+                    android:text="B)outgoing branches."></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton71ControlSystems"
-                    android:text="C) "></RadioButton>
+                    android:text="C)both 1 and 2. "></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton72ControlSystems"
-                    android:text="D)"></RadioButton>
+                    android:text="D)none of the above."></RadioButton>
             </RadioGroup>
             <TextView
                 android:layout_width="wrap_content"
@@ -1222,7 +1224,7 @@
                         android:visibility="invisible"
                         android:lines="4"
                         android:singleLine="false"
-                        android:text="Answer : Option D \n
+                        android:text="Answer : Option B \n Terminology of signal flow graph: \n 1.Node: It represents the system variables and is equal to the sum of incoming signals at node.\n 2.Input node or Source node: It is a node having only outgoing branches. \n 3.Output node or Sink node: It is a node having only incoming branches.\n 4.Mixed node or Chain node: It is a node having both incoming and outgoing branches.
 
 "
                         android:id="@+id/textAnswer18ControlSystems"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
@@ -1233,7 +1235,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textQuestion19ControlSystems"
-                android:text="19)"></TextView>
+                android:text="19)When writing a transfer function which of the following loops are not valid loops?"></TextView>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -1242,23 +1244,23 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="A)"
+                    android:text="A)Self loops at input node."
                     android:id="@+id/radioButton73ControlSystems"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton74ControlSystems"
-                    android:text="B)"></RadioButton>
+                    android:text="B)Self loops at output node."></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton75ControlSystems"
-                    android:text="C)"></RadioButton>
+                    android:text="C)Both 1 and 2."></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton76ControlSystems"
-                    android:text="D)"></RadioButton>
+                    android:text="D)Neither 1 nor 2"></RadioButton>
             </RadioGroup>
             <TextView
                 android:layout_width="wrap_content"
@@ -1287,7 +1289,7 @@
                         android:visibility="invisible"
                         android:lines="4"
                         android:singleLine="false"
-                        android:text="Answer : Option A \n
+                        android:text="Answer : Option A \n Terminology of signal flow graphs: \n Self Loop : It is a path which originates and terminates at the same node.\n Note: 1. Self loops on the defined input nodes are not valid loops and should not be considered when writing the transfer function.\n 2. Self loops on defined output node are valid loops.
 
 "
                         android:id="@+id/textAnswer19ControlSystems"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
@@ -1296,7 +1298,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textQuestion20ControlSystems"
-                android:text="20)"></TextView>
+                android:text="20)Which of the following is the electrical analogous element for displacement in force-voltage analogy?"></TextView>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -1305,23 +1307,23 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="A)"
+                    android:text="A)Flux."
                     android:id="@+id/radioButton77ControlSystems"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton78ControlSystems"
-                    android:text="B)"></RadioButton>
+                    android:text="B)Voltage"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton79ControlSystems"
-                    android:text="C)"></RadioButton>
+                    android:text="C)Charge."></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton80ControlSystems"
-                    android:text="D)"></RadioButton>
+                    android:text="D)Current."></RadioButton>
             </RadioGroup>
             <TextView
                 android:layout_width="wrap_content"
@@ -1350,7 +1352,7 @@
                         android:visibility="invisible"
                         android:lines="4"
                         android:singleLine="false"
-                        android:text="Answer : Option A \n
+                        android:text="Answer : Option C \n The electrical equivalents of the mechanical elements in force-voltage analogy are as follows:\n Mechanical element ----------- Electrical analogous element \n 1.Mass element (M) ---------- Inductance (L)\n 2.Spring element (K) --------- Inverse capacitance (1/C) \n 3.Dash-pot (B) -------------- Resistance (R) \n 4.Velocity (v) ----------------- Current (i) \n Displacement (x) ----------- Charge (q) \n Force (f) --------------------- Voltage (V)
 
 "
                         android:id="@+id/textAnswer20ControlSystems"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
