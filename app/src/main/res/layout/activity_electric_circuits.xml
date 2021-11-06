@@ -702,6 +702,657 @@
 
 "
                         android:id="@+id/textAnswer10ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion11ElectricCircuits"
+                android:text="11)Instantaneous power in inductor is proportional to the"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup11ElectricCircuits">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A) product of the instantaneous current and rate of change of current."
+                    android:id="@+id/radioButton41ElectricCircuits"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton42ElectricCircuits"
+                    android:text="B) square of instantaneous current."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton43ElectricCircuits"
+                    android:text="C) square of the rate of change of current."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton44ElectricCircuits"
+                    android:text="D)temperature of the inductor."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer11ElectricCircuits"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer11ElectricCircuits"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n The instantaneous voltage across the inductor is expressed as the product of inductance and rate of change of current through it. Power is expressed as the product of current and voltage. Hence instantaneous power in an inductor is proportional to the product of instantaneous current and rate of change of current through it.
+
+"
+                        android:id="@+id/textAnswer11ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion12ElectricCircuits"
+                android:text="12)Absolute permittivity of dielectric medium is represented as"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup12ElectricCircuits">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)ε0"
+                    android:id="@+id/radioButton45ElectricCircuits"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton46ElectricCircuits"
+                    android:text="B)εr"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton47ElectricCircuits"
+                    android:text="C)εr/ε0"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton48ElectricCircuits"
+                    android:text="D)εrε0"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer12ElectricCircuits"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer12ElectricCircuits"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option D \n The relative permittivity (εr) of the medium is defined as the ratio of actual permittivity of the medium to the absolute permittivity of air or vacuum. Absolute permittivity of air or vacuum is expressed as ε0. Hence the absolute permittivity of dielectric medium is represented as the product of relative permittivity of the medium and absolute permittivity of air or vacuum.
+
+"
+                        android:id="@+id/textAnswer12ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion13ElectricCircuits"
+                android:text="13)Magnetic flux has the unit of"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup13ElectricCircuits">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Newton"
+                    android:id="@+id/radioButton49ElectricCircuits"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton50ElectricCircuits"
+                    android:text="B)Ampere turn"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton51ElectricCircuits"
+                    android:text="C)Weber"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton52ElectricCircuits"
+                    android:text="D)Tesla"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer13ElectricCircuits"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer13ElectricCircuits"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option C \n The unit of magnetic flux is called Weber in honor of famous scientist Wilhelm Eduard Weber (1804 – 1891). Magnetic flux has also another unit named Maxwell. 1 Maxwell = 10-8 Weber.
+
+"
+                        android:id="@+id/textAnswer13ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion14ElectricCircuits"
+                android:text="14)If all the elements in a particular network are linear, then the superposition theorem would hold, when the excitation is "></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup14ElectricCircuits">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)DC Only"
+                    android:id="@+id/radioButton53ElectricCircuits"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton54ElectricCircuits"
+                    android:text="B)AC Only"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton55ElectricCircuits"
+                    android:text="C)Either AC or DC"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton56ElectricCircuits"
+                    android:text="D)An Impulse"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer14ElectricCircuits"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer14ElectricCircuits"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option C \n Superposition theorem can be applied for both AC as well DC excitation to calculate the voltage or current calculations. It holds for both DC and AC excitation, if the circuit is linear. But superposition theorem is not applicable for power calculations.
+
+"
+                        android:id="@+id/textAnswer14ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion15La"
+                android:text="15)In balanced bridge, if the positions of detector and source are interchanged, the bridge will still remain balanced. This can be explained from which theoem"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup15ElectricCircuits">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Reciprocity theorem"
+                    android:id="@+id/radioButton57ElectricCircuits"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton58ElectricCircuits"
+                    android:text="B)Thevinin's theorem"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton59ElectricCircuits"
+                    android:text="C)Norton's theorem"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton60ElectricCircuits"
+                    android:text="D)Compensation theorem"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer15ElectricCircuits"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer15La"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n When response to excitation is constant even though we interchange the excitation and responses then the reciprocity theorem is verified for the given network.
+
+"
+                        android:id="@+id/textAnswer15La"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion16ElectricCircuits"
+                android:text="16)If P is the power of a star connected system then what will be power of an equivalent delta connected system?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup16ElectricCircuits">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)P"
+                    android:id="@+id/radioButton61ElectricCircuits"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton62ElectricCircuits"
+                    android:text="B)3P"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton63ElectricCircuits"
+                    android:text="C)P/3"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton64ElectricCircuits"
+                    android:text="D)None of the above"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer16ElectricCircuits"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer16ElectricCircuits"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:drawableBottom="@drawable/ec1"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n The power in both of the connections is same either it is connected in Star or Delta.
+
+"
+                        android:id="@+id/textAnswer16ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion17ElectricCircuits"
+                android:text="17)Which of the followings is/are active element?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup17ElectricCircuits">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Voltage source"
+                    android:id="@+id/radioButton65ElectricCircuits"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton66ElectricCircuits"
+                    android:text="B)Current source"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton67ElectricCircuits"
+                    android:text="C)Both"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton68ElectricCircuits"
+                    android:text="D)None of these."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer17La"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer17ElectricCircuits"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option C \n Active elements are capable of delivering energy independently for long time or ideally infinite time. Both voltage and current source are active element and they can change energy level of a circuit.
+
+"
+                        android:id="@+id/textAnswer17ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion18ElectricCircuits"
+                android:text="18)Which of the following are the passive elements?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup18ElectricCircuits">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Resistor"
+                    android:id="@+id/radioButton69ElectricCircuits"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton70ElectricCircuits"
+                    android:text="B)Bulb"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton71ElectricCircuits"
+                    android:text="C)Both"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton72ElectricCircuits"
+                    android:text="D)None of these."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer18ElectricCircuits"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer18ElectricCircuits"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option C \n When the element is not capable of delivering energy independently, are called as passive element. Both resistor and bulb are the passive elements and they can't increase the energy level of a circuit.
+
+"
+                        android:id="@+id/textAnswer18ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion19ElectricCircuits"
+                android:text="19)Power dissipation in ideal inductor is"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup19ElectricCircuits">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Maximum"
+                    android:id="@+id/radioButton73ElectricCircuits"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton74ElectricCircuits"
+                    android:text="B)Minimum"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton75ElectricCircuits"
+                    android:text="C)Zero"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton76ElectricCircuits"
+                    android:text="D)A finite value"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer19ElectricCircuits"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer19ElectricCircuits"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option C \n Internal resistance of ideal inductor is zero. As there is no resistance, there should not be any dissipation of power. Pure inductor has no resistive component, so it active power dissipation is zero.
+
+"
+                        android:id="@+id/textAnswer19ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion20ElectricCircuits"
+                android:text="20)Mesh analysis is applicable for"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup20ElectricCircuits">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)planar networks."
+                    android:id="@+id/radioButton77ElectricCircuits"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton78ElectricCircuits"
+                    android:text="B)non planar networks."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton79ElectricCircuits"
+                    android:text="C) both planar and non planar networks."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton80ElectricCircuits"
+                    android:text="D)neither planar and non planar networks."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer20ElectricCircuits"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer20ElectricCircuits"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n Mesh analysis is nothing but loop analysis, this is applied for different loops in the network and the network should be planar network. Non planar networks can't form loop equation.
+
+"
+                        android:id="@+id/textAnswer20ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
