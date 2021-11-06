@@ -1009,7 +1009,7 @@
                 android:scrollbars="none"
                 android:layout_height="150dp"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior"
-                android:id="@+id/nestedViewAnswer15La"
+                android:id="@+id/nestedViewAnswer15ElectricCircuits"
                 >
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1026,7 +1026,7 @@
                         android:text="Answer : Option A \n When response to excitation is constant even though we interchange the excitation and responses then the reciprocity theorem is verified for the given network.
 
 "
-                        android:id="@+id/textAnswer15La"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                        android:id="@+id/textAnswer15ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
             <TextView
                 android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
@@ -1132,7 +1132,7 @@
                 android:layout_height="wrap_content"
                 android:text="View Answer"
                 android:textColor="#b4004e"
-                android:id="@+id/txtViewAnswer17La"
+                android:id="@+id/txtViewAnswer17ElectricCircuits"
                 android:layout_gravity="center_horizontal"></TextView>
             <androidx.core.widget.NestedScrollView
                 android:orientation="vertical"
