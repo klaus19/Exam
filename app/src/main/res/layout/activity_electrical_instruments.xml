@@ -1015,7 +1015,7 @@
                         android:text="Answer : Option B \n A varistor (variable resistor) is an electronic component whose electronic resistance varies with the applied voltage. It is also known as voltage dependent resistor (VDR).
 
 "
-                        android:id="@+id/textAnswer15La"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                        android:id="@+id/textAnswer15ElectricalInstruments"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
             <TextView
                 android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
@@ -1120,7 +1120,7 @@
                 android:layout_height="wrap_content"
                 android:text="View Answer"
                 android:textColor="#b4004e"
-                android:id="@+id/txtViewAnswer17La"
+                android:id="@+id/txtViewAnswer17ElectricalInstruments"
                 android:layout_gravity="center_horizontal"></TextView>
             <androidx.core.widget.NestedScrollView
                 android:orientation="vertical"

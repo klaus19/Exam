@@ -212,5 +212,189 @@ class ElectricalInstruments:AppCompatActivity() {
                     .show()
             }
         })
+        
+        with(binding){
+
+            //TextView 
+
+            txtViewAnswer11ElectricalInstruments.setOnClickListener {
+                textAnswer11ElectricalInstruments.visibility = if (textAnswer11ElectricalInstruments.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer12ElectricalInstruments.setOnClickListener {
+                textAnswer12ElectricalInstruments.visibility = if (textAnswer12ElectricalInstruments.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer13ElectricalInstruments.setOnClickListener {
+                textAnswer13ElectricalInstruments.visibility = if (textAnswer13ElectricalInstruments.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer14ElectricalInstruments.setOnClickListener {
+                textAnswer14ElectricalInstruments.visibility = if (textAnswer14ElectricalInstruments.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer15ElectricalInstruments.setOnClickListener {
+                textAnswer15ElectricalInstruments.visibility = if (textAnswer15ElectricalInstruments.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer16ElectricalInstruments.setOnClickListener {
+                textAnswer16ElectricalInstruments.visibility = if (textAnswer16ElectricalInstruments.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer17ElectricalInstruments.setOnClickListener {
+                textAnswer17ElectricalInstruments.visibility = if (textAnswer17ElectricalInstruments.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer18ElectricalInstruments.setOnClickListener {
+                textAnswer18ElectricalInstruments.visibility = if (textAnswer18ElectricalInstruments.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer19ElectricalInstruments.setOnClickListener {
+                textAnswer19ElectricalInstruments.visibility = if (textAnswer19ElectricalInstruments.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer20ElectricalInstruments.setOnClickListener {
+                textAnswer20ElectricalInstruments.visibility = if (textAnswer20ElectricalInstruments.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }        
+            
+            
+
+
+
+
+            radioGroup11ElectricalInstruments.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton44ElectricalInstruments.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+
+            radioGroup12ElectricalInstruments.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton46ElectricalInstruments.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup13ElectricalInstruments.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton51ElectricalInstruments.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+
+            radioGroup14ElectricalInstruments.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton55ElectricalInstruments.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup15ElectricalInstruments.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton58ElectricalInstruments.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup16ElectricalInstruments.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton64ElectricalInstruments.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup17ElectricalInstruments.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton65ElectricalInstruments.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup18ElectricalInstruments.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton71ElectricalInstruments.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup19ElectricalInstruments.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton73ElectricalInstruments.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup20ElectricalInstruments.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton79ElectricalInstruments.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+        }
     }
 }
