@@ -53,6 +53,186 @@ class ElectromagneticField:AppCompatActivity() {
             binding.textAnswer10ElectromagneticFields.visibility = if (   binding.textAnswer10ElectromagneticFields.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
         }
 
+        with(binding){
+            txtViewAnswer11ElectromagneticFields.setOnClickListener {
+                textAnswer11ElectromagneticFields.visibility = if (textAnswer11ElectromagneticFields.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer12ElectromagneticFields.setOnClickListener {
+                textAnswer12ElectromagneticFields.visibility = if (textAnswer12ElectromagneticFields.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer13ElectromagneticFields.setOnClickListener {
+                textAnswer13ElectromagneticFields.visibility = if (textAnswer13ElectromagneticFields.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer14ElectromagneticFields.setOnClickListener {
+                textAnswer14ElectromagneticFields.visibility = if (textAnswer14ElectromagneticFields.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer15ElectromagneticFields.setOnClickListener {
+                textAnswer15ElectromagneticFields.visibility = if (textAnswer15ElectromagneticFields.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer16ElectromagneticFields.setOnClickListener {
+                textAnswer16ElectromagneticFields.visibility = if (textAnswer16ElectromagneticFields.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer17ElectromagneticFields.setOnClickListener {
+                textAnswer17ElectromagneticFields.visibility = if (textAnswer17ElectromagneticFields.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer18ElectromagneticFields.setOnClickListener {
+                textAnswer18ElectromagneticFields.visibility = if (textAnswer18ElectromagneticFields.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer19ElectromagneticFields.setOnClickListener {
+                textAnswer19ElectromagneticFields.visibility = if (textAnswer19ElectromagneticFields.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer20ElectromagneticFields.setOnClickListener {
+                textAnswer20ElectromagneticFields.visibility = if (textAnswer20ElectromagneticFields.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+        }
+        
+        
+        with(binding){
+
+            radioGroup11ElectromagneticFields.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton43ElectromagneticFields.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+
+            radioGroup12ElectromagneticFields.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton47ElectromagneticFields.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup13ElectromagneticFields.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton50ElectromagneticFields.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+
+            radioGroup14ElectromagneticFields.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton54ElectromagneticFields.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup15ElectromagneticFields.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton59ElectromagneticFields.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup16ElectromagneticFields.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton61ElectromagneticFields.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup17ElectromagneticFields.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton67ElectromagneticFields.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup18ElectromagneticFields.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton69ElectromagneticFields.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup19ElectromagneticFields.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton73ElectromagneticFields.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup20ElectromagneticFields.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton78ElectromagneticFields.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            
+        }
 
         binding.radioGroup1ElectromagneticFields?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
