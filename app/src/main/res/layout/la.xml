@@ -269,7 +269,7 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion15La"
+        android:id="@+id/textQuestion15ElectricCircuits"
         android:text="15)"></TextView>
 
     <RadioGroup
@@ -310,7 +310,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer15La"
+        android:id="@+id/nestedViewAnswer15ElectricCircuits"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -327,7 +327,7 @@
                 android:text="Answer : Option B \n
 
 "
-                android:id="@+id/textAnswer15La"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/txtViewAnswer15ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
