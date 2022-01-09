@@ -995,7 +995,7 @@
                 android:layout_height="wrap_content"
                 android:text="View Answer"
                 android:textColor="#b4004e"
-                android:id="@+id/txtAnswer15EngineeringMaterials"
+                android:id="@+id/txtViewAnswer15EngineeringMaterials"
                 android:layout_gravity="center_horizontal"></TextView>
             <androidx.core.widget.NestedScrollView
                 android:orientation="vertical"
@@ -1020,7 +1020,7 @@
                         android:text="Answer : Option C \n High Permeability is desired because it helps in electromagnetic induction. High resistivity is required for good current conduction in conductor. But large hysteresis loop will increase hysteresis losses, so it is not desired. When a magnetic material is subjected to a cycle of magnetization (magnetized first in one direction and later demagnetized in opposite direction in a cyclic manner), energy loss takes place. This energy loss is due to molecular friction in the material. This energy loss is nothing but the hysteresis loss. So, for a large hysteresis loop, the point of hysteresis loss (or) magnetic saturation point is high. Hence, the effect of hysteresis loss is less in this case. That is why in the electrical applications, the magnetic material should not have larger value of hysteresis loop.
 
 "
-                        android:id="@+id/txtViewAnswer15EngineeringMaterials"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                        android:id="@+id/textAnswer15EngineeringMaterials"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
             <TextView
                 android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
@@ -1125,7 +1125,7 @@
                 android:layout_height="wrap_content"
                 android:text="View Answer"
                 android:textColor="#b4004e"
-                android:id="@+id/txtViewAnswer17La"
+                android:id="@+id/txtViewAnswer17EngineeringMaterials"
                 android:layout_gravity="center_horizontal"></TextView>
             <androidx.core.widget.NestedScrollView
                 android:orientation="vertical"
