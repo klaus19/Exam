@@ -8,32 +8,32 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion11ElectricCircuits"
+        android:id="@+id/textQuestion11HeatingAndWelding"
         android:text="11)  "></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup11ElectricCircuits">
+        android:id="@+id/radioGroup11HeatingAndWelding">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A) "
-            android:id="@+id/radioButton41ElectricCircuits"></RadioButton>
+            android:id="@+id/radioButton41HeatingAndWelding"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton42ElectricCircuits"
+            android:id="@+id/radioButton42HeatingAndWelding"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton43ElectricCircuits"
+            android:id="@+id/radioButton43HeatingAndWelding"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton44ElectricCircuits"
+            android:id="@+id/radioButton44HeatingAndWelding"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer11ElectricCircuits"
+        android:id="@+id/txtViewAnswer11HeatingAndWelding"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -49,7 +49,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer11ElectricCircuits"
+        android:id="@+id/nestedViewAnswer11HeatingAndWelding"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,7 +67,7 @@
                 android:text="Answer : Option C \n
 
 "
-                android:id="@+id/textAnswer11ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer11HeatingAndWelding"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
 
@@ -75,32 +75,32 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion12ElectricCircuits"
+        android:id="@+id/textQuestion12HeatingAndWelding"
         android:text="12)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup12ElectricCircuits">
+        android:id="@+id/radioGroup12HeatingAndWelding">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A) "
-            android:id="@+id/radioButton45ElectricCircuits"></RadioButton>
+            android:id="@+id/radioButton45HeatingAndWelding"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton46ElectricCircuits"
+            android:id="@+id/radioButton46HeatingAndWelding"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton47ElectricCircuits"
+            android:id="@+id/radioButton47HeatingAndWelding"
             android:text="C) "></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton48ElectricCircuits"
+            android:id="@+id/radioButton48HeatingAndWelding"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -108,7 +108,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer12ElectricCircuits"
+        android:id="@+id/txtViewAnswer12HeatingAndWelding"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -116,7 +116,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer12ElectricCircuits"
+        android:id="@+id/nestedViewAnswer12HeatingAndWelding"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -134,39 +134,39 @@
                 android:text="Answer : Option A \n
 
 "
-                android:id="@+id/textAnswer12ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer12HeatingAndWelding"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion13ElectricCircuits"
+        android:id="@+id/textQuestion13HeatingAndWelding"
         android:text="13)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup13ElectricCircuits">
+        android:id="@+id/radioGroup13HeatingAndWelding">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton49ElectricCircuits"></RadioButton>
+            android:id="@+id/radioButton49HeatingAndWelding"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton50ElectricCircuits"
+            android:id="@+id/radioButton50HeatingAndWelding"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton51ElectricCircuits"
+            android:id="@+id/radioButton51HeatingAndWelding"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton52ElectricCircuits"
+            android:id="@+id/radioButton52HeatingAndWelding"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -174,7 +174,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer13ElectricCircuits"
+        android:id="@+id/txtViewAnswer13HeatingAndWelding"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -182,7 +182,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer13ElectricCircuits"
+        android:id="@+id/nestedViewAnswer13HeatingAndWelding"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -199,39 +199,39 @@
                 android:text="Answer : Option C \n
 
 "
-                android:id="@+id/textAnswer13ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer13HeatingAndWelding"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion14ElectricCircuits"
+        android:id="@+id/textQuestion14HeatingAndWelding"
         android:text="14) "></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup14ElectricCircuits">
+        android:id="@+id/radioGroup14HeatingAndWelding">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A) "
-            android:id="@+id/radioButton53ElectricCircuits"></RadioButton>
+            android:id="@+id/radioButton53HeatingAndWelding"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton54ElectricCircuits"
+            android:id="@+id/radioButton54HeatingAndWelding"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton55ElectricCircuits"
+            android:id="@+id/radioButton55HeatingAndWelding"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton56ElectricCircuits"
+            android:id="@+id/radioButton56HeatingAndWelding"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -239,7 +239,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer14ElectricCircuits"
+        android:id="@+id/txtViewAnswer14HeatingAndWelding"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -247,7 +247,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer14ElectricCircuits"
+        android:id="@+id/nestedViewAnswer14HeatingAndWelding"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -264,37 +264,37 @@
                 android:text="Answer : Option D \n
 
 "
-                android:id="@+id/textAnswer14ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer14HeatingAndWelding"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion15ElectricCircuits"
+        android:id="@+id/textQuestion15HeatingAndWelding"
         android:text="15)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup15ElectricCircuits">
+        android:id="@+id/radioGroup15HeatingAndWelding">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton57ElectricCircuits"></RadioButton>
+            android:id="@+id/radioButton57HeatingAndWelding"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton58ElectricCircuits"
+            android:id="@+id/radioButton58HeatingAndWelding"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton59ElectricCircuits"
+            android:id="@+id/radioButton59HeatingAndWelding"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton60ElectricCircuits"
+            android:id="@+id/radioButton60HeatingAndWelding"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -302,7 +302,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer15ElectricCircuits"
+        android:id="@+id/txtViewAnswer15HeatingAndWelding"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -310,7 +310,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer15ElectricCircuits"
+        android:id="@+id/nestedViewAnswer15HeatingAndWelding"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -327,37 +327,37 @@
                 android:text="Answer : Option B \n
 
 "
-                android:id="@+id/txtViewAnswer15ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/txtViewAnswer15HeatingAndWelding"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion16ElectricCircuits"
+        android:id="@+id/textQuestion16HeatingAndWelding"
         android:text="16)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup16ElectricCircuits">
+        android:id="@+id/radioGroup16HeatingAndWelding">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton61ElectricCircuits"></RadioButton>
+            android:id="@+id/radioButton61HeatingAndWelding"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton62ElectricCircuits"
+            android:id="@+id/radioButton62HeatingAndWelding"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton63ElectricCircuits"
+            android:id="@+id/radioButton63HeatingAndWelding"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton64ElectricCircuits"
+            android:id="@+id/radioButton64HeatingAndWelding"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -365,7 +365,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer16ElectricCircuits"
+        android:id="@+id/txtViewAnswer16HeatingAndWelding"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -373,7 +373,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer16ElectricCircuits"
+        android:id="@+id/nestedViewAnswer16HeatingAndWelding"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -391,7 +391,7 @@
                 android:text="Answer : Option A \n
 
 "
-                android:id="@+id/textAnswer16ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer16HeatingAndWelding"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
 
@@ -399,32 +399,32 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion17ElectricCircuits"
+        android:id="@+id/textQuestion17HeatingAndWelding"
         android:text="17)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup17ElectricCircuits">
+        android:id="@+id/radioGroup17HeatingAndWelding">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton65ElectricCircuits"></RadioButton>
+            android:id="@+id/radioButton65HeatingAndWelding"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton66ElectricCircuits"
+            android:id="@+id/radioButton66HeatingAndWelding"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton67ElectricCircuits"
+            android:id="@+id/radioButton67HeatingAndWelding"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton68ElectricCircuits"
+            android:id="@+id/radioButton68HeatingAndWelding"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -440,7 +440,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer17ElectricCircuits"
+        android:id="@+id/nestedViewAnswer17HeatingAndWelding"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -458,39 +458,39 @@
                 android:text="Answer : Option B \n
 
 "
-                android:id="@+id/textAnswer17ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer17HeatingAndWelding"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion18ElectricCircuits"
+        android:id="@+id/textQuestion18HeatingAndWelding"
         android:text="18)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup18ElectricCircuits">
+        android:id="@+id/radioGroup18HeatingAndWelding">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A) "
-            android:id="@+id/radioButton69ElectricCircuits"></RadioButton>
+            android:id="@+id/radioButton69HeatingAndWelding"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton70ElectricCircuits"
+            android:id="@+id/radioButton70HeatingAndWelding"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton71ElectricCircuits"
+            android:id="@+id/radioButton71HeatingAndWelding"
             android:text="C) "></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton72ElectricCircuits"
+            android:id="@+id/radioButton72HeatingAndWelding"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -498,7 +498,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer18ElectricCircuits"
+        android:id="@+id/txtViewAnswer18HeatingAndWelding"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -506,7 +506,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer18ElectricCircuits"
+        android:id="@+id/nestedViewAnswer18HeatingAndWelding"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -523,39 +523,39 @@
                 android:text="Answer : Option D \n
 
 "
-                android:id="@+id/textAnswer18ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer18HeatingAndWelding"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion19ElectricCircuits"
+        android:id="@+id/textQuestion19HeatingAndWelding"
         android:text="19)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup19ElectricCircuits">
+        android:id="@+id/radioGroup19HeatingAndWelding">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton73ElectricCircuits"></RadioButton>
+            android:id="@+id/radioButton73HeatingAndWelding"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton74ElectricCircuits"
+            android:id="@+id/radioButton74HeatingAndWelding"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton75ElectricCircuits"
+            android:id="@+id/radioButton75HeatingAndWelding"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton76ElectricCircuits"
+            android:id="@+id/radioButton76HeatingAndWelding"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -563,7 +563,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer19ElectricCircuits"
+        android:id="@+id/txtViewAnswer19HeatingAndWelding"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -571,7 +571,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer19ElectricCircuits"
+        android:id="@+id/nestedViewAnswer19HeatingAndWelding"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -588,37 +588,37 @@
                 android:text="Answer : Option A \n
 
 "
-                android:id="@+id/textAnswer19ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer19HeatingAndWelding"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textQuestion20ElectricCircuits"
+        android:id="@+id/textQuestion20HeatingAndWelding"
         android:text="20)"></TextView>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup20ElectricCircuits">
+        android:id="@+id/radioGroup20HeatingAndWelding">
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A)"
-            android:id="@+id/radioButton77ElectricCircuits"></RadioButton>
+            android:id="@+id/radioButton77HeatingAndWelding"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton78ElectricCircuits"
+            android:id="@+id/radioButton78HeatingAndWelding"
             android:text="B)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton79ElectricCircuits"
+            android:id="@+id/radioButton79HeatingAndWelding"
             android:text="C)"></RadioButton>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton80ElectricCircuits"
+            android:id="@+id/radioButton80HeatingAndWelding"
             android:text="D)"></RadioButton>
     </RadioGroup>
     <TextView
@@ -626,7 +626,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer20ElectricCircuits"
+        android:id="@+id/txtViewAnswer20HeatingAndWelding"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
@@ -634,7 +634,7 @@
         android:scrollbars="none"
         android:layout_height="150dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/nestedViewAnswer20ElectricCircuits"
+        android:id="@+id/nestedViewAnswer20HeatingAndWelding"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -651,6 +651,6 @@
                 android:text="Answer : Option A \n
 
 "
-                android:id="@+id/textAnswer20ElectricCircuits"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+                android:id="@+id/textAnswer20HeatingAndWelding"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
 
 </LinearLayout>
