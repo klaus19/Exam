@@ -54,6 +54,41 @@ class HeatingAndWelding:AppCompatActivity() {
             binding.textAnswer10HeatingAndWelding.visibility = if (   binding.textAnswer10HeatingAndWelding.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
         }
 
+        with(binding){
+
+            txtViewAnswer11HeatingAndWelding.setOnClickListener {
+                textAnswer11HeatingAndWelding.visibility = if (textAnswer11HeatingAndWelding.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer12HeatingAndWelding.setOnClickListener {
+                textAnswer12HeatingAndWelding.visibility = if (textAnswer12HeatingAndWelding.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer13HeatingAndWelding.setOnClickListener {
+                textAnswer13HeatingAndWelding.visibility = if (textAnswer13HeatingAndWelding.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer14HeatingAndWelding.setOnClickListener {
+                textAnswer14HeatingAndWelding.visibility = if (textAnswer14HeatingAndWelding.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            textViewAnswer15HeatingAndWelding.setOnClickListener {
+                txtAnswer15HeatingAndWelding.visibility = if (txtAnswer15HeatingAndWelding.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer16HeatingAndWelding.setOnClickListener {
+                textAnswer16HeatingAndWelding.visibility = if (textAnswer16HeatingAndWelding.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer17HeatingAndWelding.setOnClickListener {
+                textAnswer17HeatingAndWelding.visibility = if (textAnswer17HeatingAndWelding.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer18HeatingAndWelding.setOnClickListener {
+                textAnswer18HeatingAndWelding.visibility = if (textAnswer18HeatingAndWelding.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer19HeatingAndWelding.setOnClickListener {
+                textAnswer19HeatingAndWelding.visibility = if (textAnswer19HeatingAndWelding.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer20HeatingAndWelding.setOnClickListener {
+                textAnswer20HeatingAndWelding.visibility = if (textAnswer20HeatingAndWelding.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            
+            
+        }
 
         binding.radioGroup1HeatingAndWelding?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
@@ -212,5 +247,150 @@ class HeatingAndWelding:AppCompatActivity() {
                     .show()
             }
         })
+        
+        with(binding){
+            radioGroup11HeatingAndWelding.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton42HeatingAndWelding.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+
+            radioGroup12HeatingAndWelding.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton46HeatingAndWelding.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup13HeatingAndWelding.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton51HeatingAndWelding.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+
+            radioGroup14HeatingAndWelding.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton56HeatingAndWelding.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup15HeatingAndWelding.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton58HeatingAndWelding.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup16HeatingAndWelding.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton63HeatingAndWelding.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup17HeatingAndWelding.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton68HeatingAndWelding.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup18HeatingAndWelding.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton72HeatingAndWelding.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup19HeatingAndWelding.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton73HeatingAndWelding.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup20HeatingAndWelding.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton78HeatingAndWelding.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+        }
     }
 }
