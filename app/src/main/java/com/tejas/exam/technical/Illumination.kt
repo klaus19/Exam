@@ -52,6 +52,184 @@ class Illumination:AppCompatActivity() {
         binding.txtViewAnswer10Illumination?.setOnClickListener {
             binding.textAnswer10Illumination.visibility = if (   binding.textAnswer10Illumination.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
         }
+        
+        with(binding){
+
+            txtViewAnswer11Illumination.setOnClickListener {
+                textAnswer11Illumination.visibility = if (textAnswer11Illumination.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer12Illumination.setOnClickListener {
+                textAnswer12Illumination.visibility = if (textAnswer12Illumination.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer13Illumination.setOnClickListener {
+                textAnswer13Illumination.visibility = if (textAnswer13Illumination.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer14Illumination.setOnClickListener {
+                textAnswer14Illumination.visibility = if (textAnswer14Illumination.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer15Illumination.setOnClickListener {
+                textAnswer15Illumination.visibility = if (textAnswer15Illumination.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer16Illumination.setOnClickListener {
+                textAnswer16Illumination.visibility = if (textAnswer16Illumination.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer17Illumination.setOnClickListener {
+                textAnswer17Illumination.visibility = if (textAnswer17Illumination.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer18Illumination.setOnClickListener {
+                textAnswer18Illumination.visibility = if (textAnswer18Illumination.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer19Illumination.setOnClickListener {
+                textAnswer19Illumination.visibility = if (textAnswer19Illumination.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+            txtViewAnswer20Illumination.setOnClickListener {
+                textAnswer20Illumination.visibility = if (textAnswer20Illumination.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
+            }
+
+            radioGroup11Illumination.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton44Illumination.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+
+            radioGroup12Illumination.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton48Illumination.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup13Illumination.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton52Illumination.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+
+            radioGroup14Illumination.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton53Illumination.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup15Illumination.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton58Illumination.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup16Illumination.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton63Illumination.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup17Illumination.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton65Illumination.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup18Illumination.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton71Illumination.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup19Illumination.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton73Illumination.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            radioGroup20Illumination.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+
+                val isChecked = radioButton78Illumination.isChecked
+                if (isChecked) {
+                    Snackbar.make(root, "Correct", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(0, 128, 0))
+                        .show()
+
+                } else {
+                    Snackbar.make(root, "InCorrect", Snackbar.LENGTH_LONG)
+                        .withColor(Color.rgb(255, 0, 0))
+                        .show()
+                }
+            })
+            
+        }
 
 
         binding.radioGroup1Illumination?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
