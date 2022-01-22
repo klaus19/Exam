@@ -681,6 +681,658 @@
                         \n The ROM programmed during manufacturing process itself is called MROM. Data is stored by the manufacturer during fabrication and user can not alter this data.
 "
                         android:id="@+id/textAnswer10Microprocessors"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion11Microprocessors"
+                android:text="11)A combinational PLD with a fixed AND array and a programmable OR array is called a  "></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup11Microprocessors">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)PLD "
+                    android:id="@+id/radioButton41Microprocessors"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton42Microprocessors"
+                    android:text="B)PROM"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton43Microprocessors"
+                    android:text="C)PAL"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton44Microprocessors"
+                    android:text="D)PLA"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer11Microprocessors"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer11Microprocessors"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option B \n ROM – Fixed AND array and fixed OR array \n PROM – Fixed AND array and Programmable OR array \n PAL – Programmable AND array and fixed OR array \n PLA – Programmable AND array and programmable OR array
+
+"
+                        android:id="@+id/textAnswer11Microprocessors"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion12Microprocessors"
+                android:text="12)A combinational PLD with a programmable AND array and a fixed OR array is called a"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup12Microprocessors">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)PLD"
+                    android:id="@+id/radioButton45Microprocessors"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton46Microprocessors"
+                    android:text="B)PROM"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton47Microprocessors"
+                    android:text="C)PAL"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton48Microprocessors"
+                    android:text="D)PLA"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer12Microprocessors"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer12Microprocessors"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option C \n ROM – Fixed AND array and fixed OR array \n PROM – Fixed AND array and Programmable OR array \n PAL – Programmable AND array and fixed OR array \n PLA – Programmable AND array and programmable OR array
+
+"
+                        android:id="@+id/textAnswer12Microprocessors"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion13Microprocessors"
+                android:text="13)A combinational PLD with a programmable AND array and a programmable OR array is called a"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup13Microprocessors">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)PLD"
+                    android:id="@+id/radioButton49Microprocessors"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton50Microprocessors"
+                    android:text="B)PROM"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton51Microprocessors"
+                    android:text="C)PAL"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton52Microprocessors"
+                    android:text="D)PLA"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer13Microprocessors"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer13Microprocessors"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option D \n ROM – Fixed AND array and fixed OR array \n PROM – Fixed AND array and Programmable OR array \n PAL – Programmable AND array and fixed OR array \n PLA – Programmable AND array and programmable OR array
+
+"
+                        android:id="@+id/textAnswer13Microprocessors"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion14Microprocessors"
+                android:text="14)A mask programmed ROM is "></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup14Microprocessors">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)programmed at the time of fabrication "
+                    android:id="@+id/radioButton53Microprocessors"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton54Microprocessors"
+                    android:text="B)programmed by the user"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton55Microprocessors"
+                    android:text="C)erasable and programmable"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton56Microprocessors"
+                    android:text="D)erasable electrically"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer14Microprocessors"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer14Microprocessors"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n The ROM programmed during manufacturing process itself is called MROM. Data is stored by the manufacturer during fabrication and user can not alter the data. \n In PROM data is stored by user. Only one time programmable and reprogramming is not possible. \n In EPROM erasing is done using UV light and programming is through electrical.
+
+"
+                        android:id="@+id/textAnswer14Microprocessors"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion15Microprocessors"
+                android:text="15)The length of bus cycle in 8086/8088 is four clock cycles, T1, T2, T3, T4 and an indeterminate number of wait state clock cycles denoted by Tw. The wait states are always inserted between"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup15Microprocessors">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)T1 and T2"
+                    android:id="@+id/radioButton57Microprocessors"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton58Microprocessors"
+                    android:text="B) T2 and T3"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton59Microprocessors"
+                    android:text="C) T3 and T4"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton60Microprocessors"
+                    android:text="D)T4 and T1"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer15Microprocessors"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer15Microprocessors"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option C \n The wait states are always inserted between T3 and T4.
+
+"
+                        android:id="@+id/textAnswer15Microprocessors"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion16Microprocessors"
+                android:text="16)Which one of the following circuits transmits two messages simultaneously in one direction"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup16Microprocessors">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Duplex"
+                    android:id="@+id/radioButton61Microprocessors"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton62Microprocessors"
+                    android:text="B)Diplex"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton63Microprocessors"
+                    android:text="C)Simplex"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton64Microprocessors"
+                    android:text="D)Quadruplex"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer16Microprocessors"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer16Microprocessors"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option B \n Diplex circuits transmits two messages simultaneously.
+
+"
+                        android:id="@+id/textAnswer16Microprocessors"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion17Microprocessors"
+                android:text="17)A microprocessor is ALU"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup17Microprocessors">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)and control unit on a single chip."
+                    android:id="@+id/radioButton65Microprocessors"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton66Microprocessors"
+                    android:text="B) and memory on a single chip."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton67Microprocessors"
+                    android:text="C)register unit and I/O device on a single chip."></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton68Microprocessors"
+                    android:text="D)register unit and control unit on a single chip."></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer17Microprocessors"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer17Microprocessors"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:maxLines="6"
+                        android:singleLine="false"
+                        android:text="Answer : Option D \n A microprocessor is a semiconductor component designed by using VLSI technology and it contains ALU, Control unit (CU) and registers of a CPU in a single package.
+
+"
+                        android:id="@+id/textAnswer17Microprocessors"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion18Microprocessors"
+                android:text="18)Output of the assembler in machine codes is referred to as"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup18Microprocessors">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A) Object program "
+                    android:id="@+id/radioButton69Microprocessors"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton70Microprocessors"
+                    android:text="B)Source program"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton71Microprocessors"
+                    android:text="C)Macroinstruction"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton72Microprocessors"
+                    android:text="D)Symbolic addressing"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer18Microprocessors"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer18Microprocessors"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n Input to a assembler is the source program and assembler converts it into object program.
+
+"
+                        android:id="@+id/textAnswer18Microprocessors"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion19Microprocessors"
+                android:text="19) Which one of the following is not correct?"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup19Microprocessors">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)Bus is a group of wires"
+                    android:id="@+id/radioButton73Microprocessors"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton74Microprocessors"
+                    android:text="B)Bootstrap is a technique or device for loading first instruction"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton75Microprocessors"
+                    android:text="C)An instruction is a set of bits that defines a computer operation"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton76Microprocessors"
+                    android:text="D)An interrupt signal is required at the start of every program"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer19Microprocessors"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer19Microprocessors"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option D \n Interrupt is required for interruption of main program to perform a subroutine. It may be used at the start of some program as per requirement but it is not mandatory at start of every program.
+
+"
+                        android:id="@+id/textAnswer19Microprocessors"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textQuestion20Microprocessors"
+                android:text="20) The processor status word of 8085 microprocessor has five flags namely"></TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup20Microprocessors">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A) S, Z, AC, P, CY"
+                    android:id="@+id/radioButton77Microprocessors"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton78Microprocessors"
+                    android:text="B) S, OV, AC, P, CY"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton79Microprocessors"
+                    android:text="C) S, Z, OV, P, CY"></RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton80Microprocessors"
+                    android:text="D)S, Z, AC, P, OV"></RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Answer"
+                android:textColor="#b4004e"
+                android:id="@+id/txtViewAnswer20Microprocessors"
+                android:layout_gravity="center_horizontal"></TextView>
+            <androidx.core.widget.NestedScrollView
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="150dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/nestedViewAnswer20Microprocessors"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="invisible"
+                        android:lines="4"
+                        android:singleLine="false"
+                        android:text="Answer : Option A \n 8085 microprocessor has 5 status flag \n S → Sign flag \n Z → Zero flag \n AC → Auxiliary carry flag \n P → Parity flag \n CY → Carry flag
+
+"
+                        android:id="@+id/textAnswer20Microprocessors"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
+
+
+
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
