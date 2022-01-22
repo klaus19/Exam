@@ -1336,9 +1336,6 @@
 
 "
                         android:id="@+id/textAnswer20PowerElectronics"></TextView></LinearLayout></androidx.core.widget.NestedScrollView>
-
-
-
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
