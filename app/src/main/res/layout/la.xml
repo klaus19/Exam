@@ -432,7 +432,7 @@
         android:layout_height="wrap_content"
         android:text="View Answer"
         android:textColor="#b4004e"
-        android:id="@+id/txtViewAnswer17La"
+        android:id="@+id/txtViewAnswer17HeatingAndWelding"
         android:layout_gravity="center_horizontal"></TextView>
     <androidx.core.widget.NestedScrollView
         android:orientation="vertical"
