@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#e2f1f8"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's us give a test"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/pink_900" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:id="@+id/btnTest1"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_maroon"
+        android:text="Free Test 1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFF"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:id="@+id/btnTest2"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_maroon"
+        android:text="Free Test 2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFF"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:id="@+id/btnTest3"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_maroon"
+        android:text="Free Test 3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFF"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:id="@+id/btnTest4"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_maroon"
+        android:text="Free Test 4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFF"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:id="@+id/btnTest5"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_maroon"
+        android:text="Free Test 5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFF"/>
+
+
+
+
+
+</LinearLayout>
