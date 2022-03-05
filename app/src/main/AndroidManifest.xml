@@ -85,6 +85,8 @@
         <activity android:name=".reasoning.CourseAction"/>
         <activity android:name=".verbal.DirectionTest"/>
         <activity android:name=".dominika.Marathi"/>
+        <activity android:name=".onlinetests.OnlineTests"/>
+        <activity android:name=".onlinetests.Test1"/>
     </application>
 
 </manifest>
