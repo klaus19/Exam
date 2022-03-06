@@ -956,7 +956,7 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="A)< latching current but greater than holding current and gate signal is 0."
+                    android:text="A)latching current but greater than holding current and gate signal is 0."
                     android:id="@+id/radioButton57PowerElectronics"></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
@@ -967,7 +967,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/radioButton59PowerElectronics"
-                    android:text="C)< latching current but greater than holding current and gate signal is present."></RadioButton>
+                    android:text="C)latching current but greater than holding current and gate signal is present."></RadioButton>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

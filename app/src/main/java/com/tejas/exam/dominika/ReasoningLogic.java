@@ -12,12 +12,13 @@ import androidx.cardview.widget.CardView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.tejas.exam.R;
+import com.tejas.exam.onlinetests.OnlineTests;
 
 public class ReasoningLogic extends AppCompatActivity {
 
     // Make sure to use the FloatingActionButton
     // for all the FABs
-    FloatingActionButton mAddFab, mAddAlarmFab, mAddPersonFab;
+    FloatingActionButton mAddFab, mAddCallFab, mAddTestFab;
 
 
     // These are taken to make visible and invisible along
@@ -41,8 +42,8 @@ public class ReasoningLogic extends AppCompatActivity {
 
         mAddFab = findViewById(R.id.add_fab);
         // FAB button
-        mAddAlarmFab = findViewById(R.id.add_alarm_fab);
-        mAddPersonFab = findViewById(R.id.add_person_fab);
+        mAddCallFab = findViewById(R.id.add_call_fab);
+        mAddTestFab = findViewById(R.id.add_test_fab);
 
         // Also register the action name text, of all the FABs.
         addAlarmActionText = findViewById(R.id.add_alarm_action_text);
@@ -50,8 +51,8 @@ public class ReasoningLogic extends AppCompatActivity {
 
         // Now set all the FABs and all the action name
         // texts as GONE
-        mAddAlarmFab.setVisibility(View.GONE);
-        mAddPersonFab.setVisibility(View.GONE);
+        mAddCallFab.setVisibility(View.GONE);
+        mAddTestFab.setVisibility(View.GONE);
         addAlarmActionText.setVisibility(View.GONE);
         addPersonActionText.setVisibility(View.GONE);
 
@@ -70,8 +71,8 @@ public class ReasoningLogic extends AppCompatActivity {
                         // when isAllFabsVisible becomes
                         // true make all the action name
                         // texts and FABs VISIBLE.
-                        mAddAlarmFab.show();
-                        mAddPersonFab.show();
+                        mAddCallFab.show();
+                        mAddTestFab.show();
                         addAlarmActionText.setVisibility(View.VISIBLE);
                         addPersonActionText.setVisibility(View.VISIBLE);
 
@@ -84,8 +85,8 @@ public class ReasoningLogic extends AppCompatActivity {
                         // when isAllFabsVisible becomes
                         // true make all the action name
                         // texts and FABs GONE.
-                        mAddAlarmFab.hide();
-                        mAddPersonFab.hide();
+                        mAddCallFab.hide();
+                        mAddTestFab.hide();
                         addAlarmActionText.setVisibility(View.GONE);
                         addPersonActionText.setVisibility(View.GONE);
 
@@ -110,14 +111,18 @@ public class ReasoningLogic extends AppCompatActivity {
         // FAB. Here it shows simple Toast msg. The Toast
         // will be shown only when they are visible and only
         // when user clicks on them
-        mAddPersonFab.setOnClickListener(
-                view -> Toast.makeText(ReasoningLogic.this, "Person Added", Toast.LENGTH_SHORT).show());
+       mAddTestFab.setOnClickListener(
+               view->{
+                   Intent onlinetests = new Intent(ReasoningLogic.this, OnlineTests.class);
+                           startActivity(onlinetests);
+               }
+       );
 
         // below is the sample action to handle add alarm
         // FAB. Here it shows simple Toast msg The Toast
         // will be shown only when they are visible and only
         // when user clicks on them
-        mAddAlarmFab.setOnClickListener(
+        mAddCallFab.setOnClickListener(
                 view -> Toast.makeText(ReasoningLogic.this, "Alarm Added", Toast.LENGTH_SHORT).show());
     }
     }

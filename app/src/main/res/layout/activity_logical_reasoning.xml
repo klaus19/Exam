@@ -136,7 +136,7 @@
     <!--Make sure that you are constraining this
         button to the parent button-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/add_alarm_fab"
+        android:id="@+id/add_call_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
@@ -166,7 +166,7 @@
     <!--Make sure that you are constraining this
         button to the add Alarm FAB button-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/add_person_fab"
+        android:id="@+id/add_test_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
@@ -188,7 +188,7 @@
         android:textColor="#005662"
         android:textSize="15sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/add_person_fab"
-        app:layout_constraintEnd_toStartOf="@+id/add_person_fab"
-        app:layout_constraintTop_toTopOf="@+id/add_person_fab" />
+        app:layout_constraintBottom_toBottomOf="@+id/add_test_fab"
+        app:layout_constraintEnd_toStartOf="@+id/add_test_fab"
+        app:layout_constraintTop_toTopOf="@+id/add_test_fab" />
 </androidx.constraintlayout.widget.ConstraintLayout>

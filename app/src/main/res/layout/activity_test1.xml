@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#e2f1f8"
     >
     
     <androidx.appcompat.widget.AppCompatTextView
@@ -15,26 +16,396 @@
         android:textColor="@color/primal"
         android:textSize="30sp" />
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="match_parent"
         android:id="@+id/linear1"
         android:layout_marginTop="10dp"
         android:background="#e2f1f8"
         android:layout_below="@id/timer1"
         android:orientation="vertical">
 
-        <androidx.appcompat.widget.AppCompatTextView
+        <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/txt1"
-            android:textSize="16sp"
-            android:textColor="@color/primal"/>
+            android:layout_height="match_parent"
+            android:id="@+id/sc1">
 
-        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/primal"
+                    android:textSize="16dp"
+                    android:text="1) Two pipes A and B can fill a tank in 15 minutes and 20 minutes respectively. Both the pipes are opened together but after 4 minutes, pipe A is turned off. What is the total time required to fill the tank?"
+                    android:id="@+id/txt1"></androidx.appcompat.widget.AppCompatTextView>
 
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup1"
+                    >
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)10 min. 20 sec"
+                        android:id="@+id/radioButton1Test1"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton2Test1"
+                        android:text="B)11 min. 45 sec"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton3Test1"
+                        android:text="C)12 min. 30 sec"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton4Test1"
+                        android:text="D)14 min. 40 sec"></RadioButton>
+                </RadioGroup>
 
-    </LinearLayout>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/primal"
+                    android:textSize="16dp"
+                    android:text="2)A train can travel 50% faster than a car. Both start from point A at the same time and reach point B 75 kms away from A at the same time. On the way, however, the train lost about 12.5 minutes while stopping at the stations. The speed of the car is:"
+                   ></androidx.appcompat.widget.AppCompatTextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup2"
+                    >
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)100 kmph"
+                        android:id="@+id/radioButton5Test1"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton6Test1"
+                        android:text="B)110 kmph"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton7Test1"
+                        android:text="C)120 kmph"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton8Test1"
+                        android:text="D)130 kmph"></RadioButton>
+                </RadioGroup>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/primal"
+                    android:textSize="16dp"
+                    android:text="3)3, 7, 6, 5, 9, 3, 12, 1, 15, (....)"
+                    ></androidx.appcompat.widget.AppCompatTextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup3"
+                    >
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)18"
+                        android:id="@+id/radioButton9Test1"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton10Test1"
+                        android:text="B)13"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton11Test1"
+                        android:text="C)-1"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton12Test1"
+                        android:text="D)3"></RadioButton>
+                </RadioGroup>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/primal"
+                    android:textSize="16dp"
+                    android:text="4)A dishonest milkman professes to sell his milk at cost price but he mixes it with water and thereby gains 25%. The percentage of water in the mixture is:"
+                    ></androidx.appcompat.widget.AppCompatTextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup4"
+                    >
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)4%"
+                        android:id="@+id/radioButton13Test1"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton14Test1"
+                        android:text="B)6 1/4 %"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton15Test1"
+                        android:text="C)20%"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton16Test1"
+                        android:text="D)25%"></RadioButton>
+                </RadioGroup>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/primal"
+                    android:textSize="16dp"
+                    android:text="5)8, 24, 12, 36, 18, 54, (....)"
+                    ></androidx.appcompat.widget.AppCompatTextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup5"
+                    >
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)27"
+                        android:id="@+id/radioButton17Test1"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton18Test1"
+                        android:text="B)108"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton19Test1"
+                        android:text="C)68"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton20Test1"
+                        android:text="D)72"></RadioButton>
+                </RadioGroup>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/primal"
+                    android:textSize="16dp"
+                    android:text="6)The area of playground is 1600 m2. What is the perimeter? \n I.It is a perfect square playground.\n II.It costs Rs. 3200 to put a fence around the playground at the rate of Rs. 20 per metre.
+"
+                    ></androidx.appcompat.widget.AppCompatTextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup6"
+                    >
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)I alone sufficient while II alone not sufficient to answer"
+                        android:id="@+id/radioButton21Test1"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton22Test1"
+                        android:text="B)II alone sufficient while I alone not sufficient to answer
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton23Test1"
+                        android:text="C)Either I or II alone sufficient to answer
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton24Test1"
+                        android:text="D)Both I and II are not sufficient to answer"></RadioButton>
+                </RadioGroup>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/primal"
+                    android:textSize="16dp"
+                    android:text="7)Albert invested an amount of Rs. 8000 in a fixed deposit scheme for 2 years at compound interest rate 5 p.c.p.a. How much amount will Albert get on maturity of the fixed deposit?"
+                    ></androidx.appcompat.widget.AppCompatTextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup7"
+                    >
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)Rs. 8600"
+                        android:id="@+id/radioButton25Test1"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton26Test1"
+                        android:text="B)Rs. 8620
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton27Test1"
+                        android:text="C)Rs. 8820
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton28Test1"
+                        android:text="D)None of these"></RadioButton>
+                </RadioGroup>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/primal"
+                    android:textSize="16dp"
+                    android:text="8)At a game of billiards, A can give B 15 points in 60 and A can give C to 20 points in 60. How many points can B give C in a game of 90?"
+                    ></androidx.appcompat.widget.AppCompatTextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup8"
+                    >
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)30 points"
+                        android:id="@+id/radioButton29Test1"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton30Test1"
+                        android:text="B)20 points
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton31Test1"
+                        android:text="C)10 points
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton32Test1"
+                        android:text="D)12 points"></RadioButton>
+                </RadioGroup>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/primal"
+                    android:textSize="16dp"
+                    android:text="9)The true discount on a bill due 9 months hence at 16% per annum is Rs. 189. The amount of the bill is:?"
+                    ></androidx.appcompat.widget.AppCompatTextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup9"
+                    >
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)Rs. 1386"
+                        android:id="@+id/radioButton33Test1"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton34Test1"
+                        android:text="B)Rs. 1764
+
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton35Test1"
+                        android:text="C)Rs. 1575
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton36Test1"
+                        android:text="D)Rs. 2268
+"></RadioButton>
+                </RadioGroup>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/primal"
+                    android:textSize="16dp"
+                    android:text="10)The true discount on a bill due 9 months hence at 16% per annum is Rs. 189. The amount of the bill is:?"
+                    ></androidx.appcompat.widget.AppCompatTextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup10"
+                    >
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A)Rs. 1386"
+                        android:id="@+id/radioButton37Test1"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton38Test1"
+                        android:text="B)Rs. 1764
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton39Test1"
+                        android:text="C)Rs. 1575
+"></RadioButton>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton40Test1"
+                        android:text="D)Rs. 2268
+"></RadioButton>
+                </RadioGroup>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="120dp"
