@@ -42,12 +42,12 @@ public class ReasoningLogic extends AppCompatActivity {
 
         mAddFab = findViewById(R.id.add_fab);
         // FAB button
-        mAddCallFab = findViewById(R.id.add_call_fab);
+        mAddCallFab = findViewById(R.id.add_alarm_fab);
         mAddTestFab = findViewById(R.id.add_test_fab);
 
         // Also register the action name text, of all the FABs.
-        addAlarmActionText = findViewById(R.id.add_alarm_action_text);
-        addPersonActionText = findViewById(R.id.add_person_action_text);
+        addAlarmActionText = findViewById(R.id.add_call_text);
+        addPersonActionText = findViewById(R.id.add_test_action_text);
 
         // Now set all the FABs and all the action name
         // texts as GONE

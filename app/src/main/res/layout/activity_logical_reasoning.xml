@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
@@ -116,6 +117,8 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
+
+
         </GridLayout>
 
 
@@ -136,7 +139,7 @@
     <!--Make sure that you are constraining this
         button to the parent button-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/add_call_fab"
+        android:id="@+id/add_alarm_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
@@ -150,14 +153,11 @@
     <!--Make sure that you are constraining this Text to
         the add Alarm FAB button-->
     <TextView
-        android:id="@+id/add_alarm_action_text"
+        android:id="@+id/add_call_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:text="Books Enquiry"
-        android:textColor="#005662"
-        android:textStyle="bold"
-        android:textSize="15sp"
+        android:text="Book Enquiry"
         app:layout_constraintBottom_toBottomOf="@+id/add_alarm_fab"
         app:layout_constraintEnd_toStartOf="@+id/add_alarm_fab"
         app:layout_constraintTop_toTopOf="@+id/add_alarm_fab" />
@@ -180,15 +180,15 @@
     <!--Make sure that you are constraining this Text
         to the add Person FAB button-->
     <TextView
-        android:id="@+id/add_person_action_text"
+        android:id="@+id/add_test_action_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:text="Take a Test"
-        android:textColor="#005662"
-        android:textSize="15sp"
-        android:textStyle="bold"
+        android:text="Take a test"
         app:layout_constraintBottom_toBottomOf="@+id/add_test_fab"
         app:layout_constraintEnd_toStartOf="@+id/add_test_fab"
         app:layout_constraintTop_toTopOf="@+id/add_test_fab" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
