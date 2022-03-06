@@ -416,7 +416,6 @@
                     android:layout_marginBottom="10dp"
                     android:textColor="#FFFF"/>
             </LinearLayout>
-
         </androidx.core.widget.NestedScrollView>
     </RelativeLayout>
 </RelativeLayout>
