@@ -4,14 +4,14 @@
     android:layout_height="match_parent"
     android:background="#e2f1f8"
     >
-    
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/timer1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="320dp"
         android:layout_marginTop="20dp"
-        android:text="15"
+        android:text=""
         android:textStyle="bold"
         android:textColor="@color/primal"
         android:textSize="30sp" />
@@ -405,7 +405,7 @@
                 </RadioGroup>
                 <androidx.appcompat.widget.AppCompatButton
                     android:layout_width="120dp"
-                    android:id="@+id/btnTest1"
+                    android:id="@+id/btnTest1Submit"
                     android:layout_height="48dp"
                     android:background="@drawable/rounded_maroon"
                     android:text="Submit"
