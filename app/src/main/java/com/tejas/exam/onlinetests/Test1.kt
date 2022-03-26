@@ -8,11 +8,14 @@ import android.widget.LinearLayout
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.tejas.exam.databinding.ActivityTest1Binding
+import kotlin.properties.Delegates
 
 class Test1:AppCompatActivity() {
 
     private lateinit var binding:ActivityTest1Binding
     var counter=0
+    var marks:Int=0
+    var newMarks by Delegates.notNull<Int>()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,7 +54,7 @@ class Test1:AppCompatActivity() {
             builder.setTitle("Final Score")
 
             //Set a Message
-            builder.setMessage("You Final score is $counter")
+            builder.setMessage("You Final score is $marks")
 
             linear.orientation = LinearLayout.VERTICAL
             builder.setView(linear)

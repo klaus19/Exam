@@ -87,6 +87,7 @@
         <activity android:name=".dominika.Marathi"/>
         <activity android:name=".onlinetests.OnlineTests"/>
         <activity android:name=".onlinetests.Test1"/>
+        <activity android:name=".onlinetests.Test2"/>
     </application>
 
 </manifest>

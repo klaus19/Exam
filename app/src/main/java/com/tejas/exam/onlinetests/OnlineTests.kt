@@ -19,6 +19,10 @@ class OnlineTests:AppCompatActivity(){
             btnTest1.setOnClickListener {
               startActivity(Intent(this@OnlineTests,Test1::class.java))
             }
+
+            btnTest2.setOnClickListener {
+                startActivity(Intent(this@OnlineTests,Test2::class.java))
+            }
         }
     }
 
