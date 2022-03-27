@@ -139,11 +139,11 @@ class Test2:AppCompatActivity() {
 
          }
 
-
-
     }
+
+    //Setting a Timer
     fun startwithTimer(){
-        object : CountDownTimer(150000,1000){
+        object : CountDownTimer(900000,1000){
             override fun onTick(millisUntilFinished: Long) {
                 binding.timer1.text = counter.toString()
                 counter++

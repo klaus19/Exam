@@ -23,6 +23,10 @@ class OnlineTests:AppCompatActivity(){
             btnTest2.setOnClickListener {
                 startActivity(Intent(this@OnlineTests,Test2::class.java))
             }
+
+            btnTest3.setOnClickListener {
+                startActivity(Intent(this@OnlineTests,Test3::class.java))
+            }
         }
     }
 

@@ -7,13 +7,14 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/timer1"
-        android:layout_width="wrap_content"
+        android:layout_width="90dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="320dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:text="15"
+        android:text=""
         android:textStyle="bold"
-        android:textColor="@color/primal"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp" />
 
     <RelativeLayout
@@ -38,7 +39,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/primal"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="16dp"
                     android:text="1)In a regular week, there are 5 working days and for each day, the working hours are 8. A man gets Rs. 2.40 per hour for regular work and Rs. 3.20 per hours for overtime. If he earns Rs. 432 in 4 weeks, then how many hours does he work for ?"
                     android:id="@+id/txt1"></androidx.appcompat.widget.AppCompatTextView>
@@ -74,7 +75,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/primal"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="16dp"
                     android:text="2)In a two-digit, if it is known that its unit's digit exceeds its ten's digit by 2 and that the product of the given number and the sum of its digits is equal to 144, then the number is:"
                     ></androidx.appcompat.widget.AppCompatTextView>
@@ -109,7 +110,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/primal"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="16dp"
                     android:text="3)Find a positive number which when increased by 17 is equal to 60 times the reciprocal of the number"
                     ></androidx.appcompat.widget.AppCompatTextView>
@@ -145,7 +146,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/primal"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="16dp"
                     android:text="4)Ayesha's father was 38 years of age when she was born while her mother was 36 years old when her brother four years younger to her was born. What is the difference between the ages of her parents?"
                     ></androidx.appcompat.widget.AppCompatTextView>
@@ -185,7 +186,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/primal"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="16dp"
                     android:text="5)In an election between two candidates, one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got, was:"
                     ></androidx.appcompat.widget.AppCompatTextView>
@@ -220,7 +221,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/primal"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="16dp"
                     android:text="6)An industrial loom weaves 0.128 metres of cloth every second. Approximately, how many seconds will it take for the loom to weave 25 metres of cloth?
 "
@@ -256,7 +257,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/primal"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="16dp"
                     android:text="7)A takes twice as much time as B or thrice as much time as C to finish a piece of work. Working together, they can finish the work in 2 days. B can do the work alone in:"
                     ></androidx.appcompat.widget.AppCompatTextView>
@@ -297,7 +298,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/primal"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="16dp"
                     android:text="8)The ratio between the length and the breadth of a rectangular park is 3 : 2. If a man cycling along the boundary of the park at the speed of 12 km/hr completes one round in 8 minutes, then the area of the park (in sq. m) is:"
                     ></androidx.appcompat.widget.AppCompatTextView>
@@ -335,7 +336,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/primal"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="16dp"
                     android:text="9)The slant height of a right circular cone is 10 m and its height is 8 m. Find the area of its curved surface."
                     ></androidx.appcompat.widget.AppCompatTextView>
@@ -374,7 +375,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textColor="@color/primal"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="16dp"
                     android:text="10)8, 7, 11, 12, 14, 17, 17, 22, (....)"
                     ></androidx.appcompat.widget.AppCompatTextView>

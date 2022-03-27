@@ -14,7 +14,7 @@
         android:layout_marginTop="80dp"
         android:textStyle="bold"
         android:textSize="16sp"
-        android:textColor="@color/primal" />
+        android:textColor="@color/colorPrimaryDark" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="120dp"
