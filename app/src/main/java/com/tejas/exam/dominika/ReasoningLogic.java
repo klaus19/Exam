@@ -1,6 +1,7 @@
 package com.tejas.exam.dominika;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -122,8 +123,14 @@ public class ReasoningLogic extends AppCompatActivity {
         // FAB. Here it shows simple Toast msg The Toast
         // will be shown only when they are visible and only
         // when user clicks on them
-        mAddCallFab.setOnClickListener(
-                view -> Toast.makeText(ReasoningLogic.this, "Alarm Added", Toast.LENGTH_SHORT).show());
+        mAddCallFab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent callIntent = new Intent(Intent.ACTION_DIAL);
+                callIntent.setData(Uri.parse("tel:+919130430500"));
+                startActivity(callIntent);
+            }
+        });
     }
     }
 
