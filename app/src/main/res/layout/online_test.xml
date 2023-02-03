@@ -65,6 +65,16 @@
         android:layout_marginTop="20dp"
         android:textColor="#FFFF"/>
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:id="@+id/btnContactMe"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_blue"
+        android:text="Contact Us"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFFF"/>
+
 
 
 

@@ -2,7 +2,9 @@ package com.tejas.exam.onlinetests
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
+import com.tejas.exam.R
 import com.tejas.exam.databinding.OnlineTestBinding
 
 class OnlineTests:AppCompatActivity(){
@@ -28,6 +30,11 @@ class OnlineTests:AppCompatActivity(){
                 startActivity(Intent(this@OnlineTests,Test3::class.java))
             }
         }
+
+        val animation = AnimationUtils.loadAnimation(this, R.anim.shake)
+        binding.btnContactMe.startAnimation(animation)
+
+
     }
 
 
