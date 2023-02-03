@@ -518,8 +518,6 @@ class Marathi: AppCompatActivity() {
         isAllFabsVisible = false
 
         binding.addFab.setOnClickListener {
-
-            if (!isAllFabsVisible) {
                 if (!isAllFabsVisible) {
 
                     // when isAllFabsVisible becomes
@@ -546,8 +544,8 @@ class Marathi: AppCompatActivity() {
                     // texts and FABs GONE.
                     binding.addAlarmFab.hide()
                     binding.addTestFab.hide()
-                    binding.addCallText.visibility = View.GONE
-                    binding.addTestActionText.visibility = View.GONE
+                    binding.addCallText.visibility = View.INVISIBLE
+                    binding.addTestActionText.visibility = View.INVISIBLE
 
                     // make the boolean variable false
                     // as we have set the sub FABs
@@ -559,8 +557,6 @@ class Marathi: AppCompatActivity() {
                     isAllFabsVisible = false
                 }
             }
-
-        }
     }
     // to go back to previous screen
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

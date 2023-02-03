@@ -91,7 +91,7 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_marginStart="1dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Exam Pattern"
+                        android:text="Take a Test"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                         android:textColor="#005662"
                         android:textSize="20sp"

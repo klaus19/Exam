@@ -24,6 +24,7 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.prototype);
+        getSupportActionBar().hide();
 
         card1=findViewById(R.id.card1ExamPattern);
         card2=findViewById(R.id.card2Questions);
