@@ -23,7 +23,7 @@ class Marathi: AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         binding = ActivityMarathiBinding.inflate(layoutInflater)
-        binding.root?.apply {
+        binding.root.apply {
             setContentView(this)
         }
         with(binding) {
