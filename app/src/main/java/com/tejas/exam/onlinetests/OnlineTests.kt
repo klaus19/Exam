@@ -3,6 +3,7 @@ package com.tejas.exam.onlinetests
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
 import com.tejas.exam.R
@@ -17,7 +18,8 @@ class OnlineTests:AppCompatActivity(){
         super.onCreate(savedInstanceState)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         binding = OnlineTestBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        val view:View = binding.root
+        setContentView(view)
 
         with(binding){
             btnTest1.setOnClickListener {

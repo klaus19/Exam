@@ -29,7 +29,7 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
-                android:id="@+id/cardViewQuantitative"
+                android:id="@+id/cardViewTechnical"
                 android:layout_columnWeight="1"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="#efb7b7"
@@ -50,12 +50,12 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_height="96dp"
                         android:layout_margin="15dp"
-                        android:src="@drawable/quantitative" />
+                        android:src="@drawable/technical" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=" Quantitative\n   Problems"
+                        android:text=" Technical\n Questions"
                         android:textStyle="bold"
                         android:id="@+id/textQuantitative"
                         android:layout_gravity="center_horizontal"
@@ -117,7 +117,7 @@
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:id="@+id/cardViewTechnical"
+                android:id="@+id/cardViewQuantitative"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="#efb7b7"
                 app:cardCornerRadius="15dp"
@@ -137,12 +137,12 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="15dp"
                         android:layout_weight="2"
-                        android:src="@drawable/technical" />
+                        android:src="@drawable/quantitative" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="  Technical \n  Questions"
+                        android:text=" Quantitative \n    Problems"
                         android:id="@+id/textTechnical"
                         android:layout_gravity="center_horizontal"
                         android:textSize="20sp"
