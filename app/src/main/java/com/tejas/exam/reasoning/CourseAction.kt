@@ -2,6 +2,7 @@ package com.tejas.exam.reasoning
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.RadioGroup
 import android.widget.TextView
@@ -144,6 +145,8 @@ class CourseAction: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         setContentView(R.layout.activity_course_of_action)
         ButterKnife.bind(this)
 
@@ -524,10 +527,15 @@ class CourseAction: AppCompatActivity() {
                     .show()
             }
         })
+    }
 
-
-
-
-
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }

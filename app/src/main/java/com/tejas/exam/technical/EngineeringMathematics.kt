@@ -2,6 +2,7 @@ package com.tejas.exam.technical
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.RadioGroup
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +16,7 @@ class EngineeringMathematics:AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         binding = ActivityEngineeringMathematicsBinding.inflate(layoutInflater)
         val view = binding.root
@@ -44,7 +46,7 @@ class EngineeringMathematics:AppCompatActivity() {
             }
         })
 
-        binding.radioGroup2EngineeringMathematics?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup2EngineeringMathematics.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked =    binding.radioButton8EngineeringMathematics.isChecked
 
@@ -60,9 +62,14 @@ class EngineeringMathematics:AppCompatActivity() {
             }
         })
 
-
-
-
-
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }

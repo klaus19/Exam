@@ -2,6 +2,7 @@ package com.tejas.exam.reasoning
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.RadioGroup
 import androidx.appcompat.app.AppCompatActivity
@@ -17,6 +18,8 @@ class MatchingDefinition:AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         binding = ActivityMatchingDefintionBinding.inflate(layoutInflater)
         val view = binding.root
@@ -274,5 +277,15 @@ class MatchingDefinition:AppCompatActivity() {
             }
         })
         
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }

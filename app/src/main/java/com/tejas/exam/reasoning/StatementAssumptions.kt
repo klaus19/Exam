@@ -2,6 +2,7 @@ package com.tejas.exam.reasoning
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.RadioGroup
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +16,7 @@ class StatementAssumptions:AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         binding = ActivityStatementAssumptionsBinding.inflate(layoutInflater)
         val view = binding.root
@@ -294,7 +296,7 @@ class StatementAssumptions:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup5StatementAssumptions?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup5StatementAssumptions.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton17StatementAssumptions.isChecked
             if (isChecked) {
@@ -309,7 +311,7 @@ class StatementAssumptions:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup6StatementAssumptions?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup6StatementAssumptions.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton21StatementAssumptions.isChecked
             if (isChecked) {
@@ -324,7 +326,7 @@ class StatementAssumptions:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup7StatementAssumptions?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup7StatementAssumptions.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton28StatementAssumptions.isChecked
             if (isChecked) {
@@ -339,7 +341,7 @@ class StatementAssumptions:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup8StatementAssumptions?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup8StatementAssumptions.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton32StatementAssumptions.isChecked
             if (isChecked) {
@@ -354,7 +356,7 @@ class StatementAssumptions:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup9StatementAssumptions?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup9StatementAssumptions.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton35StatementAssumptions.isChecked
             if (isChecked) {
@@ -369,7 +371,7 @@ class StatementAssumptions:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup10StatementAssumptions?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup10StatementAssumptions.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton37StatementAssumptions.isChecked
             if (isChecked) {
@@ -384,5 +386,14 @@ class StatementAssumptions:AppCompatActivity() {
             }
 
         })
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }

@@ -2,6 +2,7 @@ package com.tejas.exam.reasoning
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.RadioGroup
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +16,7 @@ class LogicalDeduction:AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         binding = ActivityLogicalDeductionBinding.inflate(layoutInflater)
         val view = binding.root
@@ -369,7 +371,7 @@ class LogicalDeduction:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup10LogicalDeduction?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup10LogicalDeduction.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton38LogicalDeduction.isChecked
             if (isChecked) {
@@ -385,6 +387,16 @@ class LogicalDeduction:AppCompatActivity() {
 
         })
 
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 
 }

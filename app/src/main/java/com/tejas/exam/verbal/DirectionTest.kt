@@ -2,6 +2,7 @@ package com.tejas.exam.verbal
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.RadioGroup
 import androidx.appcompat.app.AppCompatActivity
@@ -17,11 +18,9 @@ class DirectionTest:AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         binding = ActivityDirectionTestBinding.inflate(layoutInflater)
-        binding.root.apply { 
-            
-            setContentView(this)
-        }
+        setContentView(binding.root)
 
         binding.txtViewAnswer1DirectionTest.setOnClickListener {
             binding.textAnswer1DirectionTest.visibility = if (binding.textAnswer1DirectionTest.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
@@ -406,7 +405,15 @@ class DirectionTest:AppCompatActivity() {
 
 
         })
+    }
 
-
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }

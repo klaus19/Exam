@@ -2,6 +2,7 @@ package com.tejas.exam.reasoning
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.RadioGroup
 import android.widget.Toast
@@ -17,6 +18,7 @@ class Analogies:AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         binding = ActivityAnalogiesBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
@@ -232,7 +234,7 @@ class Analogies:AppCompatActivity() {
             })
         }
 
-        binding.radioGroup1Analogies?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup1Analogies.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton4Analogies.isChecked
             if (isChecked) {
@@ -248,7 +250,7 @@ class Analogies:AppCompatActivity() {
 
         })
 
-        binding.radioGroup2Analogies?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup2Analogies.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton6Analogies.isChecked
             if (isChecked) {
@@ -264,7 +266,7 @@ class Analogies:AppCompatActivity() {
 
 
         })
-        binding.radioGroup3Analogies?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup3Analogies.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton10Analogies.isChecked
             if (isChecked) {
@@ -279,7 +281,7 @@ class Analogies:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup4Analogies?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup4Analogies.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton14Analogies.isChecked
             if (isChecked) {
@@ -294,7 +296,7 @@ class Analogies:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup5Analogies?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup5Analogies.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton17Analogies.isChecked
             if (isChecked) {
@@ -309,7 +311,7 @@ class Analogies:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup6Analogies?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup6Analogies.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton23Analogies.isChecked
             if (isChecked) {
@@ -324,7 +326,7 @@ class Analogies:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup7Analogies?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup7Analogies.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton26Analogies.isChecked
             if (isChecked) {
@@ -339,7 +341,7 @@ class Analogies:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup8Analogies?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup8Analogies.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton31Analogies.isChecked
             if (isChecked) {
@@ -354,7 +356,7 @@ class Analogies:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup9Analogies?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup9Analogies.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton35Analogies.isChecked
             if (isChecked) {
@@ -369,7 +371,7 @@ class Analogies:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup10Analogies?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup10Analogies.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton40Analogies.isChecked
             if (isChecked) {
@@ -385,9 +387,16 @@ class Analogies:AppCompatActivity() {
 
         })
 
-
-
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
 
 }

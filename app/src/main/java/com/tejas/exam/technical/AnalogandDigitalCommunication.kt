@@ -2,6 +2,7 @@ package com.tejas.exam.technical
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.RadioGroup
 import androidx.appcompat.app.AppCompatActivity
@@ -14,6 +15,8 @@ class AnalogandDigitalCommunication:AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         binding = ActivityAnalogDigitalCommunicationBinding.inflate(layoutInflater)
         val view = binding.root
@@ -40,7 +43,7 @@ class AnalogandDigitalCommunication:AppCompatActivity() {
         }
 
 
-        binding.radioGroup1AnalogAndDigital?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup1AnalogAndDigital.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton4AnalogAndDigital.isChecked
             if (isChecked) {
@@ -56,7 +59,7 @@ class AnalogandDigitalCommunication:AppCompatActivity() {
 
         })
 
-        binding.radioGroup2AnalogAndDigital?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup2AnalogAndDigital.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton6AnalogAndDigital.isChecked
             if (isChecked) {
@@ -72,7 +75,7 @@ class AnalogandDigitalCommunication:AppCompatActivity() {
 
 
         })
-        binding.radioGroup3AnalogAndDigital?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup3AnalogAndDigital.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton10AnalogAndDigital.isChecked
             if (isChecked) {
@@ -87,7 +90,7 @@ class AnalogandDigitalCommunication:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup4AnalogAndDigital?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup4AnalogAndDigital.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton14AnalogAndDigital.isChecked
             if (isChecked) {
@@ -102,7 +105,7 @@ class AnalogandDigitalCommunication:AppCompatActivity() {
             }
 
         })
-        binding.radioGroup5AnalogAndDigital?.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
+        binding.radioGroup5AnalogAndDigital.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener{ group, checkedId ->
 
             val isChecked = binding.radioButton17AnalogAndDigital.isChecked
             if (isChecked) {
@@ -117,5 +120,15 @@ class AnalogandDigitalCommunication:AppCompatActivity() {
             }
 
         })
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }
