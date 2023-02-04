@@ -13,17 +13,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import com.tejas.exam.R;
+import com.tejas.exam.onlinetests.OnlineTests;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private ImageView imageSyllabus,imageTelegram,imageInstagram,imageBooks;
-    private TextView textSyllabus,textTelegram,textInstagram,textExamPattern;
     private CardView card1,card2,card3,card4;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.prototype);
+        getSupportActionBar().hide();
 
         card1=findViewById(R.id.card1ExamPattern);
         card2=findViewById(R.id.card2Questions);
@@ -60,8 +60,8 @@ public class HomeActivity extends AppCompatActivity {
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
+                Intent i = new Intent(HomeActivity.this, OnlineTests.class);
+                startActivity(i);
             }
         });
 

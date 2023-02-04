@@ -2,7 +2,11 @@ package com.tejas.exam.onlinetests
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.MenuItem
+import android.view.View
+import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
+import com.tejas.exam.R
 import com.tejas.exam.databinding.OnlineTestBinding
 
 class OnlineTests:AppCompatActivity(){
@@ -12,8 +16,10 @@ class OnlineTests:AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         binding = OnlineTestBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        val view:View = binding.root
+        setContentView(view)
 
         with(binding){
             btnTest1.setOnClickListener {
@@ -28,7 +34,23 @@ class OnlineTests:AppCompatActivity(){
                 startActivity(Intent(this@OnlineTests,Test3::class.java))
             }
         }
+
+        val animation = AnimationUtils.loadAnimation(this, R.anim.shake)
+        binding.btnContactMe.startAnimation(animation)
+
+
     }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
 
 
 }

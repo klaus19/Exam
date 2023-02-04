@@ -2,6 +2,7 @@ package com.tejas.exam.verbal
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.RadioGroup
 import androidx.appcompat.app.AppCompatActivity
@@ -15,10 +16,10 @@ class ArithmeticReasoning:AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         binding = ActivityArithmeticReasoningBinding.inflate(layoutInflater)
-        val view = binding.root.apply {
-            setContentView(this)
-        }
+        val view = binding.root
+        setContentView(view)
 
         binding.txtViewAnswer1ArithmeticReasoning.setOnClickListener {
             binding.textAnswer1ArithmeticReasoning.visibility = if (binding.textAnswer1ArithmeticReasoning.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
@@ -403,5 +404,14 @@ class ArithmeticReasoning:AppCompatActivity() {
 
 
         })
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }

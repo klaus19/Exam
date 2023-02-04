@@ -2,6 +2,7 @@ package com.tejas.exam.reasoning
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.RadioGroup
 import android.widget.TextView
@@ -139,23 +140,19 @@ class ArtificialLanguage: AppCompatActivity() {
     lateinit var radioGroup20ArtificialIntelligence: RadioGroup
 
 
-
-
-
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         setContentView(R.layout.activity_artificial_intelligence)
         ButterKnife.bind(this)
 
-        txtViewAnswer1ArtificialIntelligence?.setOnClickListener {
+        txtViewAnswer1ArtificialIntelligence.setOnClickListener {
             textAnswer1ArtificialIntelligence.visibility = if (textAnswer1ArtificialIntelligence.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
         }
 
 
-        txtViewAnswer2ArtificialIntelligence?.setOnClickListener {
+        txtViewAnswer2ArtificialIntelligence.setOnClickListener {
             textAnswer2ArtificialIntelligence.visibility = if (textAnswer2ArtificialIntelligence.visibility == View.INVISIBLE) View.VISIBLE else View.INVISIBLE
         }
 
@@ -524,5 +521,15 @@ class ArtificialLanguage: AppCompatActivity() {
                     .show()
             }
         })
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }

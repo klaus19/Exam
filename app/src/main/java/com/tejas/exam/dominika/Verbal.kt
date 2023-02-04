@@ -2,6 +2,7 @@ package com.tejas.exam.dominika
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import com.tejas.exam.R
@@ -16,7 +17,9 @@ class Verbal: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         setContentView(R.layout.verbal)
+
 
         val listview = findViewById<ListView>(R.id.listverbalProducts)
         val listAdapter = MyListAdapter(this, operations)
@@ -61,10 +64,18 @@ class Verbal: AppCompatActivity() {
                     startActivity(Intent(this@Verbal,DirectionTest::class.java))
                 }
 
-
             }
 
+        }
+    }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
         }
     }
 }

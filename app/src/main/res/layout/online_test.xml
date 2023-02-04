@@ -5,16 +5,36 @@
     android:background="#e2f1f8"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
-        android:text="Let's take a test,shall we?"
-        android:gravity="center"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="80dp"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        android:textColor="@color/colorPrimaryDark" />
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:text="Let's take a Test"
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#005662" />
+
+        <ImageView
+            android:id="@+id/imageStars"
+            android:layout_marginRight="270dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="80dp"
+            android:gravity="right"
+            android:src="@drawable/dominika" />
+
+    </LinearLayout>
+
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="120dp"
@@ -63,6 +83,16 @@
         android:text="Free Test 5"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
+        android:textColor="#FFFF"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:id="@+id/btnContactMe"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_blue"
+        android:text="Contact Us"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
         android:textColor="#FFFF"/>
 
 
