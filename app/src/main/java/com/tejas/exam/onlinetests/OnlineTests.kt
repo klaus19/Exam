@@ -2,6 +2,7 @@ package com.tejas.exam.onlinetests
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
 import com.tejas.exam.R
@@ -14,6 +15,7 @@ class OnlineTests:AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         binding = OnlineTestBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -37,6 +39,15 @@ class OnlineTests:AppCompatActivity(){
 
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
 
 
 

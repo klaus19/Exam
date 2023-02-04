@@ -2,6 +2,7 @@ package com.tejas.exam.dominika
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import com.tejas.exam.R
@@ -19,6 +20,7 @@ class Technical: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         setContentView(R.layout.activity_technical)
 
         val listviewTechnicalProducts = findViewById<ListView>(R.id.listTechnicalProducts)
@@ -94,9 +96,18 @@ class Technical: AppCompatActivity() {
                 }
 
             }
-
-
         }
 
     }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
 }
